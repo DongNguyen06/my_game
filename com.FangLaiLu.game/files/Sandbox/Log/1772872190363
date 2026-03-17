@@ -1,0 +1,198 @@
+2026-03-07 08:29:58 无法找到指定的时区 timeZoneId = 8
+2026-03-07 08:30:00 IActivity_ActivityPrayers  本地解析 报错 e = System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Pokemon.Activity.System.ActivityMatchMakingComponentSystem.GetTodayLeftPlayNum (ET.Pokemon.Activity.Component.ActivityMatchMakingComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityMatchMakingComponentSystem.UpdateRed (ET.Pokemon.Activity.Component.ActivityMatchMakingComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.IActivity_ActivityMatchMaking.Run (System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.IActivity_ActivityMatchMaking.Run (System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddPlayerActivityInfoList (ET.Pokemon.Activity.Component.ActivityComponent self, System.Int64 activityId, ET.Client.ClientPlayerActivityInfo clinetInfo, System.Boolean CheckAdd) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddActivity (ET.Pokemon.Activity.Component.ActivityComponent self, ET.PlayerActivityInfo info, System.Boolean CheckAdd) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Handel.Game2Client_SendActivityListHandler.Run (ET.Session session, ET.Game2Client_SendActivityList message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.UpdateActivity (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.Down (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.GetActivityCheck (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FileDownloader.DownloadFileAsync (System.String url, System.String tempFilePath, System.Boolean breakResume) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddPlayerActivityInfoList (ET.Pokemon.Activity.Component.ActivityComponent self, System.Int64 activityId, ET.Client.ClientPlayerActivityInfo clinetInfo, System.Boolean CheckAdd) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddActivity (ET.Pokemon.Activity.Component.ActivityComponent self, ET.PlayerActivityInfo info, System.Boolean CheckAdd) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Handel.Game2Client_SendActivityListHandler.Run (ET.Session session, ET.Game2Client_SendActivityList message) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.UpdateActivity (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.Down (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.GetActivityCheck (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Logger.Error (System.String msg) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.FileDownloader.DownloadFileAsync (System.String url, System.String tempFilePath, System.Boolean breakResume) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-03-07 08:32:06 unitEnter is null
+2026-03-07 08:32:06 unitEnter is null
+2026-03-07 08:32:12 unitEnter is null
+2026-03-07 08:32:12 unitEnter is null
+2026-03-07 08:32:17 unitEnter is null
+2026-03-07 08:32:17 unitEnter is null
+2026-03-07 08:32:36 unitEnter is null
+2026-03-07 08:32:36 unitEnter is null
+2026-03-07 08:33:03 unitEnter is null
+2026-03-07 08:33:03 unitEnter is null
+2026-03-07 08:33:16 unitEnter is null
+2026-03-07 08:33:16 unitEnter is null
+2026-03-07 08:36:01 unitEnter is null
+2026-03-07 08:36:01 unitEnter is null
+2026-03-07 08:36:19 buffID:10116201==操作类型:2==目标388055862193815554已死亡
+2026-03-07 08:36:19 unitEnter is null
+2026-03-07 08:36:19 unitEnter is null
+2026-03-07 08:37:53 unitEnter is null
+2026-03-07 08:37:53 unitEnter is null
+2026-03-07 08:38:01 unitEnter is null
+2026-03-07 08:38:01 unitEnter is null
+2026-03-07 08:40:17 the same player id already contain :3350573698403008512
+2026-03-07 08:41:33 unitEnter is null
+2026-03-07 08:41:33 unitEnter is null
+2026-03-07 08:41:42 unitEnter is null
+2026-03-07 08:41:42 unitEnter is null
+2026-03-07 08:43:34 unitEnter is null
+2026-03-07 08:43:34 unitEnter is null
+2026-03-07 08:44:02 buffID:10184201==操作类型:2==目标388085342849335298已死亡
+2026-03-07 08:44:02 buffID:10184201==操作类型:2==目标388085342849335298已死亡
+2026-03-07 08:44:02 buffID:10184201==操作类型:2==目标388085342849335298已死亡
+2026-03-07 08:44:02 unitEnter is null
+2026-03-07 08:44:02 unitEnter is null
+2026-03-07 08:44:46 buffID:10184201==操作类型:2==目标388090290651660289已死亡
+2026-03-07 08:44:46 unitEnter is null
+2026-03-07 08:44:46 unitEnter is null
+2026-03-07 08:44:53 buffID:10347201==操作类型:2==目标-5045359652371431413已死亡
+2026-03-07 08:44:53 buffID:10347202==操作类型:2==目标-5045359652371431413已死亡
+2026-03-07 08:44:53 buffID:10246201==操作类型:2==目标-5045359652371431413已死亡
+2026-03-07 08:44:53 buffID:10246202==操作类型:2==目标-5045359652371431413已死亡
+2026-03-07 08:44:53 buffID:10246203==操作类型:2==目标-5045359652371431413已死亡
+2026-03-07 08:44:53 buffID:10246204==操作类型:2==目标-5045359652371431413已死亡
+2026-03-07 08:44:53 buffID:10246205==操作类型:2==目标-5045359652371431413已死亡
+2026-03-07 08:44:53 unitEnter is null
+2026-03-07 08:44:53 unitEnter is null
+2026-03-07 08:45:06 unitEnter is null
+2026-03-07 08:45:06 unitEnter is null
+2026-03-07 08:45:18 buffID:10043201==操作类型:2==目标-5045407687285669825已死亡
+2026-03-07 08:45:18 unitEnter is null
+2026-03-07 08:45:18 unitEnter is null
+2026-03-07 08:45:19 cancellPerform
+2026-03-07 08:45:19 模型重复创建 unit id = 388090221209583695
+2026-03-07 08:45:55 unitEnter is null
+2026-03-07 08:45:55 unitEnter is null
+2026-03-07 08:46:02 unitEnter is null
+2026-03-07 08:46:02 unitEnter is null
+2026-03-07 08:46:22 unitEnter is null
+2026-03-07 08:46:22 unitEnter is null
+2026-03-07 08:46:36 unitEnter is null
+2026-03-07 08:46:36 unitEnter is null
+2026-03-07 08:46:49 unitEnter is null
+2026-03-07 08:46:49 unitEnter is null
+2026-03-07 08:51:36 unitEnter is null
+2026-03-07 08:51:36 unitEnter is null
+2026-03-07 08:51:46 unitEnter is null
+2026-03-07 08:51:46 unitEnter is null
+2026-03-07 08:51:58 unitEnter is null
+2026-03-07 08:51:58 unitEnter is null
+2026-03-07 08:52:20 unitEnter is null
+2026-03-07 08:52:20 unitEnter is null
+2026-03-07 08:52:50 PlaySkillPerform,但是 目标-5045359652371431413已死亡
+2026-03-07 08:52:50 PlaySkillPerform,但是 目标-5045359652371431413已死亡
+2026-03-07 08:52:51 unitEnter is null
+2026-03-07 08:52:51 unitEnter is null
+2026-03-07 08:53:10 unitEnter is null
+2026-03-07 08:53:10 unitEnter is null
+2026-03-07 08:54:28 unitEnter is null
+2026-03-07 08:54:28 unitEnter is null
+2026-03-07 08:54:40 unitEnter is null
+2026-03-07 08:54:40 unitEnter is null
+2026-03-07 08:55:13 unitEnter is null
+2026-03-07 08:55:13 unitEnter is null
+2026-03-07 08:55:27 unitEnter is null
+2026-03-07 08:55:27 unitEnter is null
+2026-03-07 08:55:41 unitEnter is null
+2026-03-07 08:55:41 unitEnter is null
+2026-03-07 08:55:57 unitEnter is null
+2026-03-07 08:55:57 unitEnter is null
+2026-03-07 08:56:21 unitEnter is null
+2026-03-07 08:56:21 unitEnter is null
+2026-03-07 08:56:41 unitEnter is null
+2026-03-07 08:56:41 unitEnter is null
+2026-03-07 09:01:31 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-07 09:01:53 buffID:50331101==操作类型:2==目标388160796834791424已死亡
+2026-03-07 09:01:53 buffID:50351201==操作类型:2==目标388160796834791424已死亡
+2026-03-07 09:01:53 buffID:10246201==操作类型:2==目标388160796834791424已死亡
+2026-03-07 09:01:53 buffID:10246202==操作类型:2==目标388160796834791424已死亡
+2026-03-07 09:01:53 buffID:10246203==操作类型:2==目标388160796834791424已死亡
+2026-03-07 09:01:53 buffID:10246204==操作类型:2==目标388160796834791424已死亡
+2026-03-07 09:01:53 buffID:10246205==操作类型:2==目标388160796834791424已死亡
+2026-03-07 09:01:53 unitEnter is null
+2026-03-07 09:01:53 unitEnter is null
+2026-03-07 09:02:05 buffID:50621401==操作类型:2==目标388160796834791428已死亡
+2026-03-07 09:02:05 unitEnter is null
+2026-03-07 09:02:05 unitEnter is null
+2026-03-07 09:02:11 buffID:50071201==操作类型:2==目标388160796834791427已死亡
+2026-03-07 09:02:11 unitEnter is null
+2026-03-07 09:02:11 unitEnter is null
+2026-03-07 09:02:18 buffID:50091301==操作类型:2==目标388160796834791429已死亡
+2026-03-07 09:02:18 buffID:20104401==操作类型:2==目标388160796834791429已死亡
+2026-03-07 09:02:18 unitEnter is null
+2026-03-07 09:02:18 unitEnter is null
+2026-03-07 09:02:24 buffID:50971201==操作类型:2==目标388160796834791426已死亡
+2026-03-07 09:02:24 unitEnter is null
+2026-03-07 09:02:24 unitEnter is null
+2026-03-07 09:02:37 buffID:51001201==操作类型:2==目标388160796834791425已死亡
+2026-03-07 09:02:37 buffID:20005401==操作类型:2==目标388160796834791425已死亡
+2026-03-07 09:02:37 buffID:20005402==操作类型:2==目标388160796834791425已死亡
+2026-03-07 09:02:37 unitEnter is null
+2026-03-07 09:02:37 unitEnter is null
+2026-03-07 09:03:05 unitEnter is null
+2026-03-07 09:03:05 unitEnter is null
+2026-03-07 09:03:10 unitEnter is null
+2026-03-07 09:03:10 unitEnter is null
+2026-03-07 09:03:16 unitEnter is null
+2026-03-07 09:03:16 unitEnter is null
+2026-03-07 09:03:22 unitEnter is null
+2026-03-07 09:03:22 unitEnter is null
+2026-03-07 09:03:30 unitEnter is null
+2026-03-07 09:03:30 unitEnter is null
+2026-03-07 09:03:42 unitEnter is null
+2026-03-07 09:03:42 unitEnter is null
+2026-03-07 09:07:51 unitEnter is null
+2026-03-07 09:07:51 unitEnter is null
+2026-03-07 09:08:11 unitEnter is null
+2026-03-07 09:08:11 unitEnter is null
+2026-03-07 09:08:24 unitEnter is null
+2026-03-07 09:08:24 unitEnter is null
+2026-03-07 09:08:47 buffID:10229201==操作类型:2==目标388186910235951111已死亡
+2026-03-07 09:08:47 unitEnter is null
+2026-03-07 09:08:47 unitEnter is null
+2026-03-07 09:08:56 unitEnter is null
+2026-03-07 09:08:56 unitEnter is null
+2026-03-07 09:09:02 unitEnter is null
+2026-03-07 09:09:02 unitEnter is null
+2026-03-07 09:09:45 unitEnter is null
+2026-03-07 09:09:45 unitEnter is null
+2026-03-07 09:09:51 unitEnter is null
+2026-03-07 09:09:51 unitEnter is null
+2026-03-07 09:10:19 unitEnter is null
+2026-03-07 09:10:19 unitEnter is null
+2026-03-07 09:10:33 unitEnter is null
+2026-03-07 09:10:33 unitEnter is null
+2026-03-07 09:10:45 unitEnter is null
+2026-03-07 09:10:45 unitEnter is null

@@ -1,0 +1,76 @@
+2026-02-19 20:22:45 无法找到指定的时区 timeZoneId = 8
+2026-02-19 20:22:47 IActivity_ActivityPrayers  本地解析 报错 e = System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Pokemon.Activity.System.ActivityMatchMakingComponentSystem.GetTodayLeftPlayNum (ET.Pokemon.Activity.Component.ActivityMatchMakingComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityMatchMakingComponentSystem.UpdateRed (ET.Pokemon.Activity.Component.ActivityMatchMakingComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.IActivity_ActivityMatchMaking.Run (System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.IActivity_ActivityMatchMaking.Run (System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddPlayerActivityInfoList (ET.Pokemon.Activity.Component.ActivityComponent self, System.Int64 activityId, ET.Client.ClientPlayerActivityInfo clinetInfo, System.Boolean CheckAdd) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddActivity (ET.Pokemon.Activity.Component.ActivityComponent self, ET.PlayerActivityInfo info, System.Boolean CheckAdd) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Handel.Game2Client_SendActivityListHandler.Run (ET.Session session, ET.Game2Client_SendActivityList message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.UpdateActivity (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.Down (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.GetActivityCheck (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FileDownloader.DownloadFileAsync (System.String url, System.String tempFilePath, System.Boolean breakResume) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddPlayerActivityInfoList (ET.Pokemon.Activity.Component.ActivityComponent self, System.Int64 activityId, ET.Client.ClientPlayerActivityInfo clinetInfo, System.Boolean CheckAdd) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddActivity (ET.Pokemon.Activity.Component.ActivityComponent self, ET.PlayerActivityInfo info, System.Boolean CheckAdd) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Handel.Game2Client_SendActivityListHandler.Run (ET.Session session, ET.Game2Client_SendActivityList message) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.UpdateActivity (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.Down (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.GetActivityCheck (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Logger.Error (System.String msg) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.FileDownloader.DownloadFileAsync (System.String url, System.String tempFilePath, System.Boolean breakResume) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-02-19 20:29:02 unitEnter is null
+2026-02-19 20:29:02 unitEnter is null
+2026-02-19 20:29:23 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 20:37:31 IKcpTransport tcp error: 988334300 100208
+2026-02-19 20:38:01 IKcpTransport tcp error: 295972312400789507 10054
+2026-02-19 20:46:03 System.Exception: GetChannelConn conn not found KChannel! 988334300
+  at ETNetwork.KService.GetChannelConn (System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.RunNetThreadOperator () [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.UpdateInNetThread () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.NetThreadComponentSystem.NetThreadUpdate (ET.NetThreadComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ETNetwork.NetServices.GetChannelConn (System.Int32 serviceId, System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.RouterCheckComponentAwakeSystem.CheckAsync (ET.Client.RouterCheckComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.GetChannelConn (System.Int32 serviceId, System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.AwaitTaskContinuation.RunCallback (System.Threading.ContextCallback callback, System.Object state, System.Threading.Tasks.Task& currentTask) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.FinishContinuations () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.Finish (System.Boolean bUserDelegateExecuted) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.TrySetException (System.Object exceptionObject) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[TResult].SetException (System.Exception exception) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-19 20:46:03 Double ConfirmDialogAsync
+2026-02-19 20:46:06 无法找到指定的时区 timeZoneId = 8

@@ -1,0 +1,217 @@
+2026-02-25 03:51:45 System.FormatException: An invalid IP address was specified. ---> System.Net.Sockets.SocketException: Invalid arguments
+   --- End of inner exception stack trace ---
+  at ET.Client.RouterAddressComponentSystem.GetAddress (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.GetRouterAddress (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint address, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.GetRouterAddress (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint address, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.Init (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.GetAllRouter (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Net.IPAddressParser.Parse (System.ReadOnlySpan`1[T] ipSpan, System.Boolean tryParse) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.GetApendRand (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.HttpGet (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.Init (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.GetAllRouter (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.GetApendRand (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.HttpGet (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.Init (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.GetAllRouter (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.GetApendRand (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.HttpGet (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.LoginHelper.CreateAccountSessionAndLogin (ET.Scene clientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.Init (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.GetAllRouter (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.GetApendRand (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.HttpGet (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.LoginHelper.TryResetAccountSessionAndLogin (ET.Scene clientScene, System.Int32 lastGroupId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoginHelper.CreateAccountSessionAndLogin (ET.Scene clientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.Init (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.GetAllRouter (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.GetApendRand (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.HttpGet (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Login.LoginWindow.SelectDefaultServer () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoginHelper.TryResetAccountSessionAndLogin (ET.Scene clientScene, System.Int32 lastGroupId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoginHelper.CreateAccountSessionAndLogin (ET.Scene clientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.Init (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.GetAllRouter (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.GetApendRand (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.HttpGet (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-25 03:52:01 System.FormatException: An invalid IP address was specified. ---> System.Net.Sockets.SocketException: Invalid arguments
+   --- End of inner exception stack trace ---
+  at ET.Client.RouterAddressComponentSystem.GetAddress (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.GetRouterAddress (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint address, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.GetRouterAddress (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint address, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.Init (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.GetAllRouter (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Net.IPAddressParser.Parse (System.ReadOnlySpan`1[T] ipSpan, System.Boolean tryParse) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.GetApendRand (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.HttpGet (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.Init (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.GetAllRouter (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.GetApendRand (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.HttpGet (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.Init (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.GetAllRouter (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.GetApendRand (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.HttpGet (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Login.LoginWindow.EnterGame () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.Init (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.GetAllRouter (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.GetApendRand (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.HttpGet (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-25 03:52:14 System.FormatException: An invalid IP address was specified. ---> System.Net.Sockets.SocketException: Invalid arguments
+   --- End of inner exception stack trace ---
+  at ET.Client.RouterAddressComponentSystem.GetAddress (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.GetRouterAddress (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint address, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.GetRouterAddress (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint address, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.Init (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.GetAllRouter (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Net.IPAddressParser.Parse (System.ReadOnlySpan`1[T] ipSpan, System.Boolean tryParse) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.GetApendRand (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.HttpGet (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.Init (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.GetAllRouter (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.GetApendRand (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.HttpGet (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.Init (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.GetAllRouter (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.GetApendRand (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.HttpGet (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Login.LoginWindow.EnterGame () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.Init (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.GetAllRouter (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.GetApendRand (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.HttpGet (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-25 03:52:17 System.FormatException: An invalid IP address was specified. ---> System.Net.Sockets.SocketException: Invalid arguments
+   --- End of inner exception stack trace ---
+  at ET.Client.RouterAddressComponentSystem.GetAddress (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.GetRouterAddress (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint address, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.GetRouterAddress (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint address, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.Init (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.GetAllRouter (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Net.IPAddressParser.Parse (System.ReadOnlySpan`1[T] ipSpan, System.Boolean tryParse) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.GetApendRand (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.HttpGet (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.Init (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.GetAllRouter (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.GetApendRand (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.HttpGet (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.Init (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.GetAllRouter (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.GetApendRand (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.HttpGet (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Login.LoginWindow.OnClickbtn_choose (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.Init (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterAddressComponentSystem.GetAllRouter (ET.Client.RouterAddressComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.GetApendRand (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.HttpClientHelper.HttpGet (System.String link, System.Single timeout) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 

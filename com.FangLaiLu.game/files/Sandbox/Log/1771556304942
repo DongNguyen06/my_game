@@ -1,0 +1,109 @@
+2026-02-20 02:58:43 无法找到指定的时区 timeZoneId = 8
+2026-02-20 02:58:45 IActivity_ActivityPrayers  本地解析 报错 e = System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Pokemon.Activity.System.ActivityMatchMakingComponentSystem.GetTodayLeftPlayNum (ET.Pokemon.Activity.Component.ActivityMatchMakingComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityMatchMakingComponentSystem.UpdateRed (ET.Pokemon.Activity.Component.ActivityMatchMakingComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.IActivity_ActivityMatchMaking.Run (System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.IActivity_ActivityMatchMaking.Run (System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddPlayerActivityInfoList (ET.Pokemon.Activity.Component.ActivityComponent self, System.Int64 activityId, ET.Client.ClientPlayerActivityInfo clinetInfo, System.Boolean CheckAdd) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddActivity (ET.Pokemon.Activity.Component.ActivityComponent self, ET.PlayerActivityInfo info, System.Boolean CheckAdd) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Handel.Game2Client_SendActivityListHandler.Run (ET.Session session, ET.Game2Client_SendActivityList message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.UpdateActivity (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.Down (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.GetActivityCheck (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FileDownloader.DownloadFileAsync (System.String url, System.String tempFilePath, System.Boolean breakResume) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddPlayerActivityInfoList (ET.Pokemon.Activity.Component.ActivityComponent self, System.Int64 activityId, ET.Client.ClientPlayerActivityInfo clinetInfo, System.Boolean CheckAdd) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddActivity (ET.Pokemon.Activity.Component.ActivityComponent self, ET.PlayerActivityInfo info, System.Boolean CheckAdd) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Handel.Game2Client_SendActivityListHandler.Run (ET.Session session, ET.Game2Client_SendActivityList message) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.UpdateActivity (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.Down (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.GetActivityCheck (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Logger.Error (System.String msg) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.FileDownloader.DownloadFileAsync (System.String url, System.String tempFilePath, System.Boolean breakResume) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-02-20 02:59:53 IKcpTransport tcp error: 297604949729083395 100207
+2026-02-20 03:00:56 IKcpTransport tcp error: 297607767227629569 100207
+2026-02-20 03:15:55 配置找不到，配置表名: ItemSourceConfig，配置id: 102
+  at ET.Client.Common.BagPanel.UpdateDataInfo (ET.ItemConfig itemConfig, System.Single panelHeight, System.Int64 itemId) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Common.CommonItemInfo.UpdateInfo (System.Int32 configId, System.Int64 itemId, System.Boolean isSelect) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Common.CommonItemInfoWindow.OnShow () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.UIFormSystem.Open (ET.Client.UIForm self, System.Object context, System.Boolean active) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.UIComponentSystem.OpenWindow (ET.Client.UIComponent self, ET.Client.UIForm win, System.Object intent) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Common.GoodItemBtn.OnClick (FairyGUI.EventContext context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Logger.Error (System.String msg) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.GList.set_numItems (System.Int32 value) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-02-20 03:15:55 UIForm 'CommonItemInfo_MiniWindow' OnShow with exception 'System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Client.Common.BagPanel.WayListItem (System.Int32 index, System.Object obj) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Common.BagPanel.UpdateDataInfo (ET.ItemConfig itemConfig, System.Single panelHeight, System.Int64 itemId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Common.CommonItemInfo.UpdateInfo (System.Int32 configId, System.Int64 itemId, System.Boolean isSelect) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Common.CommonItemInfoWindow.OnShow () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UIFormSystem.Open (ET.Client.UIForm self, System.Object context, System.Boolean active) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UIComponentSystem.OpenWindow (ET.Client.UIComponent self, ET.Client.UIForm win, System.Object intent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Common.GoodItemBtn.OnClick (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.GList.set_numItems (System.Int32 value) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 '.
+  at ET.Client.Common.GoodItemBtn.OnClick (FairyGUI.EventContext context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Logger.Error (System.String message, System.Object[] args) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-02-20 04:58:34 IKcpTransport tcp error: 297612096554663937 100207
+2026-02-20 05:36:46 IKcpTransport tcp error: 298097118621466625 100207
+2026-02-20 05:37:05 IKcpTransport tcp error: 298254623662145537 100207
+2026-02-20 05:59:40 IKcpTransport tcp error: 298255929332203521 100207
+2026-02-20 08:17:34 IKcpTransport tcp error: 298349044223180801 100207
+2026-02-20 08:46:54 System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Client.Activity100.NewWolfComingWindow.Refresh () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity100.NewWolfComingWindow.RunGrass (FairyGUI.GObject gObject, System.Int32 target, System.Boolean refresh) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.ExtendGTween.TweenMoveAsyncByEaseType (FairyGUI.GObject target, UnityEngine.Vector2 endValue, System.Single dur, FairyGUI.EaseType easeType, ET.ETCancellationToken cancellationToken, FairyGUI.GTweenCallback1 callback1) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.ExtendGTween.AsyncAwait (FairyGUI.GTweener tweener, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.ExtendGTween+<>c__DisplayClass0_0.<AsyncAwait>b__1 () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.GTweener.CallCompleteCallback () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.GTweener._Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.TweenManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Activity100.NewWolfComingWindow.RunGrass (FairyGUI.GObject gObject, System.Int32 target, System.Boolean refresh) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.ExtendGTween.TweenMoveAsyncByEaseType (FairyGUI.GObject target, UnityEngine.Vector2 endValue, System.Single dur, FairyGUI.EaseType easeType, ET.ETCancellationToken cancellationToken, FairyGUI.GTweenCallback1 callback1) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.ExtendGTween.AsyncAwait (FairyGUI.GTweener tweener, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.ExtendGTween+<>c__DisplayClass0_0.<AsyncAwait>b__1 () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.GTweener.CallCompleteCallback () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.GTweener._Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.TweenManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-20 09:04:40 IKcpTransport tcp error: 430223686 100208
+2026-02-20 09:05:10 IKcpTransport tcp error: 298917629173694465 10054

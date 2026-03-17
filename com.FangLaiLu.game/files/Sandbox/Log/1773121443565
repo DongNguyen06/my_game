@@ -1,0 +1,412 @@
+2026-03-10 05:44:20 无法找到指定的时区 timeZoneId = 8
+2026-03-10 05:49:40 had exist Buff 2
+2026-03-10 05:49:40 had exist Buff 3
+2026-03-10 05:50:05 buffID:10073301==操作类型:4==目标-7233831925626699775不在场上
+2026-03-10 05:50:05 PlaySkillPerform,但是-7233831925626699775没有在场上
+2026-03-10 05:50:50 had exist Buff 2
+2026-03-10 05:50:50 had exist Buff 3
+2026-03-10 05:50:50 had exist Buff 4
+2026-03-10 05:52:04 buffID:50621401==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 05:52:04 unitEnter is null
+2026-03-10 05:52:04 unitEnter is null
+2026-03-10 05:52:20 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-10 05:52:31 had exist Buff 2
+2026-03-10 05:52:32 cancellPerform
+2026-03-10 05:52:32 had exist Buff 2
+2026-03-10 05:52:32 had exist Buff 3
+2026-03-10 05:52:58 buffID:90198102==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 05:52:58 buffID:10301==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 05:52:58 buffID:11201==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 05:52:58 buffID:50621401==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 05:52:58 unitEnter is null
+2026-03-10 05:52:58 unitEnter is null
+2026-03-10 05:53:16 buffID:10073301==操作类型:2==目标-5097981041927782380已死亡
+2026-03-10 05:53:16 buffID:50851401==操作类型:2==目标-5097981041927782380已死亡
+2026-03-10 05:53:16 buffID:90198401==操作类型:2==目标-5097981041927782380已死亡
+2026-03-10 05:53:16 unitEnter is null
+2026-03-10 05:53:16 unitEnter is null
+2026-03-10 05:53:25 buffID:90198102==操作类型:2==目标-5098256950626877430已死亡
+2026-03-10 05:53:25 unitEnter is null
+2026-03-10 05:53:25 unitEnter is null
+2026-03-10 05:53:34 buffID:90198102==操作类型:2==目标-5044640090731839487已死亡
+2026-03-10 05:53:34 buffID:50011401==操作类型:2==目标-5044640090731839487已死亡
+2026-03-10 05:53:34 unitEnter is null
+2026-03-10 05:53:34 unitEnter is null
+2026-03-10 05:53:41 cancellPerform
+2026-03-10 05:53:41 had exist Buff 2
+2026-03-10 05:53:41 had exist Buff 4
+2026-03-10 05:54:03 buffID:90198102==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 05:54:03 buffID:50621401==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 05:54:03 unitEnter is null
+2026-03-10 05:54:03 unitEnter is null
+2026-03-10 05:54:42 buffID:10073301==操作类型:2==目标-5257908787764789247已死亡
+2026-03-10 05:54:42 buffID:50011401==操作类型:2==目标-5257908787764789247已死亡
+2026-03-10 05:54:42 buffID:90198401==操作类型:2==目标-5257908787764789247已死亡
+2026-03-10 05:54:42 unitEnter is null
+2026-03-10 05:54:42 unitEnter is null
+2026-03-10 05:55:10 buffID:90198102==操作类型:2==目标-5199676659087441912已死亡
+2026-03-10 05:55:10 buffID:50531401==操作类型:2==目标-5199676659087441912已死亡
+2026-03-10 05:55:10 unitEnter is null
+2026-03-10 05:55:10 unitEnter is null
+2026-03-10 05:55:27 buffID:90198102==操作类型:2==目标-5133398647920918527已死亡
+2026-03-10 05:55:27 buffID:20184201==操作类型:2==目标-5133398647920918527已死亡
+2026-03-10 05:55:27 buffID:50571401==操作类型:2==目标-5133398647920918527已死亡
+2026-03-10 05:55:27 unitEnter is null
+2026-03-10 05:55:27 unitEnter is null
+2026-03-10 05:55:47 cancellPerform
+2026-03-10 05:55:47 had exist Buff 2
+2026-03-10 05:55:47 had exist Buff 5
+2026-03-10 05:55:47 had exist Buff 6
+2026-03-10 05:56:08 buffID:90195102==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 05:56:08 buffID:20023101==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 05:56:08 buffID:10491201==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 05:56:08 buffID:50621401==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 05:56:08 unitEnter is null
+2026-03-10 05:56:08 unitEnter is null
+2026-03-10 05:56:56 buffID:10073301==操作类型:2==目标-7015433525822226428已死亡
+2026-03-10 05:56:56 buffID:10195301==操作类型:2==目标-7015433525822226428已死亡
+2026-03-10 05:56:56 buffID:21005201==操作类型:2==目标-7015433525822226428已死亡
+2026-03-10 05:56:56 buffID:50541401==操作类型:2==目标-7015433525822226428已死亡
+2026-03-10 05:56:56 buffID:21007401==操作类型:2==目标-7015433525822226428已死亡
+2026-03-10 05:56:56 buffID:20023401==操作类型:2==目标-7015433525822226428已死亡
+2026-03-10 05:56:56 buffID:90195401==操作类型:2==目标-7015433525822226428已死亡
+2026-03-10 05:56:56 buffID:10195401==操作类型:2==目标-7015433525822226428已死亡
+2026-03-10 05:56:56 buffID:10195401==操作类型:2==目标-7015433525822226428已死亡
+2026-03-10 05:56:56 buffID:20023101==操作类型:2==目标-5056921360741957627已死亡
+2026-03-10 05:56:56 unitEnter is null
+2026-03-10 05:56:56 unitEnter is null
+2026-03-10 05:56:56 buffID:10103==操作类型:2==目标-5056921360741957627已死亡
+2026-03-10 05:56:56 buffID:10195301==操作类型:2==目标-5056921360741957627已死亡
+2026-03-10 05:56:56 buffID:10247201==操作类型:2==目标-5056921360741957627已死亡
+2026-03-10 05:56:56 buffID:20109401==操作类型:2==目标-5056921360741957627已死亡
+2026-03-10 05:56:56 buffID:20109402==操作类型:2==目标-5056921360741957627已死亡
+2026-03-10 05:56:56 buffID:10195401==操作类型:2==目标-5056921360741957627已死亡
+2026-03-10 05:56:56 buffID:10195401==操作类型:2==目标-5056921360741957627已死亡
+2026-03-10 05:56:56 unitEnter is null
+2026-03-10 05:56:56 unitEnter is null
+2026-03-10 05:57:00 cancellPerform
+2026-03-10 05:57:00 模型重复创建 unit id = 405207418230800572
+2026-03-10 05:57:28 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-10 05:57:36 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 05:57:36 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 05:57:36 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 05:57:36 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 05:57:36 buffID:20104401==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 05:57:36 unitEnter is null
+2026-03-10 05:57:36 unitEnter is null
+2026-03-10 05:57:44 cancellPerform
+2026-03-10 05:57:44 had exist Buff 2
+2026-03-10 05:57:44 had exist Buff 7
+2026-03-10 05:57:44 had exist Buff 8
+2026-03-10 05:57:44 had exist Buff 10
+2026-03-10 05:57:44 had exist Buff 11
+2026-03-10 05:57:44 had exist Buff 12
+2026-03-10 05:57:44 had exist Buff 13
+2026-03-10 05:58:59 buffID:10073301==操作类型:2==目标-6501450391464968157已死亡
+2026-03-10 05:58:59 buffID:50091301==操作类型:2==目标-6501450391464968157已死亡
+2026-03-10 05:58:59 buffID:10347201==操作类型:2==目标-6501450391464968157已死亡
+2026-03-10 05:58:59 buffID:10347202==操作类型:2==目标-6501450391464968157已死亡
+2026-03-10 05:58:59 buffID:10347201==操作类型:2==目标-6501450391464968157已死亡
+2026-03-10 05:58:59 buffID:10347202==操作类型:2==目标-6501450391464968157已死亡
+2026-03-10 05:58:59 buffID:10347201==操作类型:2==目标-6501450391464968157已死亡
+2026-03-10 05:58:59 buffID:10347202==操作类型:2==目标-6501450391464968157已死亡
+2026-03-10 05:58:59 buffID:10347201==操作类型:2==目标-6501450391464968157已死亡
+2026-03-10 05:58:59 buffID:10347202==操作类型:2==目标-6501450391464968157已死亡
+2026-03-10 05:58:59 buffID:90196401==操作类型:2==目标-6501450391464968157已死亡
+2026-03-10 05:58:59 unitEnter is null
+2026-03-10 05:58:59 unitEnter is null
+2026-03-10 05:59:36 had exist Buff 2
+2026-03-10 05:59:36 System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Client.RemoveBuffEvent.Run (ET.Scene scene, ET.EventType.RemoveBuff args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RemoveBuffEvent.Run (ET.Scene scene, ET.EventType.RemoveBuff args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Publish[T] (ET.Scene scene, T a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BuffComponentSystem.RemoveBuff (ET.Client.BuffComponent self, System.Int64 UniqueId, System.Int32 EffectId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BuffComponentSystem.Add (ET.Client.BuffComponent self, System.Int64 UniqueId, System.Int32 EffectId, System.Int32 curNum, System.Int32 nRemainRound, System.Int32 nBuffBeginRound, System.Int32 nSrcSkillID) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BuffComponentSystem.AddBuff (ET.Client.BuffComponent self, System.Int64 UniqueId, System.Int32 EffectId, System.Int32 curNum, System.Int32 nRemainRound, System.Int32 nBuffCaluRound, System.Int32 nSrcSkillID) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Buff.Buff (ET.Client.PerformFightComponent performFight, ET.MsgPassiveBuffPerform messge, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Buff.Buff (ET.Client.PerformFightComponent performFight, ET.MsgPassiveBuffPerform messge, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PassiveSkillCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PassiveSkillCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, System.Collections.Generic.List`1[T] cmdNodes, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, System.Collections.Generic.List`1[T] cmdNodes, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PerformNormalEvent.Run (ET.Scene scene, ET.EventType.PerformNormal args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PerformNormalEvent.Run (ET.Scene scene, ET.EventType.PerformNormal args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.PublishAsync[T] (ET.Scene scene, T a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.PublishAsync[T] (ET.Scene scene, T a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Battle.Message.Game2Client_PerformFightLogic.Run (ET.Scene clientScene, ET.Game2Client_PerformFight message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Battle.Message.Game2Client_PerformFightLogic.Run (ET.Scene clientScene, ET.Game2Client_PerformFight message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Battle.Message.Game2Client_PerformNormalHandler.Run (ET.Session session, ET.Game2Client_PerformFight message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Battle.Message.Game2Client_PerformNormalHandler.Run (ET.Session session, ET.Game2Client_PerformFight message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AMHandler`1[Message].Handle (ET.Session session, System.Object msg) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MessageDispatcherComponentHelper.Handle (ET.MessageDispatcherComponent self, ET.Session session, System.Object message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentOnReadEvent.Run (ET.Scene scene, ET.Client.NetClientComponentOnRead args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentOnReadEvent.Run (ET.Scene scene, ET.Client.NetClientComponentOnRead args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Publish[T] (ET.Scene scene, T a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentSystem.OnRead (ET.Client.NetClientComponent self, System.Int64 channelId, System.Int64 actorId, System.Object message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.UpdateInMainThread () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.NetThreadComponentSystem+LateUpdateSystem.LateUpdate (ET.NetThreadComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Init.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Publish[T] (ET.Scene scene, T a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BuffComponentSystem.RemoveBuff (ET.Client.BuffComponent self, System.Int64 UniqueId, System.Int32 EffectId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BuffComponentSystem.Add (ET.Client.BuffComponent self, System.Int64 UniqueId, System.Int32 EffectId, System.Int32 curNum, System.Int32 nRemainRound, System.Int32 nBuffBeginRound, System.Int32 nSrcSkillID) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BuffComponentSystem.AddBuff (ET.Client.BuffComponent self, System.Int64 UniqueId, System.Int32 EffectId, System.Int32 curNum, System.Int32 nRemainRound, System.Int32 nBuffCaluRound, System.Int32 nSrcSkillID) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Buff.Buff (ET.Client.PerformFightComponent performFight, ET.MsgPassiveBuffPerform messge, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Buff.Buff (ET.Client.PerformFightComponent performFight, ET.MsgPassiveBuffPerform messge, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PassiveSkillCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PassiveSkillCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, System.Collections.Generic.List`1[T] cmdNodes, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, System.Collections.Generic.List`1[T] cmdNodes, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PerformNormalEvent.Run (ET.Scene scene, ET.EventType.PerformNormal args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PerformNormalEvent.Run (ET.Scene scene, ET.EventType.PerformNormal args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.PublishAsync[T] (ET.Scene scene, T a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.PublishAsync[T] (ET.Scene scene, T a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Battle.Message.Game2Client_PerformFightLogic.Run (ET.Scene clientScene, ET.Game2Client_PerformFight message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Battle.Message.Game2Client_PerformFightLogic.Run (ET.Scene clientScene, ET.Game2Client_PerformFight message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Battle.Message.Game2Client_PerformNormalHandler.Run (ET.Session session, ET.Game2Client_PerformFight message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Battle.Message.Game2Client_PerformNormalHandler.Run (ET.Session session, ET.Game2Client_PerformFight message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AMHandler`1[Message].Handle (ET.Session session, System.Object msg) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MessageDispatcherComponentHelper.Handle (ET.MessageDispatcherComponent self, ET.Session session, System.Object message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentOnReadEvent.Run (ET.Scene scene, ET.Client.NetClientComponentOnRead args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentOnReadEvent.Run (ET.Scene scene, ET.Client.NetClientComponentOnRead args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Publish[T] (ET.Scene scene, T a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentSystem.OnRead (ET.Client.NetClientComponent self, System.Int64 channelId, System.Int64 actorId, System.Object message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.UpdateInMainThread () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.NetThreadComponentSystem+LateUpdateSystem.LateUpdate (ET.NetThreadComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Init.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-10 05:59:37 had exist Buff 3
+2026-03-10 05:59:37 System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Client.RemoveBuffEvent.Run (ET.Scene scene, ET.EventType.RemoveBuff args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RemoveBuffEvent.Run (ET.Scene scene, ET.EventType.RemoveBuff args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Publish[T] (ET.Scene scene, T a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BuffComponentSystem.RemoveBuff (ET.Client.BuffComponent self, System.Int64 UniqueId, System.Int32 EffectId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BuffComponentSystem.Add (ET.Client.BuffComponent self, System.Int64 UniqueId, System.Int32 EffectId, System.Int32 curNum, System.Int32 nRemainRound, System.Int32 nBuffBeginRound, System.Int32 nSrcSkillID) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BuffComponentSystem.AddBuff (ET.Client.BuffComponent self, System.Int64 UniqueId, System.Int32 EffectId, System.Int32 curNum, System.Int32 nRemainRound, System.Int32 nBuffCaluRound, System.Int32 nSrcSkillID) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Buff.Buff (ET.Client.PerformFightComponent performFight, ET.MsgPassiveBuffPerform messge, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Buff.Buff (ET.Client.PerformFightComponent performFight, ET.MsgPassiveBuffPerform messge, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PassiveSkillCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PassiveSkillCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, System.Collections.Generic.List`1[T] cmdNodes, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PerformFightComponentViewSystem.EndCmd (ET.Client.PerformFightComponent self, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillResultLogComponentSystem.Play (ET.Client.SkillResultLogComponent self, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Publish[T] (ET.Scene scene, T a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BuffComponentSystem.RemoveBuff (ET.Client.BuffComponent self, System.Int64 UniqueId, System.Int32 EffectId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BuffComponentSystem.Add (ET.Client.BuffComponent self, System.Int64 UniqueId, System.Int32 EffectId, System.Int32 curNum, System.Int32 nRemainRound, System.Int32 nBuffBeginRound, System.Int32 nSrcSkillID) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BuffComponentSystem.AddBuff (ET.Client.BuffComponent self, System.Int64 UniqueId, System.Int32 EffectId, System.Int32 curNum, System.Int32 nRemainRound, System.Int32 nBuffCaluRound, System.Int32 nSrcSkillID) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Buff.Buff (ET.Client.PerformFightComponent performFight, ET.MsgPassiveBuffPerform messge, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Buff.Buff (ET.Client.PerformFightComponent performFight, ET.MsgPassiveBuffPerform messge, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PassiveSkillCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PassiveSkillCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, System.Collections.Generic.List`1[T] cmdNodes, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PerformFightComponentViewSystem.EndCmd (ET.Client.PerformFightComponent self, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillResultLogComponentSystem.Play (ET.Client.SkillResultLogComponent self, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-10 05:59:37 had exist Buff 4
+2026-03-10 05:59:37 System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Client.RemoveBuffEvent.Run (ET.Scene scene, ET.EventType.RemoveBuff args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RemoveBuffEvent.Run (ET.Scene scene, ET.EventType.RemoveBuff args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Publish[T] (ET.Scene scene, T a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BuffComponentSystem.RemoveBuff (ET.Client.BuffComponent self, System.Int64 UniqueId, System.Int32 EffectId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BuffComponentSystem.Add (ET.Client.BuffComponent self, System.Int64 UniqueId, System.Int32 EffectId, System.Int32 curNum, System.Int32 nRemainRound, System.Int32 nBuffBeginRound, System.Int32 nSrcSkillID) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BuffComponentSystem.AddBuff (ET.Client.BuffComponent self, System.Int64 UniqueId, System.Int32 EffectId, System.Int32 curNum, System.Int32 nRemainRound, System.Int32 nBuffCaluRound, System.Int32 nSrcSkillID) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Buff.Buff (ET.Client.PerformFightComponent performFight, ET.MsgPassiveBuffPerform messge, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Buff.Buff (ET.Client.PerformFightComponent performFight, ET.MsgPassiveBuffPerform messge, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PassiveSkillCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PassiveSkillCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, System.Collections.Generic.List`1[T] cmdNodes, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PerformFightComponentViewSystem.EndCmd (ET.Client.PerformFightComponent self, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillResultLogComponentSystem.Play (ET.Client.SkillResultLogComponent self, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Publish[T] (ET.Scene scene, T a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BuffComponentSystem.RemoveBuff (ET.Client.BuffComponent self, System.Int64 UniqueId, System.Int32 EffectId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BuffComponentSystem.Add (ET.Client.BuffComponent self, System.Int64 UniqueId, System.Int32 EffectId, System.Int32 curNum, System.Int32 nRemainRound, System.Int32 nBuffBeginRound, System.Int32 nSrcSkillID) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BuffComponentSystem.AddBuff (ET.Client.BuffComponent self, System.Int64 UniqueId, System.Int32 EffectId, System.Int32 curNum, System.Int32 nRemainRound, System.Int32 nBuffCaluRound, System.Int32 nSrcSkillID) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Buff.Buff (ET.Client.PerformFightComponent performFight, ET.MsgPassiveBuffPerform messge, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Buff.Buff (ET.Client.PerformFightComponent performFight, ET.MsgPassiveBuffPerform messge, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PassiveSkillCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PassiveSkillCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, System.Collections.Generic.List`1[T] cmdNodes, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PerformFightComponentViewSystem.EndCmd (ET.Client.PerformFightComponent self, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillResultLogComponentSystem.Play (ET.Client.SkillResultLogComponent self, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-10 05:59:38 lockOperaComponent exist
+2026-03-10 05:59:40 cancellPerform
+2026-03-10 05:59:40 模型重复创建 unit id = 405223361149403243
+2026-03-10 05:59:40 模型重复创建 unit id = 405223361149403309
+2026-03-10 05:59:40 had exist Buff 6
+2026-03-10 05:59:40 had exist Buff 7
+2026-03-10 05:59:40 had exist Buff 9
+2026-03-10 05:59:40 had exist Buff 12
+2026-03-10 05:59:40 had exist Buff 14
+2026-03-10 05:59:55 buffID:90195102==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 05:59:55 buffID:50621401==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 05:59:55 unitEnter is null
+2026-03-10 05:59:55 unitEnter is null
+2026-03-10 06:00:27 buffID:10073301==操作类型:4==目标-5109701492286423040不在场上
+2026-03-10 06:00:27 PlaySkillPerform,但是-5109701492286423040没有在场上
+2026-03-10 06:00:32 buffID:90195102==操作类型:2==目标-5109701492286423040已死亡
+2026-03-10 06:00:32 buffID:10073301==操作类型:2==目标-5109701492286423040已死亡
+2026-03-10 06:00:32 buffID:50531401==操作类型:2==目标-5109701492286423040已死亡
+2026-03-10 06:00:32 unitEnter is null
+2026-03-10 06:00:32 unitEnter is null
+2026-03-10 06:00:47 buffID:90195102==操作类型:2==目标-5075805885264297984已死亡
+2026-03-10 06:00:47 buffID:50521201==操作类型:2==目标-5075805885264297984已死亡
+2026-03-10 06:00:47 unitEnter is null
+2026-03-10 06:00:47 unitEnter is null
+2026-03-10 06:01:24 cancellPerform
+2026-03-10 06:01:24 had exist Buff 2
+2026-03-10 06:01:24 had exist Buff 5
+2026-03-10 06:01:24 had exist Buff 6
+2026-03-10 06:02:43 buffID:10121==操作类型:2==目标-5257908787764789247已死亡
+2026-03-10 06:02:43 buffID:10073301==操作类型:2==目标-5257908787764789247已死亡
+2026-03-10 06:02:45 buffID:90195101==操作类型:2==目标-5257908787764789247已死亡
+2026-03-10 06:02:45 buffID:50011401==操作类型:2==目标-5257908787764789247已死亡
+2026-03-10 06:02:45 buffID:90195401==操作类型:2==目标-5257908787764789247已死亡
+2026-03-10 06:02:45 unitEnter is null
+2026-03-10 06:02:45 unitEnter is null
+2026-03-10 06:02:58 buffID:90195102==操作类型:2==目标-5199676659087441912已死亡
+2026-03-10 06:02:58 buffID:50531401==操作类型:2==目标-5199676659087441912已死亡
+2026-03-10 06:02:58 unitEnter is null
+2026-03-10 06:02:58 unitEnter is null
+2026-03-10 06:03:07 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-10 06:03:14 buffID:90195102==操作类型:2==目标-5133398647920918527已死亡
+2026-03-10 06:03:14 buffID:20184201==操作类型:2==目标-5133398647920918527已死亡
+2026-03-10 06:03:14 buffID:50571401==操作类型:2==目标-5133398647920918527已死亡
+2026-03-10 06:03:14 unitEnter is null
+2026-03-10 06:03:14 unitEnter is null
+2026-03-10 06:03:52 had exist Buff 2
+2026-03-10 06:03:52 cancellPerform
+2026-03-10 06:03:52 had exist Buff 2
+2026-03-10 06:03:52 had exist Buff 3
+2026-03-10 06:03:52 had exist Buff 4
+2026-03-10 06:06:37 buffID:90196101==操作类型:2==目标-5103353736777433076已死亡
+2026-03-10 06:06:37 buffID:90196401==操作类型:2==目标-5103353736777433076已死亡
+2026-03-10 06:06:37 unitEnter is null
+2026-03-10 06:06:37 unitEnter is null
+2026-03-10 06:06:48 buffID:10200101==操作类型:2==目标-5223012212838236147已死亡
+2026-03-10 06:06:48 buffID:50411401==操作类型:2==目标-5223012212838236147已死亡
+2026-03-10 06:06:48 buffID:90196401==操作类型:2==目标-5223012212838236147已死亡
+2026-03-10 06:06:48 unitEnter is null
+2026-03-10 06:06:48 unitEnter is null
+2026-03-10 06:07:15 cancellPerform
+2026-03-10 06:07:15 had exist Buff 2
+2026-03-10 06:07:15 had exist Buff 7
+2026-03-10 06:07:15 had exist Buff 8
+2026-03-10 06:07:15 had exist Buff 9
+2026-03-10 06:07:15 had exist Buff 11
+2026-03-10 06:07:15 had exist Buff 12
+2026-03-10 06:07:15 had exist Buff 13
+2026-03-10 06:07:15 had exist Buff 14
+2026-03-10 06:07:59 unitEnter is null
+2026-03-10 06:07:59 unitEnter is null
+2026-03-10 06:08:55 buffID:10073301==操作类型:2==目标-5068167096948490239已死亡
+2026-03-10 06:08:55 buffID:50091301==操作类型:2==目标-5068167096948490239已死亡
+2026-03-10 06:08:57 buffID:10349201==操作类型:2==目标-5068167096948490239已死亡
+2026-03-10 06:08:57 buffID:10349202==操作类型:2==目标-5068167096948490239已死亡
+2026-03-10 06:08:57 buffID:20104401==操作类型:2==目标-5068167096948490239已死亡
+2026-03-10 06:08:57 buffID:90196401==操作类型:2==目标-5068167096948490239已死亡
+2026-03-10 06:08:57 unitEnter is null
+2026-03-10 06:08:57 unitEnter is null
+2026-03-10 06:09:17 buffID:90196102==操作类型:2==目标-5062382703710568447已死亡
+2026-03-10 06:09:17 buffID:50621401==操作类型:2==目标-5062382703710568447已死亡
+2026-03-10 06:09:17 unitEnter is null
+2026-03-10 06:09:17 unitEnter is null
+2026-03-10 06:09:33 buffID:50091301==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 06:09:33 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 06:09:33 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 06:09:33 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 06:09:33 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 06:09:33 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 06:09:33 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 06:09:33 buffID:20153201==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 06:09:33 buffID:90196401==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 06:09:33 buffID:20104401==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 06:09:33 unitEnter is null
+2026-03-10 06:09:33 unitEnter is null
+2026-03-10 06:10:24 buffID:90196102==操作类型:2==目标-5103353736777433076已死亡
+2026-03-10 06:10:24 unitEnter is null
+2026-03-10 06:10:24 unitEnter is null
+2026-03-10 06:10:47 had exist Buff 2
+2026-03-10 06:10:47 cancellPerform
+2026-03-10 06:10:47 had exist Buff 2
+2026-03-10 06:10:47 had exist Buff 3
+2026-03-10 06:10:47 had exist Buff 4
+2026-03-10 06:11:15 buffID:20023101==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 06:11:15 buffID:90197401==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 06:11:15 buffID:50621401==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 06:11:15 unitEnter is null
+2026-03-10 06:11:15 unitEnter is null
+2026-03-10 06:11:28 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-10 06:11:35 buffID:10073301==操作类型:2==目标-5095933201521573885已死亡
+2026-03-10 06:11:35 buffID:50981201==操作类型:2==目标-5095933201521573885已死亡
+2026-03-10 06:11:35 buffID:90197401==操作类型:2==目标-5095933201521573885已死亡
+2026-03-10 06:11:35 buffID:20023401==操作类型:2==目标-5095933201521573885已死亡
+2026-03-10 06:11:35 unitEnter is null
+2026-03-10 06:11:35 unitEnter is null
+2026-03-10 06:12:00 buffID:90197401==操作类型:2==目标-5052451502373994493已死亡
+2026-03-10 06:12:00 unitEnter is null
+2026-03-10 06:12:00 unitEnter is null
+2026-03-10 06:12:17 buffID:51031201==操作类型:2==目标-5046820284852862976已死亡
+2026-03-10 06:12:17 buffID:90197401==操作类型:2==目标-5046820284852862976已死亡
+2026-03-10 06:12:17 unitEnter is null
+2026-03-10 06:12:17 unitEnter is null
+2026-03-10 06:15:18 IKcpTransport tcp error: 1182630766 100208
+2026-03-10 06:15:48 IKcpTransport tcp error: 405160345389236227 10054

@@ -1,0 +1,130 @@
+2026-02-15 08:23:27 无法找到指定的时区 timeZoneId = 8
+2026-02-15 08:23:29 IActivity_ActivityPrayers  本地解析 报错 e = System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Pokemon.Activity.System.ActivityMatchMakingComponentSystem.GetTodayLeftPlayNum (ET.Pokemon.Activity.Component.ActivityMatchMakingComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityMatchMakingComponentSystem.UpdateRed (ET.Pokemon.Activity.Component.ActivityMatchMakingComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.IActivity_ActivityMatchMaking.Run (System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.IActivity_ActivityMatchMaking.Run (System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddPlayerActivityInfoList (ET.Pokemon.Activity.Component.ActivityComponent self, System.Int64 activityId, ET.Client.ClientPlayerActivityInfo clinetInfo, System.Boolean CheckAdd) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddActivity (ET.Pokemon.Activity.Component.ActivityComponent self, ET.PlayerActivityInfo info, System.Boolean CheckAdd) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Handel.Game2Client_SendActivityListHandler.Run (ET.Session session, ET.Game2Client_SendActivityList message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.UpdateActivity (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.Down (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.GetActivityCheck (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FileDownloader.DownloadFileAsync (System.String url, System.String tempFilePath, System.Boolean breakResume) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddPlayerActivityInfoList (ET.Pokemon.Activity.Component.ActivityComponent self, System.Int64 activityId, ET.Client.ClientPlayerActivityInfo clinetInfo, System.Boolean CheckAdd) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddActivity (ET.Pokemon.Activity.Component.ActivityComponent self, ET.PlayerActivityInfo info, System.Boolean CheckAdd) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Handel.Game2Client_SendActivityListHandler.Run (ET.Session session, ET.Game2Client_SendActivityList message) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.UpdateActivity (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.Down (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.GetActivityCheck (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Logger.Error (System.String msg) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.FileDownloader.DownloadFileAsync (System.String url, System.String tempFilePath, System.Boolean breakResume) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-02-15 08:28:44 unitEnter is null
+2026-02-15 08:28:44 unitEnter is null
+2026-02-15 08:29:01 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 08:29:03 unitEnter is null
+2026-02-15 08:29:03 unitEnter is null
+2026-02-15 08:29:13 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 08:29:17 buffID:20019401==操作类型:2==目标269279331896000515已死亡
+2026-02-15 08:29:17 unitEnter is null
+2026-02-15 08:29:17 unitEnter is null
+2026-02-15 08:30:08 unitEnter is null
+2026-02-15 08:30:08 unitEnter is null
+2026-02-15 08:30:14 unitEnter is null
+2026-02-15 08:30:14 unitEnter is null
+2026-02-15 08:30:19 buffID:20110401==操作类型:2==目标269284279698325507已死亡
+2026-02-15 08:30:19 unitEnter is null
+2026-02-15 08:30:19 unitEnter is null
+2026-02-15 08:30:31 unitEnter is null
+2026-02-15 08:30:31 unitEnter is null
+2026-02-15 08:30:41 buffID:10301==操作类型:2==目标269285791526813699已死亡
+2026-02-15 08:30:41 buffID:11201==操作类型:2==目标269285791526813699已死亡
+2026-02-15 08:30:41 unitEnter is null
+2026-02-15 08:30:41 unitEnter is null
+2026-02-15 08:30:55 buffID:20027401==操作类型:2==目标269287509513732113已死亡
+2026-02-15 08:30:55 unitEnter is null
+2026-02-15 08:30:55 unitEnter is null
+2026-02-15 08:30:59 unitEnter is null
+2026-02-15 08:30:59 unitEnter is null
+2026-02-15 08:31:11 unitEnter is null
+2026-02-15 08:31:11 unitEnter is null
+2026-02-15 08:31:24 buffID:10301==操作类型:2==目标269288609025359875已死亡
+2026-02-15 08:31:24 buffID:11201==操作类型:2==目标269288609025359875已死亡
+2026-02-15 08:31:24 unitEnter is null
+2026-02-15 08:31:24 unitEnter is null
+2026-02-15 08:31:35 unitEnter is null
+2026-02-15 08:31:35 unitEnter is null
+2026-02-15 08:31:47 buffID:10301==操作类型:2==目标269290258292801540已死亡
+2026-02-15 08:31:47 buffID:11201==操作类型:2==目标269290258292801540已死亡
+2026-02-15 08:31:47 unitEnter is null
+2026-02-15 08:31:47 unitEnter is null
+2026-02-15 08:31:59 unitEnter is null
+2026-02-15 08:31:59 unitEnter is null
+2026-02-15 08:32:04 buffID:20027401==操作类型:2==目标269291976279719939已死亡
+2026-02-15 08:32:04 unitEnter is null
+2026-02-15 08:32:04 unitEnter is null
+2026-02-15 08:37:45 System.InvalidCastException: cast fail
+  at ET.Client.Activity101.ThemeAlbumExchangeCardWindow.OnClickCurrencyListRenderListItem (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity101.ThemeAlbumExchangeCardWindow.OnClickCurrencyListRenderListItem (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-15 08:37:45 System.InvalidCastException: cast fail
+  at ET.Client.Activity101.ThemeAlbumExchangeCardWindow.OnClickCurrencyListRenderListItem (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity101.ThemeAlbumExchangeCardWindow.OnClickCurrencyListRenderListItem (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-15 08:45:35 ------------ nowTime == LastOnClickSkillBtnTime

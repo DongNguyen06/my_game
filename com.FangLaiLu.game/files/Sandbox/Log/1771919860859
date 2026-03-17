@@ -1,0 +1,1403 @@
+2026-02-24 07:58:09 无法找到指定的时区 timeZoneId = 8
+2026-02-24 07:58:11 IActivity_ActivityPrayers  本地解析 报错 e = System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Pokemon.Activity.System.ActivityMatchMakingComponentSystem.GetTodayLeftPlayNum (ET.Pokemon.Activity.Component.ActivityMatchMakingComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityMatchMakingComponentSystem.UpdateRed (ET.Pokemon.Activity.Component.ActivityMatchMakingComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.IActivity_ActivityMatchMaking.Run (System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.IActivity_ActivityMatchMaking.Run (System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddPlayerActivityInfoList (ET.Pokemon.Activity.Component.ActivityComponent self, System.Int64 activityId, ET.Client.ClientPlayerActivityInfo clinetInfo, System.Boolean CheckAdd) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddActivity (ET.Pokemon.Activity.Component.ActivityComponent self, ET.PlayerActivityInfo info, System.Boolean CheckAdd) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Handel.Game2Client_SendActivityListHandler.Run (ET.Session session, ET.Game2Client_SendActivityList message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.UpdateActivity (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.Down (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.GetActivityCheck (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FileDownloader.DownloadFileAsync (System.String url, System.String tempFilePath, System.Boolean breakResume) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddPlayerActivityInfoList (ET.Pokemon.Activity.Component.ActivityComponent self, System.Int64 activityId, ET.Client.ClientPlayerActivityInfo clinetInfo, System.Boolean CheckAdd) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddActivity (ET.Pokemon.Activity.Component.ActivityComponent self, ET.PlayerActivityInfo info, System.Boolean CheckAdd) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Handel.Game2Client_SendActivityListHandler.Run (ET.Session session, ET.Game2Client_SendActivityList message) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.UpdateActivity (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.Down (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.GetActivityCheck (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Logger.Error (System.String msg) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.FileDownloader.DownloadFileAsync (System.String url, System.String tempFilePath, System.Boolean breakResume) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-02-24 08:00:12 IKcpTransport tcp error: 1167384234 100208
+2026-02-24 08:00:42 IKcpTransport tcp error: 322589015008083971 10054
+2026-02-24 08:02:44 System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.TimeOpenComponentSystemSystem.UpdateOpenTime (ET.Pokemon.Time.TimeOpenComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-24 08:02:46 无法找到指定的时区 timeZoneId = 8
+2026-02-24 08:03:47 IKcpTransport tcp error: 1248852265 100208
+2026-02-24 08:04:17 IKcpTransport tcp error: 322608050303139848 10054
+2026-02-24 08:10:45 ET.RpcException: Error: 110311 Message: session dispose: 1248852265 172.19.0.20:11528
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Guild.GuildServerSystem.QueryServerGuildInfo (ET.Scene scene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.GuildArenaComponentSystem.GetGuildArenaInfo (ET.Client.Guild.GuildArenaComponent self, System.Boolean isInit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Guild.GuildServerSystem.QueryServerGuildInfo (ET.Scene scene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.GuildArenaComponentSystem.GetGuildArenaInfo (ET.Client.Guild.GuildArenaComponent self, System.Boolean isInit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Guild.GuildServerSystem.QueryServerGuildInfo (ET.Scene scene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-24 08:10:45 ET.RpcException: Error: 110311 Message: session dispose: 1248852265 172.19.0.20:11528
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Chat.Message.ChatServerSystem.QueryChatInfo (ET.Scene scene, ET.ChatTypeClient chatType, System.Int64 queryId, System.Int64 targetId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Chat.Message.ChatServerSystem.QueryChatInfo (ET.Scene scene, ET.ChatTypeClient chatType, System.Int64 queryId, System.Int64 targetId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-24 08:10:46 ET.RpcException: Error: 110311 Message: session dispose: 1248852265 172.19.0.20:11528
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-24 08:10:46 ET.RpcException: Error: 110311 Message: session dispose: 1248852265 172.19.0.20:11528
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-24 08:10:46 ET.RpcException: Error: 110311 Message: session dispose: 1248852265 172.19.0.20:11528
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-24 08:10:46 ET.RpcException: Error: 110311 Message: session dispose: 1248852265 172.19.0.20:11528
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-24 08:10:46 ET.RpcException: Error: 110311 Message: session dispose: 1248852265 172.19.0.20:11528
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-24 08:10:46 ET.RpcException: Error: 110311 Message: session dispose: 1248852265 172.19.0.20:11528
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-24 08:10:46 ET.RpcException: Error: 110311 Message: session dispose: 1248852265 172.19.0.20:11528
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-24 08:10:46 ET.RpcException: Error: 110311 Message: session dispose: 1248852265 172.19.0.20:11528
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-24 08:10:46 ET.RpcException: Error: 110311 Message: session dispose: 1248852265 172.19.0.20:11528
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Message.ActivityServerSystem.GetActivityConfig (ET.Scene scene, System.Int32 baseType, System.String token, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-24 08:10:46 ET.RpcException: Error: 110311 Message: session dispose: 1248852265 172.19.0.20:11528
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Chat.Message.ChatServerSystem.QueryChatInfo (ET.Scene scene, ET.ChatTypeClient chatType, System.Int64 queryId, System.Int64 targetId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Chat.Message.ChatServerSystem.QueryChatInfo (ET.Scene scene, ET.ChatTypeClient chatType, System.Int64 queryId, System.Int64 targetId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-24 08:10:46 ET.RpcException: Error: 110311 Message: session dispose: 1248852265 172.19.0.20:11528
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Chat.Message.ChatServerSystem.QueryChatInfo (ET.Scene scene, ET.ChatTypeClient chatType, System.Int64 queryId, System.Int64 targetId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Chat.Message.ChatServerSystem.QueryChatInfo (ET.Scene scene, ET.ChatTypeClient chatType, System.Int64 queryId, System.Int64 targetId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-24 08:10:46 ET.RpcException: Error: 110311 Message: session dispose: 1248852265 172.19.0.20:11528
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Chat.Message.ChatServerSystem.QueryChatInfo (ET.Scene scene, ET.ChatTypeClient chatType, System.Int64 queryId, System.Int64 targetId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Chat.Message.ChatServerSystem.QueryChatInfo (ET.Scene scene, ET.ChatTypeClient chatType, System.Int64 queryId, System.Int64 targetId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-24 08:10:46 ET.RpcException: Error: 110311 Message: session dispose: 1248852265 172.19.0.20:11528
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Chat.Message.ChatServerSystem.QueryChatInfo (ET.Scene scene, ET.ChatTypeClient chatType, System.Int64 queryId, System.Int64 targetId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Chat.Message.ChatServerSystem.QueryChatInfo (ET.Scene scene, ET.ChatTypeClient chatType, System.Int64 queryId, System.Int64 targetId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-24 08:10:46 ET.RpcException: Error: 110311 Message: session dispose: 1248852265 172.19.0.20:11528
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Chat.Message.ChatServerSystem.QueryChatInfo (ET.Scene scene, ET.ChatTypeClient chatType, System.Int64 queryId, System.Int64 targetId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Chat.Message.ChatServerSystem.QueryChatInfo (ET.Scene scene, ET.ChatTypeClient chatType, System.Int64 queryId, System.Int64 targetId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-24 08:10:46 ET.RpcException: Error: 110311 Message: session dispose: 1248852265 172.19.0.20:11528
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Chat.Message.ChatServerSystem.QueryChatInfo (ET.Scene scene, ET.ChatTypeClient chatType, System.Int64 queryId, System.Int64 targetId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Pokemon.Chat.Message.ChatServerSystem.QueryChatInfo (ET.Scene scene, ET.ChatTypeClient chatType, System.Int64 queryId, System.Int64 targetId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-24 08:10:46 Double ConfirmDialogAsync
+2026-02-24 08:10:51 无法找到指定的时区 timeZoneId = 8
+2026-02-24 08:12:20 buffID:50541401==操作类型:2==目标-5148207763875692541已死亡
+2026-02-24 08:12:20 unitEnter is null
+2026-02-24 08:12:20 unitEnter is null
+2026-02-24 08:12:30 unitEnter is null
+2026-02-24 08:12:30 unitEnter is null
+2026-02-24 08:12:43 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-24 08:14:16 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-24 08:14:25 buffID:10073301==操作类型:2==目标322648870394527794已死亡
+2026-02-24 08:14:26 buffID:10488201==操作类型:2==目标322648870394527794已死亡
+2026-02-24 08:14:26 buffID:10204201==操作类型:2==目标322648870394527794已死亡
+2026-02-24 08:14:26 buffID:10488201==操作类型:2==目标322648870394527794已死亡
+2026-02-24 08:14:26 buffID:10204201==操作类型:2==目标322648870394527794已死亡
+2026-02-24 08:14:26 buffID:20022201==操作类型:2==目标322648870394527794已死亡
+2026-02-24 08:14:26 buffID:10488201==操作类型:2==目标322648870394527794已死亡
+2026-02-24 08:14:26 buffID:10488201==操作类型:2==目标322648870394527794已死亡
+2026-02-24 08:14:26 unitEnter is null
+2026-02-24 08:14:26 unitEnter is null
+2026-02-24 08:15:05 unitEnter is null
+2026-02-24 08:15:05 unitEnter is null
+2026-02-24 08:15:23 buffID:10101==操作类型:2==目标322648870394527796已死亡
+2026-02-24 08:15:23 buffID:20009401==操作类型:2==目标322648870394527796已死亡
+2026-02-24 08:15:23 unitEnter is null
+2026-02-24 08:15:23 unitEnter is null
+2026-02-24 08:15:29 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-24 08:15:39 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-24 08:15:42 unitEnter is null
+2026-02-24 08:15:42 unitEnter is null
+2026-02-24 08:15:48 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-24 08:16:00 unitEnter is null
+2026-02-24 08:16:00 unitEnter is null
+2026-02-24 08:16:19 unitEnter is null
+2026-02-24 08:16:19 unitEnter is null
+2026-02-24 08:17:17 buffID:50541401==操作类型:2==目标-5148207763875692541已死亡
+2026-02-24 08:17:17 unitEnter is null
+2026-02-24 08:17:17 unitEnter is null
+2026-02-24 08:17:33 cancellPerform
+2026-02-24 08:17:33 PlaySkillPerform,但是 目标-5114668742225166326已死亡
+2026-02-24 08:17:33 PlaySkillPerform,但是 目标-5114668742225166326已死亡
+2026-02-24 08:17:33 PlaySkillPerform,但是 目标-5114668742225166326已死亡
+2026-02-24 08:18:05 buffID:20170401==操作类型:2==目标-5114668742225166326已死亡
+2026-02-24 08:18:05 unitEnter is null
+2026-02-24 08:18:05 unitEnter is null
+2026-02-24 08:18:15 buffID:50541401==操作类型:2==目标-5148207763875692541已死亡
+2026-02-24 08:18:15 unitEnter is null
+2026-02-24 08:18:15 unitEnter is null
+2026-02-24 08:18:20 cancellPerform
+2026-02-24 08:18:20 模型重复创建 unit id = 322669760393248837
+2026-02-24 08:18:20 had exist Buff 35
+2026-02-24 08:18:20 had exist Buff 36
+2026-02-24 08:18:20 had exist Buff 37
+2026-02-24 08:18:20 had exist Buff 38
+2026-02-24 08:20:01 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-24 08:20:04 unitEnter is null
+2026-02-24 08:20:04 unitEnter is null
+2026-02-24 08:20:34 buffID:52201201==操作类型:2==目标-5177577368725749760已死亡
+2026-02-24 08:20:34 buffID:52201202==操作类型:2==目标-5177577368725749760已死亡
+2026-02-24 08:20:34 buffID:10405201==操作类型:2==目标-5177577368725749760已死亡
+2026-02-24 08:20:34 unitEnter is null
+2026-02-24 08:20:34 unitEnter is null
+2026-02-24 08:20:42 unitEnter is null
+2026-02-24 08:20:42 unitEnter is null
+2026-02-24 08:21:02 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-24 08:21:16 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-24 08:21:55 buffID:90036102==操作类型:2==目标322677732574756864已死亡
+2026-02-24 08:21:55 buffID:20022201==操作类型:2==目标322677732574756864已死亡
+2026-02-24 08:21:55 buffID:20088201==操作类型:2==目标322677732574756864已死亡
+2026-02-24 08:21:55 buffID:50043201==操作类型:2==目标322677732574756864已死亡
+2026-02-24 08:21:55 buffID:20022201==操作类型:2==目标322677732574756864已死亡
+2026-02-24 08:21:55 unitEnter is null
+2026-02-24 08:21:55 unitEnter is null
+2026-02-24 08:22:15 buffID:90036102==操作类型:2==目标322677732574756869已死亡
+2026-02-24 08:22:15 buffID:50962201==操作类型:2==目标322677732574756869已死亡
+2026-02-24 08:22:15 unitEnter is null
+2026-02-24 08:22:15 unitEnter is null
+2026-02-24 08:22:26 buffID:90036102==操作类型:2==目标322677732574756867已死亡
+2026-02-24 08:22:26 unitEnter is null
+2026-02-24 08:22:26 unitEnter is null
+2026-02-24 08:22:51 buffID:90036102==操作类型:2==目标322677732574756866已死亡
+2026-02-24 08:22:51 buffID:53101201==操作类型:2==目标322677732574756866已死亡
+2026-02-24 08:22:51 buffID:53101202==操作类型:2==目标322677732574756866已死亡
+2026-02-24 08:22:51 unitEnter is null
+2026-02-24 08:22:51 unitEnter is null
+2026-02-24 08:23:05 buffID:50091301==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:23:05 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:23:05 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:23:05 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:23:05 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:23:05 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:23:05 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:23:05 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:23:05 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:23:05 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:23:05 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:23:05 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:23:05 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:23:05 buffID:20104401==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:23:05 unitEnter is null
+2026-02-24 08:23:05 unitEnter is null
+2026-02-24 08:23:09 cancellPerform
+2026-02-24 08:23:32 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-24 08:23:38 buffID:50043201==操作类型:2==目标-5114668742225166326已死亡
+2026-02-24 08:23:38 buffID:20170401==操作类型:2==目标-5114668742225166326已死亡
+2026-02-24 08:23:38 unitEnter is null
+2026-02-24 08:23:38 unitEnter is null
+2026-02-24 08:23:49 buffID:50541401==操作类型:2==目标-5148207763875692541已死亡
+2026-02-24 08:23:49 unitEnter is null
+2026-02-24 08:23:49 unitEnter is null
+2026-02-24 08:24:12 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-24 08:25:08 buffID:90036102==操作类型:2==目标322692782140162048已死亡
+2026-02-24 08:25:08 buffID:10488201==操作类型:2==目标322692782140162048已死亡
+2026-02-24 08:25:08 buffID:10204201==操作类型:2==目标322692782140162048已死亡
+2026-02-24 08:25:08 buffID:10488201==操作类型:2==目标322692782140162048已死亡
+2026-02-24 08:25:08 buffID:20022201==操作类型:2==目标322692782140162048已死亡
+2026-02-24 08:25:08 buffID:10488201==操作类型:2==目标322692782140162048已死亡
+2026-02-24 08:25:08 buffID:10488201==操作类型:2==目标322692782140162048已死亡
+2026-02-24 08:25:08 unitEnter is null
+2026-02-24 08:25:08 unitEnter is null
+2026-02-24 08:25:21 cancellPerform
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:21 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-24 08:25:32 unitEnter is null
+2026-02-24 08:25:32 unitEnter is null
+2026-02-24 08:25:32 cancellPerform
+2026-02-24 08:26:38 buffID:50541401==操作类型:2==目标-5148207763875692541已死亡
+2026-02-24 08:26:38 unitEnter is null
+2026-02-24 08:26:38 unitEnter is null
+2026-02-24 08:27:54 buffID:90036102==操作类型:2==目标322704808048590848已死亡
+2026-02-24 08:27:54 buffID:50043201==操作类型:2==目标322704808048590848已死亡
+2026-02-24 08:27:54 buffID:10204201==操作类型:2==目标322704808048590848已死亡
+2026-02-24 08:27:54 buffID:10488201==操作类型:2==目标322704808048590848已死亡
+2026-02-24 08:27:54 buffID:20022201==操作类型:2==目标322704808048590848已死亡
+2026-02-24 08:27:54 buffID:10488201==操作类型:2==目标322704808048590848已死亡
+2026-02-24 08:27:54 unitEnter is null
+2026-02-24 08:27:54 unitEnter is null
+2026-02-24 08:28:24 buffID:90036102==操作类型:2==目标322704808048590849已死亡
+2026-02-24 08:28:24 buffID:10106201==操作类型:2==目标322704808048590849已死亡
+2026-02-24 08:28:24 buffID:10612201==操作类型:2==目标322704808048590849已死亡
+2026-02-24 08:28:24 buffID:50572401==操作类型:2==目标322704808048590849已死亡
+2026-02-24 08:28:24 unitEnter is null
+2026-02-24 08:28:24 unitEnter is null
+2026-02-24 08:28:31 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-24 08:28:52 buffID:90036102==操作类型:2==目标322704808048590850已死亡
+2026-02-24 08:28:52 buffID:53101201==操作类型:2==目标322704808048590850已死亡
+2026-02-24 08:28:52 buffID:53101202==操作类型:2==目标322704808048590850已死亡
+2026-02-24 08:28:52 unitEnter is null
+2026-02-24 08:28:52 unitEnter is null
+2026-02-24 08:29:12 buffID:50091301==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:29:12 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:29:12 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:29:12 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:29:12 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:29:12 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:29:12 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:29:12 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:29:12 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:29:12 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:29:12 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:29:12 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:29:12 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:29:12 buffID:20104401==操作类型:2==目标-5154259819471831039已死亡
+2026-02-24 08:29:12 unitEnter is null
+2026-02-24 08:29:12 unitEnter is null
+2026-02-24 08:29:21 unitEnter is null
+2026-02-24 08:29:21 unitEnter is null
+2026-02-24 08:29:42 buffID:52201201==操作类型:2==目标-5177577368725749760已死亡
+2026-02-24 08:29:42 buffID:52201202==操作类型:2==目标-5177577368725749760已死亡
+2026-02-24 08:29:42 unitEnter is null
+2026-02-24 08:29:42 unitEnter is null
+2026-02-24 08:29:49 cancellPerform
+2026-02-24 08:29:49 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-24 08:37:58 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-24 08:38:06 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-24 08:38:50 buffID:20022201==操作类型:2==目标322750781378527232已死亡
+2026-02-24 08:38:50 unitEnter is null
+2026-02-24 08:38:50 unitEnter is null
+2026-02-24 08:39:04 unitEnter is null
+2026-02-24 08:39:04 unitEnter is null
+2026-02-24 08:39:24 unitEnter is null
+2026-02-24 08:39:24 unitEnter is null
+2026-02-24 08:39:34 unitEnter is null
+2026-02-24 08:39:34 unitEnter is null
+2026-02-24 08:39:43 buffID:20056401==操作类型:2==目标322750781378527236已死亡
+2026-02-24 08:39:43 unitEnter is null
+2026-02-24 08:39:43 unitEnter is null
+2026-02-24 08:39:49 unitEnter is null
+2026-02-24 08:39:49 unitEnter is null
+2026-02-24 08:41:17 buffID:20022201==操作类型:2==目标322762326250618880已死亡
+2026-02-24 08:41:17 unitEnter is null
+2026-02-24 08:41:17 unitEnter is null
+2026-02-24 08:41:24 buffID:20056401==操作类型:2==目标322762326250618883已死亡
+2026-02-24 08:41:24 buffID:50531401==操作类型:2==目标322762326250618883已死亡
+2026-02-24 08:41:24 unitEnter is null
+2026-02-24 08:41:24 unitEnter is null
+2026-02-24 08:41:34 unitEnter is null
+2026-02-24 08:41:34 unitEnter is null
+2026-02-24 08:41:40 buffID:50411401==操作类型:2==目标322762326250618885已死亡
+2026-02-24 08:41:40 unitEnter is null
+2026-02-24 08:41:40 unitEnter is null
+2026-02-24 08:42:00 buffID:20154401==操作类型:2==目标322762326250618882已死亡
+2026-02-24 08:42:00 unitEnter is null
+2026-02-24 08:42:00 unitEnter is null
+2026-02-24 08:42:10 unitEnter is null
+2026-02-24 08:42:10 unitEnter is null
+2026-02-24 08:43:34 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-24 08:43:44 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-24 08:43:53 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-24 08:44:09 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-24 08:44:36 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-24 08:44:39 buffID:20022201==操作类型:2==目标322774558317477888已死亡
+2026-02-24 08:44:39 buffID:51421201==操作类型:2==目标322774558317477888已死亡
+2026-02-24 08:44:39 buffID:51421202==操作类型:2==目标322774558317477888已死亡
+2026-02-24 08:44:39 unitEnter is null
+2026-02-24 08:44:39 unitEnter is null
+2026-02-24 08:44:44 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-24 08:44:49 unitEnter is null
+2026-02-24 08:44:49 unitEnter is null
+2026-02-24 08:44:54 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-24 08:44:59 buffID:52901201==操作类型:2==目标322774558317477892已死亡
+2026-02-24 08:44:59 buffID:52901202==操作类型:2==目标322774558317477892已死亡
+2026-02-24 08:44:59 unitEnter is null
+2026-02-24 08:44:59 unitEnter is null
+2026-02-24 08:45:20 buffID:51411201==操作类型:2==目标322774558317477889已死亡
+2026-02-24 08:45:21 unitEnter is null
+2026-02-24 08:45:21 unitEnter is null
+2026-02-24 08:45:35 buffID:53801201==操作类型:2==目标322774558317477890已死亡
+2026-02-24 08:45:35 buffID:20306201==操作类型:2==目标322774558317477890已死亡
+2026-02-24 08:45:35 buffID:53801406==操作类型:2==目标322774558317477890已死亡
+2026-02-24 08:45:35 buffID:20157401==操作类型:2==目标322774558317477890已死亡
+2026-02-24 08:45:35 buffID:20157402==操作类型:2==目标322774558317477890已死亡
+2026-02-24 08:45:35 buffID:20306401==操作类型:2==目标322774558317477890已死亡
+2026-02-24 08:45:35 buffID:20306402==操作类型:2==目标322774558317477890已死亡
+2026-02-24 08:45:35 buffID:20306403==操作类型:2==目标322774558317477890已死亡
+2026-02-24 08:45:35 buffID:20306404==操作类型:2==目标322774558317477890已死亡
+2026-02-24 08:45:35 unitEnter is null
+2026-02-24 08:45:35 unitEnter is null
+2026-02-24 08:45:54 buffID:52701201==操作类型:2==目标322774558317477891已死亡
+2026-02-24 08:45:54 buffID:52701202==操作类型:2==目标322774558317477891已死亡
+2026-02-24 08:45:54 unitEnter is null
+2026-02-24 08:45:54 unitEnter is null
+2026-02-24 08:54:43 System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Client.Activity100.NewWolfComingWindow.GetResult (ET.ActivityCryWolfNewActivityInfo result, System.Collections.Generic.List`1[T] rewardList) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity100.NewWolfComingWindow.WolfRun (ET.Client.Common.UIModelComponent icon, System.Int32 attackGrassId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.AnimationComponentSystem.PlayAsync (ET.Client.AnimationComponent self, System.String motionType) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETCancellationToken.Add (System.Action callback) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Activity100.NewWolfComingWindow.GetResult (ET.ActivityCryWolfNewActivityInfo result, System.Collections.Generic.List`1[T] rewardList) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity100.NewWolfComingWindow.WolfRun (ET.Client.Common.UIModelComponent icon, System.Int32 attackGrassId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.AnimationComponentSystem.PlayAsync (ET.Client.AnimationComponent self, System.String motionType) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Activity100.NewWolfComingWindow.GetResult (ET.ActivityCryWolfNewActivityInfo result, System.Collections.Generic.List`1[T] rewardList) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity100.NewWolfComingWindow.WolfRun (ET.Client.Common.UIModelComponent icon, System.Int32 attackGrassId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.AnimationComponentSystem.PlayAsync (ET.Client.AnimationComponent self, System.String motionType) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 

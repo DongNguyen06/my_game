@@ -1,0 +1,38 @@
+2026-03-04 17:02:49 无法找到指定的时区 timeZoneId = 8
+2026-03-04 17:08:42 IKcpTransport tcp error: 2136137992 100208
+2026-03-04 17:09:12 IKcpTransport tcp error: 372333669827739650 10054
+2026-03-04 17:10:27 System.Exception: GetChannelConn conn not found KChannel! 2136137992
+  at ETNetwork.KService.GetChannelConn (System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.RunNetThreadOperator () [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.UpdateInNetThread () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.NetThreadComponentSystem.NetThreadUpdate (ET.NetThreadComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ETNetwork.NetServices.GetChannelConn (System.Int32 serviceId, System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.RouterCheckComponentAwakeSystem.CheckAsync (ET.Client.RouterCheckComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.GetChannelConn (System.Int32 serviceId, System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.AwaitTaskContinuation.RunCallback (System.Threading.ContextCallback callback, System.Object state, System.Threading.Tasks.Task& currentTask) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.FinishContinuations () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.Finish (System.Boolean bUserDelegateExecuted) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.TrySetException (System.Object exceptionObject) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[TResult].SetException (System.Exception exception) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-04 17:10:31 无法找到指定的时区 timeZoneId = 8
+2026-03-04 17:14:46 IKcpTransport tcp error: 372365486945468427 100207
+2026-03-04 17:16:37 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-04 17:17:35 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-04 17:18:30 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-04 17:19:04 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-04 17:19:11 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-04 17:23:38 IKcpTransport tcp error: 672223931 100208
+2026-03-04 17:24:08 IKcpTransport tcp error: 372380948827734019 10054

@@ -1,0 +1,344 @@
+2026-02-12 05:07:35 System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+  at System.String.Substring (System.Int32 startIndex, System.Int32 length) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.CoroutineHelper.HttpGet (System.String link) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.CoroutineHelper.GetAwaiter (UnityEngine.AsyncOperation asyncOperation) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.SensitiveWordsSystem.ResetDataAsync (ET.SensitiveWords self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.CoroutineHelper.HttpGet (System.String link) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.CoroutineHelper.GetAwaiter (UnityEngine.AsyncOperation asyncOperation) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-12 05:07:35 System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+  at System.String.Substring (System.Int32 startIndex, System.Int32 length) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.CoroutineHelper.HttpGet (System.String link) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.CoroutineHelper.GetAwaiter (UnityEngine.AsyncOperation asyncOperation) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.SensitiveWordsSystem.SyncSensitiveWordFile (ET.SensitiveWords self, System.String verFile, System.String wordFile) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.CoroutineHelper.HttpGet (System.String link) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.CoroutineHelper.GetAwaiter (UnityEngine.AsyncOperation asyncOperation) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-12 05:07:35 System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+  at System.String.Substring (System.Int32 startIndex, System.Int32 length) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.CoroutineHelper.HttpGet (System.String link) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.CoroutineHelper.GetAwaiter (UnityEngine.AsyncOperation asyncOperation) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.SensitiveWordsSystem.AddDataAsync (ET.SensitiveWords self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.CoroutineHelper.HttpGet (System.String link) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.CoroutineHelper.GetAwaiter (UnityEngine.AsyncOperation asyncOperation) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-12 05:07:35 System.ArgumentOutOfRangeException: Length cannot be less than zero.
+Parameter name: length
+  at System.String.Substring (System.Int32 startIndex, System.Int32 length) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.CoroutineHelper.HttpGet (System.String link) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.CoroutineHelper.GetAwaiter (UnityEngine.AsyncOperation asyncOperation) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.SensitiveWordsSystem.SyncSensitiveWordFile (ET.SensitiveWords self, System.String verFile, System.String wordFile) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.CoroutineHelper.HttpGet (System.String link) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.CoroutineHelper.GetAwaiter (UnityEngine.AsyncOperation asyncOperation) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.AsyncOperation.InvokeCompletionEvent () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-12 05:08:27 ClientScene is null
+  at ET.Logger.Error (System.String msg) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.AwaitTaskContinuation.RunCallback (System.Threading.ContextCallback callback, System.Object state, System.Threading.Tasks.Task& currentTask) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.FinishContinuations () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task`1[TResult].TrySetResult (TResult result) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[TResult].SetResult (TResult result) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-02-12 05:09:22 无法找到指定的时区 timeZoneId = 8
+2026-02-12 05:10:45 System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Client.UnitViewShowComponentSystem.Update (ET.Client.UnitViewShowComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UnitViewShowComponentSystem.Update (ET.Client.UnitViewShowComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UnitViewShowComponentSystem.Update (ET.Client.UnitViewShowComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Map2Client_CreateOtherPlayerUnitsEvent.Run (ET.Scene scene, ET.EventType.Map2Client_CreateOtherPlayerUnits args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Map2Client_CreateOtherPlayerUnitsEvent.Run (ET.Scene scene, ET.EventType.Map2Client_CreateOtherPlayerUnits args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Publish[T] (ET.Scene scene, T a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.M2C_CreateUnitsHandler.Run (ET.Session session, ET.Map2Client_CreateOtherPlayerUnits message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.M2C_CreateUnitsHandler.Run (ET.Session session, ET.Map2Client_CreateOtherPlayerUnits message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AMHandler`1[Message].Handle (ET.Session session, System.Object msg) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MessageDispatcherComponentHelper.Handle (ET.MessageDispatcherComponent self, ET.Session session, System.Object message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentOnReadEvent.Run (ET.Scene scene, ET.Client.NetClientComponentOnRead args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentOnReadEvent.Run (ET.Scene scene, ET.Client.NetClientComponentOnRead args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Publish[T] (ET.Scene scene, T a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentSystem.OnRead (ET.Client.NetClientComponent self, System.Int64 channelId, System.Int64 actorId, System.Object message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.UpdateInMainThread () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.NetThreadComponentSystem+LateUpdateSystem.LateUpdate (ET.NetThreadComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETCancellationToken.Add (System.Action callback) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETCancellationToken.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Init.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.UnitViewShowComponentSystem.Update (ET.Client.UnitViewShowComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UnitViewShowComponentSystem.Update (ET.Client.UnitViewShowComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UnitViewShowComponentSystem.Update (ET.Client.UnitViewShowComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Map2Client_CreateOtherPlayerUnitsEvent.Run (ET.Scene scene, ET.EventType.Map2Client_CreateOtherPlayerUnits args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Map2Client_CreateOtherPlayerUnitsEvent.Run (ET.Scene scene, ET.EventType.Map2Client_CreateOtherPlayerUnits args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Publish[T] (ET.Scene scene, T a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.M2C_CreateUnitsHandler.Run (ET.Session session, ET.Map2Client_CreateOtherPlayerUnits message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.M2C_CreateUnitsHandler.Run (ET.Session session, ET.Map2Client_CreateOtherPlayerUnits message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AMHandler`1[Message].Handle (ET.Session session, System.Object msg) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MessageDispatcherComponentHelper.Handle (ET.MessageDispatcherComponent self, ET.Session session, System.Object message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentOnReadEvent.Run (ET.Scene scene, ET.Client.NetClientComponentOnRead args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentOnReadEvent.Run (ET.Scene scene, ET.Client.NetClientComponentOnRead args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Publish[T] (ET.Scene scene, T a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentSystem.OnRead (ET.Client.NetClientComponent self, System.Int64 channelId, System.Int64 actorId, System.Object message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.UpdateInMainThread () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.NetThreadComponentSystem+LateUpdateSystem.LateUpdate (ET.NetThreadComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETCancellationToken.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Init.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Map2Client_CreateOtherPlayerUnitsEvent.Run (ET.Scene scene, ET.EventType.Map2Client_CreateOtherPlayerUnits args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UnitViewShowComponentSystem.Update (ET.Client.UnitViewShowComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UnitViewShowComponentSystem.Update (ET.Client.UnitViewShowComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UnitViewShowComponentSystem.Update (ET.Client.UnitViewShowComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Map2Client_CreateOtherPlayerUnitsEvent.Run (ET.Scene scene, ET.EventType.Map2Client_CreateOtherPlayerUnits args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Map2Client_CreateOtherPlayerUnitsEvent.Run (ET.Scene scene, ET.EventType.Map2Client_CreateOtherPlayerUnits args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Publish[T] (ET.Scene scene, T a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.M2C_CreateUnitsHandler.Run (ET.Session session, ET.Map2Client_CreateOtherPlayerUnits message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.M2C_CreateUnitsHandler.Run (ET.Session session, ET.Map2Client_CreateOtherPlayerUnits message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AMHandler`1[Message].Handle (ET.Session session, System.Object msg) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MessageDispatcherComponentHelper.Handle (ET.MessageDispatcherComponent self, ET.Session session, System.Object message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentOnReadEvent.Run (ET.Scene scene, ET.Client.NetClientComponentOnRead args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentOnReadEvent.Run (ET.Scene scene, ET.Client.NetClientComponentOnRead args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Publish[T] (ET.Scene scene, T a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentSystem.OnRead (ET.Client.NetClientComponent self, System.Int64 channelId, System.Int64 actorId, System.Object message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.UpdateInMainThread () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.NetThreadComponentSystem+LateUpdateSystem.LateUpdate (ET.NetThreadComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETCancellationToken.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Init.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Map2Client_CreateOtherPlayerUnitsEvent.Run (ET.Scene scene, ET.EventType.Map2Client_CreateOtherPlayerUnits args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UnitViewShowComponentSystem.Update (ET.Client.UnitViewShowComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UnitViewShowComponentSystem.Update (ET.Client.UnitViewShowComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UnitViewShowComponentSystem.Update (ET.Client.UnitViewShowComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Map2Client_CreateOtherPlayerUnitsEvent.Run (ET.Scene scene, ET.EventType.Map2Client_CreateOtherPlayerUnits args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Map2Client_CreateOtherPlayerUnitsEvent.Run (ET.Scene scene, ET.EventType.Map2Client_CreateOtherPlayerUnits args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Publish[T] (ET.Scene scene, T a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.M2C_CreateUnitsHandler.Run (ET.Session session, ET.Map2Client_CreateOtherPlayerUnits message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.M2C_CreateUnitsHandler.Run (ET.Session session, ET.Map2Client_CreateOtherPlayerUnits message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AMHandler`1[Message].Handle (ET.Session session, System.Object msg) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MessageDispatcherComponentHelper.Handle (ET.MessageDispatcherComponent self, ET.Session session, System.Object message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentOnReadEvent.Run (ET.Scene scene, ET.Client.NetClientComponentOnRead args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentOnReadEvent.Run (ET.Scene scene, ET.Client.NetClientComponentOnRead args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Publish[T] (ET.Scene scene, T a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentSystem.OnRead (ET.Client.NetClientComponent self, System.Int64 channelId, System.Int64 actorId, System.Object message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.UpdateInMainThread () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.NetThreadComponentSystem+LateUpdateSystem.LateUpdate (ET.NetThreadComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETCancellationToken.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Init.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-12 05:10:52 IKcpTransport tcp error: 250643777314619395 100207
+2026-02-12 05:11:01 IKcpTransport tcp error: 250648931275375051 100207
+2026-02-12 05:11:08 IKcpTransport tcp error: 250649549750665217 100207
+2026-02-12 05:11:52 unitEnter is null
+2026-02-12 05:11:52 unitEnter is null
+2026-02-12 05:13:30 the same player id already contain :3316317193566945280
+2026-02-12 05:14:57 the same player id already contain :3316187056057876480
+2026-02-12 05:15:31 the same player id already contain :3316333961119268864
+2026-02-12 05:15:31 the same player id already contain :3316333961119268867
+2026-02-12 05:16:42 the same player id already contain :3316320200044052480
+2026-02-12 05:18:58 unitEnter is null
+2026-02-12 05:18:58 unitEnter is null
+2026-02-12 05:19:09 buffID:10301==操作类型:2==目标250682467101966338已死亡
+2026-02-12 05:19:09 buffID:11201==操作类型:2==目标250682467101966338已死亡
+2026-02-12 05:19:09 buffID:10045201==操作类型:2==目标250682467101966338已死亡
+2026-02-12 05:19:09 unitEnter is null
+2026-02-12 05:19:09 unitEnter is null
+2026-02-12 05:19:44 the same player id already contain :3316341434362363904
+2026-02-12 05:19:45 the same player id already contain :3316329253835112448
+2026-02-12 05:19:55 unitEnter is null
+2026-02-12 05:19:55 unitEnter is null
+2026-02-12 05:20:27 unitEnter is null
+2026-02-12 05:20:27 unitEnter is null
+2026-02-12 05:20:32 the same player id already contain :3316330422066216960
+2026-02-12 05:21:02 unitEnter is null
+2026-02-12 05:21:02 unitEnter is null
+2026-02-12 05:21:09 buffID:10302==操作类型:2==目标-5181391574560407544已死亡
+2026-02-12 05:21:09 unitEnter is null
+2026-02-12 05:21:09 unitEnter is null
+2026-02-12 05:21:29 unitEnter is null
+2026-02-12 05:21:29 unitEnter is null
+2026-02-12 05:23:53 IKcpTransport tcp error: 1579360148 110311
+2026-02-12 05:23:53 ClientScene is null
+  at ET.Logger.Error (System.String msg) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.AwaitTaskContinuation.RunCallback (System.Threading.ContextCallback callback, System.Object state, System.Threading.Tasks.Task& currentTask) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.FinishContinuations () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task`1[TResult].TrySetResult (TResult result) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[TResult].SetResult (TResult result) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-02-12 05:23:55 无法找到指定的时区 timeZoneId = 8
+2026-02-12 05:25:40 IKcpTransport tcp error: 250704800209960968 10054
+2026-02-12 05:26:30 IKcpTransport tcp error: 250713390144552962 100207
+2026-02-12 05:27:47 IKcpTransport tcp error: 250713390144552961 10054
+2026-02-12 05:28:54 IKcpTransport tcp error: 250718681544261633 100207
+2026-02-12 05:31:08 the same player id already contain :3316357239842013184
+2026-02-12 05:32:00 buffID:10045201==操作类型:2==目标250736618049634305已死亡
+2026-02-12 05:32:00 unitEnter is null
+2026-02-12 05:32:00 unitEnter is null
+2026-02-12 05:33:56 the same player id already contain :3316323704737366016
+2026-02-12 05:34:03 unitEnter is null
+2026-02-12 05:34:03 unitEnter is null
+2026-02-12 05:35:12 unitEnter is null
+2026-02-12 05:35:12 unitEnter is null
+2026-02-12 05:35:26 buffID:10102==操作类型:2==目标-5181391574560407544已死亡
+2026-02-12 05:35:26 buffID:10189201==操作类型:2==目标-5181391574560407544已死亡
+2026-02-12 05:35:26 buffID:10189201==操作类型:2==目标-5181391574560407544已死亡
+2026-02-12 05:35:26 buffID:10189201==操作类型:2==目标-5181391574560407544已死亡
+2026-02-12 05:35:26 buffID:11202==操作类型:2==目标-5181391574560407544已死亡
+2026-02-12 05:35:26 unitEnter is null
+2026-02-12 05:35:26 unitEnter is null
+2026-02-12 05:35:48 buffID:10102==操作类型:2==目标-5181384771332210681已死亡
+2026-02-12 05:35:48 buffID:11202==操作类型:2==目标-5181384771332210681已死亡
+2026-02-12 05:35:48 unitEnter is null
+2026-02-12 05:35:48 unitEnter is null
+2026-02-12 05:36:56 buffID:10189201==操作类型:2==目标-5181391574560407544已死亡
+2026-02-12 05:36:56 buffID:10189201==操作类型:2==目标-5181391574560407544已死亡
+2026-02-12 05:36:56 buffID:10189201==操作类型:2==目标-5181391574560407544已死亡
+2026-02-12 05:36:56 unitEnter is null
+2026-02-12 05:36:56 unitEnter is null
+2026-02-12 05:37:04 unitEnter is null
+2026-02-12 05:37:04 unitEnter is null
+2026-02-12 05:37:34 buffID:10104201==操作类型:2==目标250755790783643649已死亡
+2026-02-12 05:37:34 buffID:10417201==操作类型:2==目标250755790783643649已死亡
+2026-02-12 05:37:34 buffID:10417201==操作类型:2==目标250755790783643649已死亡
+2026-02-12 05:37:34 buffID:10417201==操作类型:2==目标250755790783643649已死亡
+2026-02-12 05:37:34 unitEnter is null
+2026-02-12 05:37:34 unitEnter is null
+2026-02-12 05:38:16 buffID:10116201==操作类型:2==目标250763075048177666已死亡
+2026-02-12 05:38:16 unitEnter is null
+2026-02-12 05:38:16 unitEnter is null
+2026-02-12 05:38:25 unitEnter is null
+2026-02-12 05:38:25 unitEnter is null
+2026-02-12 05:38:30 unitEnter is null
+2026-02-12 05:38:30 unitEnter is null
+2026-02-12 05:40:33 buffID:10229201==操作类型:2==目标250772008580153359已死亡
+2026-02-12 05:40:33 unitEnter is null
+2026-02-12 05:40:33 unitEnter is null
+2026-02-12 05:40:53 buffID:10045201==操作类型:2==目标250772008580153360已死亡
+2026-02-12 05:40:53 unitEnter is null
+2026-02-12 05:40:53 unitEnter is null
+2026-02-12 05:42:30 System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Client.UIModule.Red.Event.UpdateRedStateEvent.Run (ET.Scene scene, ET.EventType.RedStateEvent args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UIModule.Red.Event.UpdateRedStateEvent.Run (ET.Scene scene, ET.EventType.RedStateEvent args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Publish[T] (ET.Scene scene, T a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Red.RedComponentSystem.InternalChangeValue (ET.Client.RedDotTreeNode node, ET.Scene scene, System.Int32 newValue) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Red.RedComponentSystem.InternalChangeValue (ET.Client.RedDotTreeNode node, ET.Scene scene, System.Int32 newValue) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Red.RedComponentSystem.SetRedDotNodeValue (ET.Client.RedComponent redComponent, System.Int64 id, System.Int64 rootID, System.Int32 nodeValue) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityMatchMakingComponentSystem.UpdateRed (ET.Pokemon.Activity.Component.ActivityMatchMakingComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.IActivity_ActivityMatchMaking.Run (System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.IActivity_ActivityMatchMaking.Run (System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddPlayerActivityInfoList (ET.Pokemon.Activity.Component.ActivityComponent self, System.Int64 activityId, ET.Client.ClientPlayerActivityInfo clinetInfo, System.Boolean CheckAdd) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddActivity (ET.Pokemon.Activity.Component.ActivityComponent self, ET.PlayerActivityInfo info, System.Boolean CheckAdd) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Handel.Game2Client_SendActivityListHandler.Run (ET.Session session, ET.Game2Client_SendActivityList message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.UpdateActivity (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.Down (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.GetActivityCheck (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.DisplayObject.SetXY (System.Single xv, System.Single yv) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.GLoader.UpdateLayout () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.GLoader.LoadFromPackage (System.String itemURL) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.GLoader.set_url (System.String value) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.GearIcon.Apply () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.GObject.HandleControllerChanged (FairyGUI.Controller c) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.GComponent.ApplyController (FairyGUI.Controller c) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Controller.set_selectedIndex (System.Int32 value) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FileDownloader.DownloadFileAsync (System.String url, System.String tempFilePath, System.Boolean breakResume) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Publish[T] (ET.Scene scene, T a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Red.RedComponentSystem.InternalChangeValue (ET.Client.RedDotTreeNode node, ET.Scene scene, System.Int32 newValue) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Red.RedComponentSystem.InternalChangeValue (ET.Client.RedDotTreeNode node, ET.Scene scene, System.Int32 newValue) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Red.RedComponentSystem.SetRedDotNodeValue (ET.Client.RedComponent redComponent, System.Int64 id, System.Int64 rootID, System.Int32 nodeValue) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityMatchMakingComponentSystem.UpdateRed (ET.Pokemon.Activity.Component.ActivityMatchMakingComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.IActivity_ActivityMatchMaking.Run (System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.IActivity_ActivityMatchMaking.Run (System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddPlayerActivityInfoList (ET.Pokemon.Activity.Component.ActivityComponent self, System.Int64 activityId, ET.Client.ClientPlayerActivityInfo clinetInfo, System.Boolean CheckAdd) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddActivity (ET.Pokemon.Activity.Component.ActivityComponent self, ET.PlayerActivityInfo info, System.Boolean CheckAdd) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Handel.Game2Client_SendActivityListHandler.Run (ET.Session session, ET.Game2Client_SendActivityList message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.UpdateActivity (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.Down (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.GetActivityCheck (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FileDownloader.DownloadFileAsync (System.String url, System.String tempFilePath, System.Boolean breakResume) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-12 05:43:27 buffID:10102==操作类型:2==目标250784103208058882已死亡
+2026-02-12 05:43:27 buffID:10205101==操作类型:2==目标250784103208058882已死亡
+2026-02-12 05:43:27 buffID:11202==操作类型:2==目标250784103208058882已死亡
+2026-02-12 05:43:27 unitEnter is null
+2026-02-12 05:43:27 unitEnter is null
+2026-02-12 05:48:41 IKcpTransport tcp error: 1540658206 100208
+2026-02-12 05:49:11 IKcpTransport tcp error: 250723285749202945 10054
+2026-02-12 05:57:27 Double ConfirmDialogAsync

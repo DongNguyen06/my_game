@@ -1,0 +1,38 @@
+2026-03-03 02:39:58 无法找到指定的时区 timeZoneId = 8
+2026-03-03 02:43:11 IKcpTransport tcp error: 362849901001834497 10054
+2026-03-03 02:43:11 IKcpTransport tcp error: 362838631007649795 10054
+2026-03-03 03:11:22 IKcpTransport tcp error: 492136743 110311
+2026-03-03 03:11:22 ClientScene is null
+  at ET.Logger.Error (System.String msg) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.AwaitTaskContinuation.RunCallback (System.Threading.ContextCallback callback, System.Object state, System.Threading.Tasks.Task& currentTask) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.FinishContinuations () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task`1[TResult].TrySetResult (TResult result) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[TResult].SetResult (TResult result) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-03-03 03:11:22 Double ConfirmDialogAsync
+2026-03-03 03:11:26 无法找到指定的时区 timeZoneId = 8
+2026-03-03 03:15:48 buffID:20047401==操作类型:2==目标-5069060037830508541已死亡
+2026-03-03 03:15:48 buffID:20047402==操作类型:2==目标-5069060037830508541已死亡
+2026-03-03 03:15:48 unitEnter is null
+2026-03-03 03:15:48 unitEnter is null
+2026-03-03 03:16:15 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-03 03:16:20 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-03 03:16:43 unitEnter is null
+2026-03-03 03:16:43 unitEnter is null
+2026-03-03 03:17:59 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-03 03:18:39 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-03 03:19:11 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-03 03:19:38 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-03 03:20:19 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-03 03:20:23 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-03 03:23:04 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-03 03:23:13 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-03 03:23:18 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-03 03:24:16 buffID:10014201==操作类型:2==目标-5154798786327871484已死亡
+2026-03-03 03:24:16 buffID:10014201==操作类型:2==目标-5154798786327871484已死亡
+2026-03-03 03:24:16 buffID:10014201==操作类型:2==目标-5154798786327871484已死亡
+2026-03-03 03:24:16 unitEnter is null
+2026-03-03 03:24:16 unitEnter is null

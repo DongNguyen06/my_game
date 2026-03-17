@@ -1,0 +1,38 @@
+2026-03-06 12:18:45 无法找到指定的时区 timeZoneId = 8
+2026-03-06 12:21:14 IKcpTransport tcp error: 1008446035 100208
+2026-03-06 12:21:43 IKcpTransport tcp error: 383037071926755331 10054
+2026-03-06 13:03:19 System.Exception: GetChannelConn conn not found KChannel! 1008446035
+  at ETNetwork.KService.GetChannelConn (System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.RunNetThreadOperator () [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.UpdateInNetThread () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.NetThreadComponentSystem.NetThreadUpdate (ET.NetThreadComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ETNetwork.NetServices.GetChannelConn (System.Int32 serviceId, System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.RouterCheckComponentAwakeSystem.CheckAsync (ET.Client.RouterCheckComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.GetChannelConn (System.Int32 serviceId, System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.AwaitTaskContinuation.RunCallback (System.Threading.ContextCallback callback, System.Object state, System.Threading.Tasks.Task& currentTask) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.FinishContinuations () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.Finish (System.Boolean bUserDelegateExecuted) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.TrySetException (System.Object exceptionObject) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[TResult].SetException (System.Exception exception) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-06 13:03:20 System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.TimeOpenComponentSystemSystem.UpdateOpenTime (ET.Pokemon.Time.TimeOpenComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-06 13:03:21 无法找到指定的时区 timeZoneId = 8
+2026-03-06 13:05:29 IKcpTransport tcp error: 299468440 110311
+2026-03-06 13:05:36 无法找到指定的时区 timeZoneId = 8

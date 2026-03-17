@@ -1,0 +1,20 @@
+2026-02-26 03:36:35 无法找到指定的时区 timeZoneId = 8
+2026-02-26 03:37:01 System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Client.Activity100.NewWolfComingWindow.Refresh () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity100.NewWolfComingWindow.RunGrass (FairyGUI.GObject gObject, System.Int32 target, System.Boolean refresh) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.ExtendGTween.TweenMoveAsyncByEaseType (FairyGUI.GObject target, UnityEngine.Vector2 endValue, System.Single dur, FairyGUI.EaseType easeType, ET.ETCancellationToken cancellationToken, FairyGUI.GTweenCallback1 callback1) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.ExtendGTween.AsyncAwait (FairyGUI.GTweener tweener, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.ExtendGTween+<>c__DisplayClass0_0.<AsyncAwait>b__1 () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.GTweener.CallCompleteCallback () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.GTweener._Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.TweenManager.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Activity100.NewWolfComingWindow.RunGrass (FairyGUI.GObject gObject, System.Int32 target, System.Boolean refresh) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.ExtendGTween.TweenMoveAsyncByEaseType (FairyGUI.GObject target, UnityEngine.Vector2 endValue, System.Single dur, FairyGUI.EaseType easeType, ET.ETCancellationToken cancellationToken, FairyGUI.GTweenCallback1 callback1) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.ExtendGTween.AsyncAwait (FairyGUI.GTweener tweener, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.ExtendGTween+<>c__DisplayClass0_0.<AsyncAwait>b__1 () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.GTweener.CallCompleteCallback () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.GTweener._Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.TweenManager.Update () [0x00000] in <00000000000000000000000000000000>:0 

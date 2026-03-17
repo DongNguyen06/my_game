@@ -1,0 +1,635 @@
+2026-03-03 15:00:05 无法找到指定的时区 timeZoneId = 8
+2026-03-03 15:00:12 currentScenesComponent.Disposed areaId = 1105
+  at ET.AwaitBattleComponentSystem+AwaitBattleComponentDestroySystem.Destroy (ET.PlayerBornComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Login.LoginViewHelper.LoginOutSuccess () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.SdkResponeceOnLoginOutEvent.Run (ET.Scene scene, ET.Client.OnLoginOut args) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.SdkResponeceOnLoginOutEvent.Run (ET.Scene scene, ET.Client.OnLoginOut args) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Publish[T] (ET.Scene scene, T a) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.SdkResponceComponentSystem.OnGetSDKResponce (ET.Client.SdkResponceComponent self, ET.Client.ResponceMessage param) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Logger.Error (System.String msg) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Scene.Dispose () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Scene.Dispose () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-03-03 15:00:27 System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.CurrentScenesComponentSystem.CurrentScene (ET.Scene clientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoadIng.LoadingWindow.Load () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.LoadIng.LoadingWindow.Load () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-03 15:00:28 无法找到指定的时区 timeZoneId = 8
+2026-03-03 15:38:43 无法找到指定的时区 timeZoneId = 8
+2026-03-03 15:42:42 System.Exception: from bson error: EudemonEntity ---> System.ArgumentNullException: Buffer cannot be null.
+Parameter name: buffer
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.IO.MemoryStream..ctor (System.Byte[] buffer, System.Boolean writable) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+   --- End of inner exception stack trace ---
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-03 15:42:43 System.Exception: from bson error: EudemonEntity ---> System.ArgumentNullException: Buffer cannot be null.
+Parameter name: buffer
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.IO.MemoryStream..ctor (System.Byte[] buffer, System.Boolean writable) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+   --- End of inner exception stack trace ---
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-03 15:42:43 System.Exception: from bson error: EudemonEntity ---> System.ArgumentNullException: Buffer cannot be null.
+Parameter name: buffer
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.IO.MemoryStream..ctor (System.Byte[] buffer, System.Boolean writable) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+   --- End of inner exception stack trace ---
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-03 15:43:08 System.Exception: from bson error: EudemonEntity ---> System.ArgumentNullException: Buffer cannot be null.
+Parameter name: buffer
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.IO.MemoryStream..ctor (System.Byte[] buffer, System.Boolean writable) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+   --- End of inner exception stack trace ---
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-03 15:43:08 System.Exception: from bson error: EudemonEntity ---> System.ArgumentNullException: Buffer cannot be null.
+Parameter name: buffer
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.IO.MemoryStream..ctor (System.Byte[] buffer, System.Boolean writable) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+   --- End of inner exception stack trace ---
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-03 15:43:11 System.Exception: from bson error: EudemonEntity ---> System.ArgumentNullException: Buffer cannot be null.
+Parameter name: buffer
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.IO.MemoryStream..ctor (System.Byte[] buffer, System.Boolean writable) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+   --- End of inner exception stack trace ---
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-03 15:43:11 System.Exception: from bson error: EudemonEntity ---> System.ArgumentNullException: Buffer cannot be null.
+Parameter name: buffer
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.IO.MemoryStream..ctor (System.Byte[] buffer, System.Boolean writable) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+   --- End of inner exception stack trace ---
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-03 15:43:21 System.Exception: from bson error: EudemonEntity ---> System.ArgumentNullException: Buffer cannot be null.
+Parameter name: buffer
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.IO.MemoryStream..ctor (System.Byte[] buffer, System.Boolean writable) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+   --- End of inner exception stack trace ---
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-03 15:43:27 System.Exception: from bson error: EudemonEntity ---> System.ArgumentNullException: Buffer cannot be null.
+Parameter name: buffer
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.IO.MemoryStream..ctor (System.Byte[] buffer, System.Boolean writable) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+   --- End of inner exception stack trace ---
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-03 15:43:29 System.Exception: from bson error: EudemonEntity ---> System.ArgumentNullException: Buffer cannot be null.
+Parameter name: buffer
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.IO.MemoryStream..ctor (System.Byte[] buffer, System.Boolean writable) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+   --- End of inner exception stack trace ---
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-03 15:43:30 System.Exception: from bson error: EudemonEntity ---> System.ArgumentNullException: Buffer cannot be null.
+Parameter name: buffer
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.IO.MemoryStream..ctor (System.Byte[] buffer, System.Boolean writable) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+   --- End of inner exception stack trace ---
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-03 15:43:58 System.Exception: from bson error: EudemonEntity ---> System.ArgumentNullException: Buffer cannot be null.
+Parameter name: buffer
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.IO.MemoryStream..ctor (System.Byte[] buffer, System.Boolean writable) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+   --- End of inner exception stack trace ---
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-03 15:44:15 System.Exception: from bson error: EudemonEntity ---> System.ArgumentNullException: Buffer cannot be null.
+Parameter name: buffer
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.IO.MemoryStream..ctor (System.Byte[] buffer, System.Boolean writable) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+   --- End of inner exception stack trace ---
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-03 15:44:16 System.Exception: from bson error: EudemonEntity ---> System.ArgumentNullException: Buffer cannot be null.
+Parameter name: buffer
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.IO.MemoryStream..ctor (System.Byte[] buffer, System.Boolean writable) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+   --- End of inner exception stack trace ---
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-03 15:44:19 System.Exception: from bson error: EudemonEntity ---> System.ArgumentNullException: Buffer cannot be null.
+Parameter name: buffer
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.IO.MemoryStream..ctor (System.Byte[] buffer, System.Boolean writable) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+   --- End of inner exception stack trace ---
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-03 15:44:21 System.Exception: from bson error: EudemonEntity ---> System.ArgumentNullException: Buffer cannot be null.
+Parameter name: buffer
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.IO.MemoryStream..ctor (System.Byte[] buffer, System.Boolean writable) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+   --- End of inner exception stack trace ---
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-03 15:44:22 System.Exception: from bson error: EudemonEntity ---> System.ArgumentNullException: Buffer cannot be null.
+Parameter name: buffer
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.IO.MemoryStream..ctor (System.Byte[] buffer, System.Boolean writable) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+   --- End of inner exception stack trace ---
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonRankItem.OnClickeudemon (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MongoHelper.Deserialize[T] (System.Byte[] bytes) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-03 15:45:37 无法找到指定的时区 timeZoneId = 8

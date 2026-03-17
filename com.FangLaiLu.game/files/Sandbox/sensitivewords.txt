@@ -1,0 +1,1 @@
+[{"name": "賣號", "type": 3}, {"name": "卖号", "type": 3}, {"name": "麦号", "type": 3}, {"name": "刪檔", "type": 3}, {"name": "二測", "type": 3}, {"name": "官方", "type": 3}, {"name": "關服", "type": 3}, {"name": "退遊", "type": 3}, {"name": "轉移", "type": 3}]

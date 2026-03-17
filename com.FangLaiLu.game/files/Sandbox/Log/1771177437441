@@ -1,0 +1,430 @@
+2026-02-15 17:44:14 无法找到指定的时区 timeZoneId = 8
+2026-02-15 17:44:16 IActivity_ActivityPrayers  本地解析 报错 e = System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Pokemon.Activity.System.ActivityMatchMakingComponentSystem.GetTodayLeftPlayNum (ET.Pokemon.Activity.Component.ActivityMatchMakingComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityMatchMakingComponentSystem.UpdateRed (ET.Pokemon.Activity.Component.ActivityMatchMakingComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.IActivity_ActivityMatchMaking.Run (System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.IActivity_ActivityMatchMaking.Run (System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddPlayerActivityInfoList (ET.Pokemon.Activity.Component.ActivityComponent self, System.Int64 activityId, ET.Client.ClientPlayerActivityInfo clinetInfo, System.Boolean CheckAdd) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddActivity (ET.Pokemon.Activity.Component.ActivityComponent self, ET.PlayerActivityInfo info, System.Boolean CheckAdd) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Handel.Game2Client_SendActivityListHandler.Run (ET.Session session, ET.Game2Client_SendActivityList message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.UpdateActivity (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.Down (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.GetActivityCheck (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FileDownloader.DownloadFileAsync (System.String url, System.String tempFilePath, System.Boolean breakResume) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddPlayerActivityInfoList (ET.Pokemon.Activity.Component.ActivityComponent self, System.Int64 activityId, ET.Client.ClientPlayerActivityInfo clinetInfo, System.Boolean CheckAdd) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddActivity (ET.Pokemon.Activity.Component.ActivityComponent self, ET.PlayerActivityInfo info, System.Boolean CheckAdd) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Handel.Game2Client_SendActivityListHandler.Run (ET.Session session, ET.Game2Client_SendActivityList message) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.UpdateActivity (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.Down (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.GetActivityCheck (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Logger.Error (System.String msg) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.FileDownloader.DownloadFileAsync (System.String url, System.String tempFilePath, System.Boolean breakResume) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-02-15 17:44:17 重复添加 物品id为102
+2026-02-15 17:44:17 重复添加 物品id为102
+2026-02-15 17:48:50 IKcpTransport tcp error: 271569270297591811 100207
+2026-02-15 17:49:01 IKcpTransport tcp error: 271586244008345601 10054
+2026-02-15 17:49:01 IKcpTransport tcp error: 271586999922589697 100207
+2026-02-15 17:49:08 IKcpTransport tcp error: 271587480958926849 100207
+2026-02-15 17:50:37 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 17:50:40 unitEnter is null
+2026-02-15 17:50:40 unitEnter is null
+2026-02-15 17:50:52 unitEnter is null
+2026-02-15 17:50:52 unitEnter is null
+2026-02-15 17:50:57 unitEnter is null
+2026-02-15 17:50:57 unitEnter is null
+2026-02-15 17:51:04 unitEnter is null
+2026-02-15 17:51:04 unitEnter is null
+2026-02-15 17:51:11 unitEnter is null
+2026-02-15 17:51:11 unitEnter is null
+2026-02-15 17:51:17 unitEnter is null
+2026-02-15 17:51:17 unitEnter is null
+2026-02-15 18:03:02 unitEnter is null
+2026-02-15 18:03:02 unitEnter is null
+2026-02-15 18:03:07 unitEnter is null
+2026-02-15 18:03:07 unitEnter is null
+2026-02-15 18:04:52 cancellPerform
+2026-02-15 18:05:01 cancellPerform
+2026-02-15 18:05:10 cancellPerform
+2026-02-15 18:05:44 cancellPerform
+2026-02-15 18:05:53 cancellPerform
+2026-02-15 18:06:23 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 18:06:28 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 18:06:34 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 18:09:23 unitEnter is null
+2026-02-15 18:09:23 unitEnter is null
+2026-02-15 18:09:28 unitEnter is null
+2026-02-15 18:09:28 unitEnter is null
+2026-02-15 18:09:33 unitEnter is null
+2026-02-15 18:09:33 unitEnter is null
+2026-02-15 18:10:49 unitEnter is null
+2026-02-15 18:10:49 unitEnter is null
+2026-02-15 18:11:26 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 18:11:28 unitEnter is null
+2026-02-15 18:11:28 unitEnter is null
+2026-02-15 18:11:33 buffID:20269401==操作类型:2==目标271680802730868739已死亡
+2026-02-15 18:11:33 unitEnter is null
+2026-02-15 18:11:33 unitEnter is null
+2026-02-15 18:11:38 unitEnter is null
+2026-02-15 18:11:38 unitEnter is null
+2026-02-15 18:11:43 unitEnter is null
+2026-02-15 18:11:43 unitEnter is null
+2026-02-15 18:12:11 buffID:50571401==操作类型:2==目标-5179308274904727497已死亡
+2026-02-15 18:12:11 unitEnter is null
+2026-02-15 18:12:11 unitEnter is null
+2026-02-15 18:12:18 unitEnter is null
+2026-02-15 18:12:18 unitEnter is null
+2026-02-15 18:12:37 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 18:12:48 buffID:20268401==操作类型:2==目标271680802730868740已死亡
+2026-02-15 18:12:48 unitEnter is null
+2026-02-15 18:12:48 unitEnter is null
+2026-02-15 18:15:32 unitEnter is null
+2026-02-15 18:15:32 unitEnter is null
+2026-02-15 18:15:37 unitEnter is null
+2026-02-15 18:15:37 unitEnter is null
+2026-02-15 18:15:41 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 18:15:48 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 18:15:52 buffID:10301==操作类型:2==目标271698051319529475已死亡
+2026-02-15 18:15:52 buffID:20034201==操作类型:2==目标271698051319529475已死亡
+2026-02-15 18:15:52 buffID:11201==操作类型:2==目标271698051319529475已死亡
+2026-02-15 18:15:52 unitEnter is null
+2026-02-15 18:15:52 unitEnter is null
+2026-02-15 18:16:09 unitEnter is null
+2026-02-15 18:16:09 unitEnter is null
+2026-02-15 18:22:01 unitEnter is null
+2026-02-15 18:22:01 unitEnter is null
+2026-02-15 18:22:06 buffID:20031401==操作类型:2==目标271724508318072834已死亡
+2026-02-15 18:22:06 buffID:20031402==操作类型:2==目标271724508318072834已死亡
+2026-02-15 18:22:06 unitEnter is null
+2026-02-15 18:22:06 unitEnter is null
+2026-02-15 18:22:37 unitEnter is null
+2026-02-15 18:22:37 unitEnter is null
+2026-02-15 18:22:44 unitEnter is null
+2026-02-15 18:22:44 unitEnter is null
+2026-02-15 18:23:26 unitEnter is null
+2026-02-15 18:23:26 unitEnter is null
+2026-02-15 18:23:31 unitEnter is null
+2026-02-15 18:23:31 unitEnter is null
+2026-02-15 18:23:43 unitEnter is null
+2026-02-15 18:23:43 unitEnter is null
+2026-02-15 18:24:25 unitEnter is null
+2026-02-15 18:24:25 unitEnter is null
+2026-02-15 18:24:36 unitEnter is null
+2026-02-15 18:24:36 unitEnter is null
+2026-02-15 18:24:54 unitEnter is null
+2026-02-15 18:24:54 unitEnter is null
+2026-02-15 18:25:07 unitEnter is null
+2026-02-15 18:25:07 unitEnter is null
+2026-02-15 18:25:22 unitEnter is null
+2026-02-15 18:25:22 unitEnter is null
+2026-02-15 18:26:00 buffID:20005401==操作类型:2==目标271740451236675585已死亡
+2026-02-15 18:26:00 buffID:20005402==操作类型:2==目标271740451236675585已死亡
+2026-02-15 18:26:00 unitEnter is null
+2026-02-15 18:26:00 unitEnter is null
+2026-02-15 18:26:13 unitEnter is null
+2026-02-15 18:26:13 unitEnter is null
+2026-02-15 18:26:53 unitEnter is null
+2026-02-15 18:26:53 unitEnter is null
+2026-02-15 18:26:58 unitEnter is null
+2026-02-15 18:26:58 unitEnter is null
+2026-02-15 18:27:12 unitEnter is null
+2026-02-15 18:27:12 unitEnter is null
+2026-02-15 18:27:56 unitEnter is null
+2026-02-15 18:27:56 unitEnter is null
+2026-02-15 18:28:10 buffID:20005401==操作类型:2==目标271748079098593283已死亡
+2026-02-15 18:28:10 buffID:20005402==操作类型:2==目标271748079098593283已死亡
+2026-02-15 18:28:10 unitEnter is null
+2026-02-15 18:28:10 unitEnter is null
+2026-02-15 18:28:24 buffID:10229201==操作类型:2==目标271748079098593282已死亡
+2026-02-15 18:28:24 unitEnter is null
+2026-02-15 18:28:24 unitEnter is null
+2026-02-15 18:30:39 the same player id already contain :3317029883260174336
+2026-02-15 18:30:50 unitEnter is null
+2026-02-15 18:30:50 unitEnter is null
+2026-02-15 18:30:55 unitEnter is null
+2026-02-15 18:30:55 unitEnter is null
+2026-02-15 18:31:02 unitEnter is null
+2026-02-15 18:31:02 unitEnter is null
+2026-02-15 18:36:36 cancellPerform
+2026-02-15 18:38:03 the same player id already contain :3316636807853244416
+2026-02-15 18:41:41 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 18:41:46 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 18:42:18 unitEnter is null
+2026-02-15 18:42:18 unitEnter is null
+2026-02-15 18:42:38 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 18:43:24 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 18:45:06 cancellPerform
+2026-02-15 18:54:40 unitEnter is null
+2026-02-15 18:54:40 unitEnter is null
+2026-02-15 18:56:50 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 18:56:59 unitEnter is null
+2026-02-15 18:56:59 unitEnter is null
+2026-02-15 18:57:30 buffID:50541401==操作类型:2==目标-5176427417002049465已死亡
+2026-02-15 18:57:30 unitEnter is null
+2026-02-15 18:57:30 unitEnter is null
+2026-02-15 18:58:11 unitEnter is null
+2026-02-15 18:58:11 unitEnter is null
+2026-02-15 18:58:58 buffID:50571401==操作类型:2==目标-5179308274904727497已死亡
+2026-02-15 18:58:58 unitEnter is null
+2026-02-15 18:58:58 unitEnter is null
+2026-02-15 19:03:10 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 19:03:16 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 19:04:11 unitEnter is null
+2026-02-15 19:04:11 unitEnter is null
+2026-02-15 19:04:37 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 19:04:59 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 19:05:05 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 19:05:19 unitEnter is null
+2026-02-15 19:05:19 unitEnter is null
+2026-02-15 19:07:11 buffID:50541401==操作类型:2==目标-5176427417002049465已死亡
+2026-02-15 19:07:11 unitEnter is null
+2026-02-15 19:07:11 unitEnter is null
+2026-02-15 19:08:35 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 19:08:46 unitEnter is null
+2026-02-15 19:08:46 unitEnter is null
+2026-02-15 19:09:43 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 19:09:54 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 19:09:58 buffID:20022201==操作类型:2==目标-5176295475606716413已死亡
+2026-02-15 19:09:58 unitEnter is null
+2026-02-15 19:09:58 unitEnter is null
+2026-02-15 19:10:12 buffID:50541401==操作类型:2==目标-5176427417002049465已死亡
+2026-02-15 19:10:12 unitEnter is null
+2026-02-15 19:10:12 unitEnter is null
+2026-02-15 19:10:55 buffID:50011401==操作类型:2==目标-5169673666823716861已死亡
+2026-02-15 19:10:55 unitEnter is null
+2026-02-15 19:10:55 unitEnter is null
+2026-02-15 19:12:10 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 19:12:17 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 19:13:35 buffID:10131==操作类型:2==目标-5176295475606716413已死亡
+2026-02-15 19:13:35 buffID:10314==操作类型:2==目标-5176295475606716413已死亡
+2026-02-15 19:13:35 buffID:20022201==操作类型:2==目标-5176295475606716413已死亡
+2026-02-15 19:13:35 unitEnter is null
+2026-02-15 19:13:35 unitEnter is null
+2026-02-15 19:15:35 buffID:50011401==操作类型:2==目标-5169673666823716861已死亡
+2026-02-15 19:15:35 unitEnter is null
+2026-02-15 19:15:35 unitEnter is null
+2026-02-15 19:16:24 unitEnter is null
+2026-02-15 19:16:24 unitEnter is null
+2026-02-15 19:17:13 unitEnter is null
+2026-02-15 19:17:13 unitEnter is null
+2026-02-15 19:18:21 buffID:20022201==操作类型:2==目标-5176295475606716413已死亡
+2026-02-15 19:18:21 unitEnter is null
+2026-02-15 19:18:21 unitEnter is null
+2026-02-15 19:19:15 buffID:20022201==操作类型:2==目标-5176295475606716413已死亡
+2026-02-15 19:19:15 unitEnter is null
+2026-02-15 19:19:15 unitEnter is null
+2026-02-15 19:20:09 buffID:50541401==操作类型:2==目标-5176427417002049465已死亡
+2026-02-15 19:20:09 unitEnter is null
+2026-02-15 19:20:09 unitEnter is null
+2026-02-15 19:20:58 IKcpTransport tcp error: 271587961995264001 100207
+2026-02-15 19:23:42 IKcpTransport tcp error: 1089777209 110311
+2026-02-15 19:23:48 无法找到指定的时区 timeZoneId = 8
+2026-02-15 19:33:41 buffID:10111201==操作类型:2==目标272019864629084162已死亡
+2026-02-15 19:33:41 unitEnter is null
+2026-02-15 19:33:41 unitEnter is null
+2026-02-15 19:33:52 unitEnter is null
+2026-02-15 19:33:52 unitEnter is null
+2026-02-15 19:34:24 unitEnter is null
+2026-02-15 19:34:24 unitEnter is null
+2026-02-15 19:34:29 unitEnter is null
+2026-02-15 19:34:29 unitEnter is null
+2026-02-15 19:41:01 IKcpTransport tcp error: 271979800451612683 100207
+2026-02-15 19:42:47 IKcpTransport tcp error: 272048794806255666 10054
+2026-02-15 19:43:24 IKcpTransport tcp error: 881384264 100208
+2026-02-15 19:43:24 IKcpTransport tcp error: 272056079070789681 100207
+2026-02-15 19:43:24 System.Exception: GetChannelConn conn not found KChannel! 881384264
+  at ETNetwork.KService.GetChannelConn (System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.RunNetThreadOperator () [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.UpdateInNetThread () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.NetThreadComponentSystem.NetThreadUpdate (ET.NetThreadComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ETNetwork.NetServices.GetChannelConn (System.Int32 serviceId, System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.RouterCheckComponentAwakeSystem.CheckAsync (ET.Client.RouterCheckComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.GetChannelConn (System.Int32 serviceId, System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.AwaitTaskContinuation.RunCallback (System.Threading.ContextCallback callback, System.Object state, System.Threading.Tasks.Task& currentTask) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.FinishContinuations () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.Finish (System.Boolean bUserDelegateExecuted) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.TrySetException (System.Object exceptionObject) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[TResult].SetException (System.Exception exception) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-15 19:43:26 无法找到指定的时区 timeZoneId = 8
+2026-02-15 19:45:04 IKcpTransport tcp error: 1211355146 100208
+2026-02-15 19:45:34 IKcpTransport tcp error: 272060820714684424 10054
+2026-02-15 19:47:24 System.Exception: GetChannelConn conn not found KChannel! 1211355146
+  at ETNetwork.KService.GetChannelConn (System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.RunNetThreadOperator () [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.UpdateInNetThread () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.NetThreadComponentSystem.NetThreadUpdate (ET.NetThreadComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ETNetwork.NetServices.GetChannelConn (System.Int32 serviceId, System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.RouterCheckComponentAwakeSystem.CheckAsync (ET.Client.RouterCheckComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.GetChannelConn (System.Int32 serviceId, System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.AwaitTaskContinuation.RunCallback (System.Threading.ContextCallback callback, System.Object state, System.Threading.Tasks.Task& currentTask) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.FinishContinuations () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.Finish (System.Boolean bUserDelegateExecuted) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.TrySetException (System.Object exceptionObject) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[TResult].SetException (System.Exception exception) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-15 19:47:24 Double ConfirmDialogAsync
+2026-02-15 19:47:27 无法找到指定的时区 timeZoneId = 8
+2026-02-15 19:50:11 IKcpTransport tcp error: 272077382108577800 100207
+2026-02-15 19:50:11 IKcpTransport tcp error: 272086590518460417 100207
+2026-02-15 19:51:27 IKcpTransport tcp error: 272087071554797569 100207
+2026-02-15 19:59:52 unitEnter is null
+2026-02-15 19:59:52 unitEnter is null
+2026-02-15 20:00:23 buffID:50011401==操作类型:2==目标-5178550573956857785已死亡
+2026-02-15 20:00:23 unitEnter is null
+2026-02-15 20:00:23 unitEnter is null
+2026-02-15 20:00:28 unitEnter is null
+2026-02-15 20:00:28 unitEnter is null
+2026-02-15 20:01:04 unitEnter is null
+2026-02-15 20:01:04 unitEnter is null
+2026-02-15 20:01:11 buffID:50151201==操作类型:2==目标-5160614172053471229已死亡
+2026-02-15 20:01:11 unitEnter is null
+2026-02-15 20:01:11 unitEnter is null
+2026-02-15 20:01:18 buffID:50991201==操作类型:2==目标-5162216366651473897已死亡
+2026-02-15 20:01:18 unitEnter is null
+2026-02-15 20:01:18 unitEnter is null
+2026-02-15 20:01:43 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 20:01:54 buffID:50161201==操作类型:2==目标-5181755856505798656已死亡
+2026-02-15 20:01:54 unitEnter is null
+2026-02-15 20:01:54 unitEnter is null
+2026-02-15 20:02:05 buffID:10339201==操作类型:2==目标-5179308274904727497已死亡
+2026-02-15 20:02:05 buffID:10339202==操作类型:2==目标-5179308274904727497已死亡
+2026-02-15 20:02:05 buffID:50571401==操作类型:2==目标-5179308274904727497已死亡
+2026-02-15 20:02:05 unitEnter is null
+2026-02-15 20:02:05 unitEnter is null
+2026-02-15 20:02:12 buffID:50011401==操作类型:2==目标-5167747528614477813已死亡
+2026-02-15 20:02:12 unitEnter is null
+2026-02-15 20:02:12 unitEnter is null
+2026-02-15 20:02:23 buffID:10103==操作类型:2==目标-5177776723929595901已死亡
+2026-02-15 20:02:23 unitEnter is null
+2026-02-15 20:02:23 unitEnter is null
+2026-02-15 20:02:38 buffID:10103==操作类型:2==目标-5181508328950595522已死亡
+2026-02-15 20:02:38 unitEnter is null
+2026-02-15 20:02:38 unitEnter is null
+2026-02-15 20:02:49 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-15 20:02:52 buffID:10103==操作类型:2==目标-5180679572060110772已死亡
+2026-02-15 20:02:52 unitEnter is null
+2026-02-15 20:02:52 unitEnter is null
+2026-02-15 20:03:04 unitEnter is null
+2026-02-15 20:03:04 unitEnter is null
+2026-02-15 20:11:18 IKcpTransport tcp error: 272091813198692353 100207
+2026-02-15 20:11:19 IKcpTransport tcp error: 272173658095484929 100207
+2026-02-15 20:13:03 IKcpTransport tcp error: 272174139131822081 100207
+2026-02-15 20:13:05 IKcpTransport tcp error: 272180804921065473 100207
+2026-02-15 20:14:47 IKcpTransport tcp error: 1594738731 100208
+2026-02-15 20:15:17 IKcpTransport tcp error: 272181354676879361 10054
+2026-02-15 20:17:13 ET.RpcException: Error: 110311 Message: session dispose: 1594738731 172.19.0.27:11511
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Message.ActivityServerSystem.ActivityGroupBuyingRefreshInfo (ET.Scene scene, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Activity10.ActivityGroupBuyingWindow.RefreshInfo () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Message.ActivityServerSystem.ActivityGroupBuyingRefreshInfo (ET.Scene scene, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Activity10.ActivityGroupBuyingWindow.RefreshInfo () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Message.ActivityServerSystem.ActivityGroupBuyingRefreshInfo (ET.Scene scene, System.Int64 activityId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem+SessionDestroySystem.Destroy (ET.Session self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleCheckerComponentSystem.Check (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionIdleChecker.Run (ET.SessionIdleCheckerComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Invoke[A] (System.Int32 type, A args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-15 20:17:13 Double ConfirmDialogAsync
+2026-02-15 20:17:16 无法找到指定的时区 timeZoneId = 8

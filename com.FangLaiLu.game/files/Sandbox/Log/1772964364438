@@ -1,0 +1,279 @@
+2026-03-08 10:06:10 无法找到指定的时区 timeZoneId = 8
+2026-03-08 10:07:31 buffID:10073301==操作类型:4==目标-5056921360741957627不在场上
+2026-03-08 10:07:31 PlaySkillPerform,但是-5056921360741957627没有在场上
+2026-03-08 10:07:55 buffID:10073301==操作类型:4==目标-5103353736777433076不在场上
+2026-03-08 10:07:55 PlaySkillPerform,但是-5103353736777433076没有在场上
+2026-03-08 10:09:48 buffID:10073301==操作类型:4==目标-5056921360741957627不在场上
+2026-03-08 10:09:48 PlaySkillPerform,但是-5056921360741957627没有在场上
+2026-03-08 10:10:10 buffID:10073301==操作类型:4==目标-5154259819471831039不在场上
+2026-03-08 10:10:10 PlaySkillPerform,但是-5154259819471831039没有在场上
+2026-03-08 10:10:39 buffID:10073301==操作类型:4==目标-5103353736777433076不在场上
+2026-03-08 10:10:39 PlaySkillPerform,但是-5103353736777433076没有在场上
+2026-03-08 10:12:54 buffID:10073301==操作类型:4==目标-5103353736777433076不在场上
+2026-03-08 10:12:54 PlaySkillPerform,但是-5103353736777433076没有在场上
+2026-03-08 10:15:08 unitEnter is null
+2026-03-08 10:15:08 unitEnter is null
+2026-03-08 10:15:45 unitEnter is null
+2026-03-08 10:15:45 unitEnter is null
+2026-03-08 10:16:48 buffID:10073301==操作类型:4==目标-5119411279469740027不在场上
+2026-03-08 10:16:48 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:17:13 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-08 10:17:18 buffID:10073301==操作类型:4==目标-5144431147594547199不在场上
+2026-03-08 10:17:18 PlaySkillPerform,但是-5144431147594547199没有在场上
+2026-03-08 10:18:21 buffID:10073301==操作类型:4==目标-5177577368725749760不在场上
+2026-03-08 10:18:21 PlaySkillPerform,但是-5177577368725749760没有在场上
+2026-03-08 10:19:02 buffID:10073301==操作类型:2==目标-5177577368725749760已死亡
+2026-03-08 10:19:02 buffID:20067201==操作类型:2==目标-5177577368725749760已死亡
+2026-03-08 10:19:02 unitEnter is null
+2026-03-08 10:19:02 unitEnter is null
+2026-03-08 10:19:12 buffID:50782401==操作类型:2==目标-5056921360741957627已死亡
+2026-03-08 10:19:12 buffID:20109401==操作类型:2==目标-5056921360741957627已死亡
+2026-03-08 10:19:12 buffID:20109402==操作类型:2==目标-5056921360741957627已死亡
+2026-03-08 10:19:12 unitEnter is null
+2026-03-08 10:19:12 unitEnter is null
+2026-03-08 10:19:23 buffID:10301==操作类型:2==目标-5148207763875692541已死亡
+2026-03-08 10:19:23 buffID:11201==操作类型:2==目标-5148207763875692541已死亡
+2026-03-08 10:19:23 unitEnter is null
+2026-03-08 10:19:23 unitEnter is null
+2026-03-08 10:19:43 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-08 10:20:07 buffID:10073301==操作类型:4==目标-5084649532162572281不在场上
+2026-03-08 10:20:07 PlaySkillPerform,但是-5084649532162572281没有在场上
+2026-03-08 10:20:12 System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Client.SkillViewHelper_Die.Back (ET.Client.PerformFightComponent self, ET.Unit unit, ET.Client.MotionType motionType, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Die.Back (ET.Client.PerformFightComponent self, ET.Unit unit, ET.Client.MotionType motionType, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Die.Die (ET.Client.PerformFightComponent self, ET.Unit unit, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.PlayDieLog (ET.Scene mirrorScene, ET.Unit unit, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayTextAutoClose (ET.Client.BattleLogArgc log, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.SkillViewHelper_Die.Die (ET.Client.PerformFightComponent self, ET.Unit unit, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.PlayDieLog (ET.Scene mirrorScene, ET.Unit unit, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayTextAutoClose (ET.Client.BattleLogArgc log, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.EudemonDeadPerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Die.Die (ET.Client.PerformFightComponent self, ET.Unit unit, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.PlayDieLog (ET.Scene mirrorScene, ET.Unit unit, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayTextAutoClose (ET.Client.BattleLogArgc log, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonDeadPerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Die.Die (ET.Client.PerformFightComponent self, ET.Unit unit, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.PlayDieLog (ET.Scene mirrorScene, ET.Unit unit, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayTextAutoClose (ET.Client.BattleLogArgc log, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, System.Collections.Generic.List`1[T] cmdNodes, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonDeadPerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Die.Die (ET.Client.PerformFightComponent self, ET.Unit unit, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.PlayDieLog (ET.Scene mirrorScene, ET.Unit unit, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayTextAutoClose (ET.Client.BattleLogArgc log, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, System.Collections.Generic.List`1[T] cmdNodes, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonDeadPerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Die.Die (ET.Client.PerformFightComponent self, ET.Unit unit, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.PlayDieLog (ET.Scene mirrorScene, ET.Unit unit, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayTextAutoClose (ET.Client.BattleLogArgc log, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-08 10:20:12 Interrupt
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonDeadPerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Die.Die (ET.Client.PerformFightComponent self, ET.Unit unit, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.PlayDieLog (ET.Scene mirrorScene, ET.Unit unit, ET.ETCancellationToken etCancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayTextAutoClose (ET.Client.BattleLogArgc log, ET.ETCancellationToken etCancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Logger.Error (System.String msg) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-03-08 10:20:12 cancellPerform
+2026-03-08 10:20:12 PlaySkillPerform,但是 目标-5084649532162572281已死亡
+2026-03-08 10:20:12 PlaySkillPerform,但是 目标-5084649532162572281已死亡
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 had exist Buff 207
+2026-03-08 10:20:12 PlaySkillPerform,但是 目标-5084649532162572281已死亡
+2026-03-08 10:20:12 PlaySkillPerform,但是 目标-5084649532162572281已死亡
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 PlaySkillPerform,但是-5119411279469740027没有在场上
+2026-03-08 10:20:12 模型重复创建 unit id = 394390628995170478
+2026-03-08 10:20:12 PlaySkillPerform,但是 目标-5084649532162572281已死亡
+2026-03-08 10:20:12 PlaySkillPerform,但是 目标-5084649532162572281已死亡
+2026-03-08 10:20:12 PlaySkillPerform,但是 目标-5084649532162572281已死亡
+2026-03-08 10:20:12 PlaySkillPerform,但是 目标-5084649532162572281已死亡
+2026-03-08 10:20:12 had exist Buff 229
+2026-03-08 10:20:12 PlaySkillPerform,但是 目标-5084649532162572281已死亡
+2026-03-08 10:20:12 System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Client.SkillViewHelper_Die.Back (ET.Client.PerformFightComponent self, ET.Unit unit, ET.Client.MotionType motionType, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Die.Back (ET.Client.PerformFightComponent self, ET.Unit unit, ET.Client.MotionType motionType, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Die.Die (ET.Client.PerformFightComponent self, ET.Unit unit, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.PlayDieLog (ET.Scene mirrorScene, ET.Unit unit, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayTextAutoClose (ET.Client.BattleLogArgc log, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.SkillViewHelper_Die.Die (ET.Client.PerformFightComponent self, ET.Unit unit, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.PlayDieLog (ET.Scene mirrorScene, ET.Unit unit, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayTextAutoClose (ET.Client.BattleLogArgc log, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.EudemonDeadPerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Die.Die (ET.Client.PerformFightComponent self, ET.Unit unit, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.PlayDieLog (ET.Scene mirrorScene, ET.Unit unit, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayTextAutoClose (ET.Client.BattleLogArgc log, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonDeadPerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Die.Die (ET.Client.PerformFightComponent self, ET.Unit unit, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.PlayDieLog (ET.Scene mirrorScene, ET.Unit unit, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayTextAutoClose (ET.Client.BattleLogArgc log, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, System.Collections.Generic.List`1[T] cmdNodes, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonDeadPerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Die.Die (ET.Client.PerformFightComponent self, ET.Unit unit, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.PlayDieLog (ET.Scene mirrorScene, ET.Unit unit, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayTextAutoClose (ET.Client.BattleLogArgc log, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, System.Collections.Generic.List`1[T] cmdNodes, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonDeadPerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Die.Die (ET.Client.PerformFightComponent self, ET.Unit unit, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.PlayDieLog (ET.Scene mirrorScene, ET.Unit unit, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayTextAutoClose (ET.Client.BattleLogArgc log, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.PerformNormalEvent.Run (ET.Scene scene, ET.EventType.PerformNormal args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, System.Collections.Generic.List`1[T] cmdNodes, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonDeadPerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Die.Die (ET.Client.PerformFightComponent self, ET.Unit unit, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.PlayDieLog (ET.Scene mirrorScene, ET.Unit unit, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayTextAutoClose (ET.Client.BattleLogArgc log, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PerformNormalEvent.Run (ET.Scene scene, ET.EventType.PerformNormal args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, System.Collections.Generic.List`1[T] cmdNodes, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonDeadPerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Die.Die (ET.Client.PerformFightComponent self, ET.Unit unit, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.PlayDieLog (ET.Scene mirrorScene, ET.Unit unit, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayTextAutoClose (ET.Client.BattleLogArgc log, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-08 10:20:53 buffID:11202==操作类型:2==目标-5119411279469740027已死亡
+2026-03-08 10:20:53 buffID:51041401==操作类型:2==目标-5119411279469740027已死亡
+2026-03-08 10:20:53 unitEnter is null
+2026-03-08 10:20:53 unitEnter is null
+2026-03-08 10:21:07 buffID:11202==操作类型:2==目标-5144431147594547199已死亡
+2026-03-08 10:21:07 buffID:50411401==操作类型:2==目标-5144431147594547199已死亡
+2026-03-08 10:21:07 unitEnter is null
+2026-03-08 10:21:07 unitEnter is null
+2026-03-08 10:21:21 buffID:50681401==操作类型:2==目标-5179022195718881264已死亡
+2026-03-08 10:21:21 unitEnter is null
+2026-03-08 10:21:21 unitEnter is null
+2026-03-08 10:21:28 buffID:10303==操作类型:2==目标-5170098902952050640已死亡
+2026-03-08 10:21:28 buffID:50541401==操作类型:2==目标-5170098902952050640已死亡
+2026-03-08 10:21:28 unitEnter is null
+2026-03-08 10:21:28 unitEnter is null
+2026-03-08 10:26:53 buffID:90036102==操作类型:2==目标394440794935721984已死亡
+2026-03-08 10:26:53 buffID:10073301==操作类型:2==目标394440794935721984已死亡
+2026-03-08 10:26:53 buffID:20284201==操作类型:2==目标394440794935721984已死亡
+2026-03-08 10:26:53 buffID:10103201==操作类型:2==目标394440794935721984已死亡
+2026-03-08 10:26:53 buffID:10103201==操作类型:2==目标394440794935721984已死亡
+2026-03-08 10:26:53 buffID:20022201==操作类型:2==目标394440794935721984已死亡
+2026-03-08 10:26:53 unitEnter is null
+2026-03-08 10:26:53 unitEnter is null
+2026-03-08 10:27:23 buffID:90036102==操作类型:2==目标394440794935721985已死亡
+2026-03-08 10:27:24 buffID:10073301==操作类型:2==目标394440794935721985已死亡
+2026-03-08 10:27:24 buffID:10103201==操作类型:2==目标394440794935721985已死亡
+2026-03-08 10:27:24 buffID:20022201==操作类型:2==目标394440794935721985已死亡
+2026-03-08 10:27:24 unitEnter is null
+2026-03-08 10:27:24 unitEnter is null

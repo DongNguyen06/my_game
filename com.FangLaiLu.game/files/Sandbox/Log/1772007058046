@@ -1,0 +1,399 @@
+2026-02-25 08:11:11 无法找到指定的时区 timeZoneId = 8
+2026-02-25 08:11:13 IActivity_ActivityPrayers  本地解析 报错 e = System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Pokemon.Activity.System.ActivityMatchMakingComponentSystem.GetTodayLeftPlayNum (ET.Pokemon.Activity.Component.ActivityMatchMakingComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityMatchMakingComponentSystem.UpdateRed (ET.Pokemon.Activity.Component.ActivityMatchMakingComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.IActivity_ActivityMatchMaking.Run (System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.IActivity_ActivityMatchMaking.Run (System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddPlayerActivityInfoList (ET.Pokemon.Activity.Component.ActivityComponent self, System.Int64 activityId, ET.Client.ClientPlayerActivityInfo clinetInfo, System.Boolean CheckAdd) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddActivity (ET.Pokemon.Activity.Component.ActivityComponent self, ET.PlayerActivityInfo info, System.Boolean CheckAdd) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Handel.Game2Client_SendActivityListHandler.Run (ET.Session session, ET.Game2Client_SendActivityList message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.UpdateActivity (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.Down (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.GetActivityCheck (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FileDownloader.DownloadFileAsync (System.String url, System.String tempFilePath, System.Boolean breakResume) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddPlayerActivityInfoList (ET.Pokemon.Activity.Component.ActivityComponent self, System.Int64 activityId, ET.Client.ClientPlayerActivityInfo clinetInfo, System.Boolean CheckAdd) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddActivity (ET.Pokemon.Activity.Component.ActivityComponent self, ET.PlayerActivityInfo info, System.Boolean CheckAdd) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Handel.Game2Client_SendActivityListHandler.Run (ET.Session session, ET.Game2Client_SendActivityList message) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.UpdateActivity (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.Down (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.GetActivityCheck (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Logger.Error (System.String msg) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.FileDownloader.DownloadFileAsync (System.String url, System.String tempFilePath, System.Boolean breakResume) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-02-25 08:12:07 buffID:50621401==操作类型:2==目标-5114668742225166326已死亡
+2026-02-25 08:12:07 buffID:20170401==操作类型:2==目标-5114668742225166326已死亡
+2026-02-25 08:12:07 unitEnter is null
+2026-02-25 08:12:07 unitEnter is null
+2026-02-25 08:12:17 buffID:50541401==操作类型:2==目标-5148207763875692541已死亡
+2026-02-25 08:12:17 unitEnter is null
+2026-02-25 08:12:17 unitEnter is null
+2026-02-25 08:13:04 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-25 08:13:20 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-25 08:13:37 buffID:90036102==操作类型:2==目标328582453613428736已死亡
+2026-02-25 08:13:37 buffID:50043201==操作类型:2==目标328582453613428736已死亡
+2026-02-25 08:13:37 buffID:10204201==操作类型:2==目标328582453613428736已死亡
+2026-02-25 08:13:37 buffID:20022201==操作类型:2==目标328582453613428736已死亡
+2026-02-25 08:13:37 unitEnter is null
+2026-02-25 08:13:37 unitEnter is null
+2026-02-25 08:13:50 cancellPerform
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:13:50 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:14:58 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-25 08:15:21 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-25 08:15:30 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-25 08:15:45 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-25 08:15:48 buffID:90036102==操作类型:2==目标328592486657032192已死亡
+2026-02-25 08:15:48 buffID:50043201==操作类型:2==目标328592486657032192已死亡
+2026-02-25 08:15:48 buffID:10488201==操作类型:2==目标328592486657032192已死亡
+2026-02-25 08:15:48 buffID:10488201==操作类型:2==目标328592486657032192已死亡
+2026-02-25 08:15:48 buffID:20022201==操作类型:2==目标328592486657032192已死亡
+2026-02-25 08:15:48 buffID:10488201==操作类型:2==目标328592486657032192已死亡
+2026-02-25 08:15:48 buffID:10488201==操作类型:2==目标328592486657032192已死亡
+2026-02-25 08:15:48 buffID:10488201==操作类型:2==目标328592486657032192已死亡
+2026-02-25 08:15:48 unitEnter is null
+2026-02-25 08:15:48 unitEnter is null
+2026-02-25 08:16:18 buffID:90036102==操作类型:2==目标328592486657032197已死亡
+2026-02-25 08:16:18 buffID:50962201==操作类型:2==目标328592486657032197已死亡
+2026-02-25 08:16:18 unitEnter is null
+2026-02-25 08:16:18 unitEnter is null
+2026-02-25 08:16:32 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:16:32 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-25 08:16:35 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:16:35 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:16:35 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:16:35 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:16:35 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:16:35 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:16:35 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:16:35 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:16:35 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:16:35 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:16:35 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:16:35 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:16:35 buffID:20104401==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:16:35 unitEnter is null
+2026-02-25 08:16:35 unitEnter is null
+2026-02-25 08:16:46 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-25 08:17:53 buffID:90036102==操作类型:2==目标328592486657032193已死亡
+2026-02-25 08:17:53 buffID:20224201==操作类型:2==目标328592486657032193已死亡
+2026-02-25 08:17:53 buffID:10106201==操作类型:2==目标328592486657032193已死亡
+2026-02-25 08:17:53 buffID:10116201==操作类型:2==目标328592486657032193已死亡
+2026-02-25 08:17:53 buffID:20224401==操作类型:2==目标328592486657032193已死亡
+2026-02-25 08:17:53 buffID:50572401==操作类型:2==目标328592486657032193已死亡
+2026-02-25 08:17:53 unitEnter is null
+2026-02-25 08:17:53 unitEnter is null
+2026-02-25 08:18:02 cancellPerform
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:02 PlaySkillPerform,但是 目标-5179308274904727497已死亡
+2026-02-25 08:18:08 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-25 08:18:35 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-25 08:19:35 buffID:90036102==操作类型:2==目标328608635734065152已死亡
+2026-02-25 08:19:35 buffID:50043201==操作类型:2==目标328608635734065152已死亡
+2026-02-25 08:19:35 buffID:20022201==操作类型:2==目标328608635734065152已死亡
+2026-02-25 08:19:35 buffID:10488201==操作类型:2==目标328608635734065152已死亡
+2026-02-25 08:19:35 buffID:10488201==操作类型:2==目标328608635734065152已死亡
+2026-02-25 08:19:35 unitEnter is null
+2026-02-25 08:19:35 unitEnter is null
+2026-02-25 08:19:54 buffID:90036102==操作类型:2==目标328608635734065155已死亡
+2026-02-25 08:19:54 unitEnter is null
+2026-02-25 08:19:54 unitEnter is null
+2026-02-25 08:20:30 buffID:90036102==操作类型:2==目标328608635734065156已死亡
+2026-02-25 08:20:30 buffID:52501201==操作类型:2==目标328608635734065156已死亡
+2026-02-25 08:20:30 buffID:52501202==操作类型:2==目标328608635734065156已死亡
+2026-02-25 08:20:30 buffID:10246201==操作类型:2==目标328608635734065156已死亡
+2026-02-25 08:20:30 buffID:10246202==操作类型:2==目标328608635734065156已死亡
+2026-02-25 08:20:30 buffID:10246203==操作类型:2==目标328608635734065156已死亡
+2026-02-25 08:20:30 buffID:10246204==操作类型:2==目标328608635734065156已死亡
+2026-02-25 08:20:30 buffID:10246205==操作类型:2==目标328608635734065156已死亡
+2026-02-25 08:20:30 unitEnter is null
+2026-02-25 08:20:30 unitEnter is null
+2026-02-25 08:20:44 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-25 08:21:28 buffID:90036102==操作类型:2==目标328608635734065153已死亡
+2026-02-25 08:21:28 buffID:20224401==操作类型:2==目标328608635734065153已死亡
+2026-02-25 08:21:28 buffID:50572401==操作类型:2==目标328608635734065153已死亡
+2026-02-25 08:21:28 unitEnter is null
+2026-02-25 08:21:28 unitEnter is null
+2026-02-25 08:21:53 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-25 08:22:05 buffID:90036102==操作类型:2==目标328608635734065154已死亡
+2026-02-25 08:22:05 buffID:53101201==操作类型:2==目标328608635734065154已死亡
+2026-02-25 08:22:05 buffID:53101202==操作类型:2==目标328608635734065154已死亡
+2026-02-25 08:22:05 unitEnter is null
+2026-02-25 08:22:05 unitEnter is null
+2026-02-25 08:22:25 buffID:50091301==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:22:26 buffID:10104==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:22:26 buffID:10304==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:22:26 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:22:26 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:22:26 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:22:26 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:22:26 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:22:26 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:22:26 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:22:26 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:22:26 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:22:26 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:22:26 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:22:26 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:22:26 buffID:10642201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:22:26 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:22:26 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:22:26 buffID:10642201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:22:26 buffID:10642201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:22:26 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:22:26 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:22:26 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:22:26 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:22:26 buffID:20104401==操作类型:2==目标-5154259819471831039已死亡
+2026-02-25 08:22:26 unitEnter is null
+2026-02-25 08:22:26 unitEnter is null
+2026-02-25 08:22:38 buffID:50621401==操作类型:2==目标-5114668742225166326已死亡
+2026-02-25 08:22:38 unitEnter is null
+2026-02-25 08:22:38 unitEnter is null
+2026-02-25 08:22:59 buffID:52201201==操作类型:2==目标-5177577368725749760已死亡
+2026-02-25 08:22:59 buffID:52201202==操作类型:2==目标-5177577368725749760已死亡
+2026-02-25 08:22:59 unitEnter is null
+2026-02-25 08:22:59 unitEnter is null
+2026-02-25 08:23:10 buffID:50541401==操作类型:2==目标-5148207763875692541已死亡
+2026-02-25 08:23:10 unitEnter is null
+2026-02-25 08:23:10 unitEnter is null
+2026-02-25 08:23:42 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-25 08:23:48 unitEnter is null
+2026-02-25 08:23:48 unitEnter is null
+2026-02-25 08:23:57 buffID:90036102==操作类型:2==目标328608635734065157已死亡
+2026-02-25 08:23:57 buffID:10073301==操作类型:2==目标328608635734065157已死亡
+2026-02-25 08:23:57 buffID:50962201==操作类型:2==目标328608635734065157已死亡
+2026-02-25 08:23:57 unitEnter is null
+2026-02-25 08:23:57 unitEnter is null
+2026-02-25 08:24:42 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-25 08:25:50 buffID:10390301==操作类型:2==目标-5148207763875692541已死亡
+2026-02-25 08:25:50 buffID:50541401==操作类型:2==目标-5148207763875692541已死亡
+2026-02-25 08:25:50 unitEnter is null
+2026-02-25 08:25:50 unitEnter is null

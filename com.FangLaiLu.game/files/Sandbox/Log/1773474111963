@@ -1,0 +1,122 @@
+2026-03-14 07:42:34 无法找到指定的时区 timeZoneId = 8
+2026-03-14 07:43:25 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-14 07:44:46 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-14 07:45:12 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-14 07:45:21 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-14 07:47:08 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-14 07:48:13 buffID:90036102==操作类型:2==目标418310369772437504已死亡
+2026-03-14 07:48:13 buffID:50972201==操作类型:2==目标418310369772437504已死亡
+2026-03-14 07:48:13 buffID:90036201==操作类型:2==目标418310369772437504已死亡
+2026-03-14 07:48:13 buffID:90036202==操作类型:2==目标418310369772437504已死亡
+2026-03-14 07:48:13 buffID:10103201==操作类型:2==目标418310369772437504已死亡
+2026-03-14 07:48:13 buffID:10103201==操作类型:2==目标418310369772437504已死亡
+2026-03-14 07:48:13 buffID:10103201==操作类型:2==目标418310369772437504已死亡
+2026-03-14 07:48:13 unitEnter is null
+2026-03-14 07:48:13 unitEnter is null
+2026-03-14 07:51:13 IKcpTransport tcp error: 959866046 100208
+2026-03-14 07:51:36 IKcpTransport tcp error: 429397292517163010 100207
+2026-03-14 07:51:36 System.Exception: GetChannelConn conn not found KChannel! 959866046
+  at ETNetwork.KService.GetChannelConn (System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.RunNetThreadOperator () [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.UpdateInNetThread () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.NetThreadComponentSystem.NetThreadUpdate (ET.NetThreadComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ETNetwork.NetServices.GetChannelConn (System.Int32 serviceId, System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.RouterCheckComponentAwakeSystem.CheckAsync (ET.Client.RouterCheckComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.GetChannelConn (System.Int32 serviceId, System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.AwaitTaskContinuation.RunCallback (System.Threading.ContextCallback callback, System.Object state, System.Threading.Tasks.Task& currentTask) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.FinishContinuations () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.Finish (System.Boolean bUserDelegateExecuted) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.TrySetException (System.Object exceptionObject) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[TResult].SetException (System.Exception exception) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-14 07:51:41 无法找到指定的时区 timeZoneId = 8
+2026-03-14 07:52:58 buffID:20287201==操作类型:2==目标-5039771315804307448已死亡
+2026-03-14 07:52:58 unitEnter is null
+2026-03-14 07:52:58 unitEnter is null
+2026-03-14 07:53:51 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-14 07:54:22 buffID:90036102==操作类型:2==目标429438524924887040已死亡
+2026-03-14 07:54:22 buffID:10103201==操作类型:2==目标429438524924887040已死亡
+2026-03-14 07:54:22 unitEnter is null
+2026-03-14 07:54:22 unitEnter is null
+2026-03-14 07:54:40 buffID:90036102==操作类型:2==目标429438524924887041已死亡
+2026-03-14 07:54:40 buffID:10103201==操作类型:2==目标429438524924887041已死亡
+2026-03-14 07:54:40 buffID:20104401==操作类型:2==目标429438524924887041已死亡
+2026-03-14 07:54:40 unitEnter is null
+2026-03-14 07:54:40 unitEnter is null
+2026-03-14 07:55:12 unitEnter is null
+2026-03-14 07:55:12 unitEnter is null
+2026-03-14 07:56:35 buffID:90036102==操作类型:2==目标429448076932153344已死亡
+2026-03-14 07:56:35 buffID:10103201==操作类型:2==目标429448076932153344已死亡
+2026-03-14 07:56:35 unitEnter is null
+2026-03-14 07:56:35 unitEnter is null
+2026-03-14 07:57:12 buffID:90036102==操作类型:2==目标429448076932153345已死亡
+2026-03-14 07:57:12 buffID:20104401==操作类型:2==目标429448076932153345已死亡
+2026-03-14 07:57:12 unitEnter is null
+2026-03-14 07:57:12 unitEnter is null
+2026-03-14 07:58:19 buffID:50012401==操作类型:2==目标-5178716943804268254已死亡
+2026-03-14 07:58:19 unitEnter is null
+2026-03-14 07:58:19 unitEnter is null
+2026-03-14 07:58:29 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-14 07:59:24 buffID:10282401==操作类型:1==目标-5117719543387783167已死亡
+2026-03-14 07:59:24 PlaySkillPerform,但是 目标-5117719543387783167已死亡
+2026-03-14 07:59:25 unitEnter is null
+2026-03-14 07:59:25 unitEnter is null
+2026-03-14 07:59:45 buffID:90036102==操作类型:2==目标429458797170524164已死亡
+2026-03-14 07:59:45 buffID:10103201==操作类型:2==目标429458797170524164已死亡
+2026-03-14 07:59:45 buffID:10319201==操作类型:2==目标429458797170524164已死亡
+2026-03-14 07:59:45 buffID:19117201==操作类型:2==目标429458797170524164已死亡
+2026-03-14 07:59:45 unitEnter is null
+2026-03-14 07:59:45 unitEnter is null
+2026-03-14 08:00:30 buffID:90036102==操作类型:2==目标429458797170524165已死亡
+2026-03-14 08:00:31 buffID:19117201==操作类型:2==目标429458797170524165已死亡
+2026-03-14 08:00:31 buffID:19117201==操作类型:2==目标429458797170524165已死亡
+2026-03-14 08:00:31 unitEnter is null
+2026-03-14 08:00:31 unitEnter is null
+2026-03-14 08:01:49 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-14 08:01:56 buffID:50012401==操作类型:2==目标-5178716943804268254已死亡
+2026-03-14 08:01:56 unitEnter is null
+2026-03-14 08:01:56 unitEnter is null
+2026-03-14 08:02:45 buffID:20288201==操作类型:2==目标-5129652130771894272已死亡
+2026-03-14 08:02:45 buffID:50911201==操作类型:2==目标-5129652130771894272已死亡
+2026-03-14 08:02:45 unitEnter is null
+2026-03-14 08:02:45 unitEnter is null
+2026-03-14 08:03:02 buffID:90036102==操作类型:2==目标429472815943778304已死亡
+2026-03-14 08:03:02 buffID:10103201==操作类型:2==目标429472815943778304已死亡
+2026-03-14 08:03:02 buffID:10103201==操作类型:2==目标429472815943778304已死亡
+2026-03-14 08:03:02 unitEnter is null
+2026-03-14 08:03:02 unitEnter is null
+2026-03-14 08:03:19 buffID:90036102==操作类型:2==目标429472815943778305已死亡
+2026-03-14 08:03:19 buffID:10103201==操作类型:2==目标429472815943778305已死亡
+2026-03-14 08:03:19 buffID:10103201==操作类型:2==目标429472815943778305已死亡
+2026-03-14 08:03:19 buffID:10103201==操作类型:2==目标429472815943778305已死亡
+2026-03-14 08:03:19 unitEnter is null
+2026-03-14 08:03:19 unitEnter is null
+2026-03-14 08:04:19 buffID:50012401==操作类型:2==目标-5178716943804268254已死亡
+2026-03-14 08:04:19 unitEnter is null
+2026-03-14 08:04:19 unitEnter is null
+2026-03-14 08:04:38 buffID:20288201==操作类型:2==目标-5129652130771894272已死亡
+2026-03-14 08:04:38 buffID:50911201==操作类型:2==目标-5129652130771894272已死亡
+2026-03-14 08:04:38 unitEnter is null
+2026-03-14 08:04:38 unitEnter is null
+2026-03-14 08:06:04 buffID:90036102==操作类型:2==目标429483879779532801已死亡
+2026-03-14 08:06:04 buffID:10103201==操作类型:2==目标429483879779532801已死亡
+2026-03-14 08:06:04 buffID:10103201==操作类型:2==目标429483879779532801已死亡
+2026-03-14 08:06:04 unitEnter is null
+2026-03-14 08:06:04 unitEnter is null
+2026-03-14 08:06:31 buffID:90036102==操作类型:2==目标429483879779532800已死亡
+2026-03-14 08:06:31 buffID:53201201==操作类型:2==目标429483879779532800已死亡
+2026-03-14 08:06:31 buffID:53201202==操作类型:2==目标429483879779532800已死亡
+2026-03-14 08:06:31 unitEnter is null
+2026-03-14 08:06:31 unitEnter is null

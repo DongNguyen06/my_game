@@ -1,0 +1,32 @@
+2026-03-16 03:38:04 无法找到指定的时区 timeZoneId = 8
+2026-03-16 03:38:04 重复添加 物品id为36
+2026-03-16 03:42:05 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-16 03:42:14 buffID:10014201==操作类型:2==目标-5154798786327871484已死亡
+2026-03-16 03:42:14 buffID:10014201==操作类型:2==目标-5154798786327871484已死亡
+2026-03-16 03:42:14 unitEnter is null
+2026-03-16 03:42:14 unitEnter is null
+2026-03-16 03:43:11 System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Client.MountComponentSystem+MountComponentDestroySystem.Destroy (ET.Client.MountComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SceneChangeHelper.SceneChangeTo (ET.Scene clientScene, System.Int32 areaId, ET.TransformInfo transformInfo) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SceneChangeHelper.SceneChangeTo (ET.Scene clientScene, System.Int32 areaId, ET.TransformInfo transformInfo) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.M2C_StartSceneChangeHandler.Run (ET.Session session, ET.Map2Client_ForceChangeMap message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.M2C_StartSceneChangeHandler.Run (ET.Session session, ET.Map2Client_ForceChangeMap message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AMHandler`1[Message].Handle (ET.Session session, System.Object msg) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.MessageDispatcherComponentHelper.Handle (ET.MessageDispatcherComponent self, ET.Session session, System.Object message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentOnReadEvent.Run (ET.Scene scene, ET.Client.NetClientComponentOnRead args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentOnReadEvent.Run (ET.Scene scene, ET.Client.NetClientComponentOnRead args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Publish[T] (ET.Scene scene, T a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentSystem.OnRead (ET.Client.NetClientComponent self, System.Int64 channelId, System.Int64 actorId, System.Object message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.UpdateInMainThread () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.NetThreadComponentSystem+LateUpdateSystem.LateUpdate (ET.NetThreadComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Scene.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Init.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 

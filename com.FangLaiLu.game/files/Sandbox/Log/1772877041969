@@ -1,0 +1,426 @@
+2026-03-07 09:51:13 无法找到指定的时区 timeZoneId = 8
+2026-03-07 09:51:15 IActivity_ActivityPrayers  本地解析 报错 e = System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Pokemon.Activity.System.ActivityMatchMakingComponentSystem.GetTodayLeftPlayNum (ET.Pokemon.Activity.Component.ActivityMatchMakingComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityMatchMakingComponentSystem.UpdateRed (ET.Pokemon.Activity.Component.ActivityMatchMakingComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.IActivity_ActivityMatchMaking.Run (System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.IActivity_ActivityMatchMaking.Run (System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddPlayerActivityInfoList (ET.Pokemon.Activity.Component.ActivityComponent self, System.Int64 activityId, ET.Client.ClientPlayerActivityInfo clinetInfo, System.Boolean CheckAdd) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddActivity (ET.Pokemon.Activity.Component.ActivityComponent self, ET.PlayerActivityInfo info, System.Boolean CheckAdd) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Handel.Game2Client_SendActivityListHandler.Run (ET.Session session, ET.Game2Client_SendActivityList message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.UpdateActivity (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.Down (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.GetActivityCheck (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FileDownloader.DownloadFileAsync (System.String url, System.String tempFilePath, System.Boolean breakResume) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddPlayerActivityInfoList (ET.Pokemon.Activity.Component.ActivityComponent self, System.Int64 activityId, ET.Client.ClientPlayerActivityInfo clinetInfo, System.Boolean CheckAdd) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddActivity (ET.Pokemon.Activity.Component.ActivityComponent self, ET.PlayerActivityInfo info, System.Boolean CheckAdd) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Handel.Game2Client_SendActivityListHandler.Run (ET.Session session, ET.Game2Client_SendActivityList message) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.UpdateActivity (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.Down (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.GetActivityCheck (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Logger.Error (System.String msg) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.FileDownloader.DownloadFileAsync (System.String url, System.String tempFilePath, System.Boolean breakResume) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-03-07 09:51:50 unitEnter is null
+2026-03-07 09:51:50 unitEnter is null
+2026-03-07 09:53:42 unitEnter is null
+2026-03-07 09:53:42 unitEnter is null
+2026-03-07 09:55:02 IKcpTransport tcp error: 1304725205 100208
+2026-03-07 09:55:32 IKcpTransport tcp error: 388366198628155394 10054
+2026-03-07 10:12:41 System.Exception: GetChannelConn conn not found KChannel! 1304725205
+  at ETNetwork.KService.GetChannelConn (System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.RunNetThreadOperator () [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.UpdateInNetThread () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.NetThreadComponentSystem.NetThreadUpdate (ET.NetThreadComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ETNetwork.NetServices.GetChannelConn (System.Int32 serviceId, System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.RouterCheckComponentAwakeSystem.CheckAsync (ET.Client.RouterCheckComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.GetChannelConn (System.Int32 serviceId, System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.AwaitTaskContinuation.RunCallback (System.Threading.ContextCallback callback, System.Object state, System.Threading.Tasks.Task& currentTask) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.FinishContinuations () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.Finish (System.Boolean bUserDelegateExecuted) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.TrySetException (System.Object exceptionObject) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[TResult].SetException (System.Exception exception) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-07 10:12:41 Double ConfirmDialogAsync
+2026-03-07 10:12:42 System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Client.Battle.BattleLogWindow.PlayTextAutoClose (ET.Client.BattleLogArgc log, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent+<>c__DisplayClass13_0.<WaitAsync>g__CancelAction|0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PerformFightComponentSystem+PerformFightComponentDestroySystem.Destroy (ET.Client.PerformFightComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Login.LoginViewHelper.Login (ET.Scene oldclientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Login.LoginViewHelper.Login (ET.Scene oldclientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionDisconnectHelper.ConfirmLogin (ET.Scene clientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UIHelper.BeginCrossSceneAnim () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoadIng.LoadingBlackWindow.In () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETCancellationToken.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Scene.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Scene.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.BattleLogHelper.PlayDieLog (ET.Scene mirrorScene, ET.Unit unit, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayTextAutoClose (ET.Client.BattleLogArgc log, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent+<>c__DisplayClass13_0.<WaitAsync>g__CancelAction|0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PerformFightComponentSystem+PerformFightComponentDestroySystem.Destroy (ET.Client.PerformFightComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Login.LoginViewHelper.Login (ET.Scene oldclientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Login.LoginViewHelper.Login (ET.Scene oldclientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionDisconnectHelper.ConfirmLogin (ET.Scene clientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UIHelper.BeginCrossSceneAnim () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoadIng.LoadingBlackWindow.In () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETCancellationToken.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Scene.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Scene.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.SkillViewHelper_Die.Die (ET.Client.PerformFightComponent self, ET.Unit unit, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.PlayDieLog (ET.Scene mirrorScene, ET.Unit unit, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayTextAutoClose (ET.Client.BattleLogArgc log, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent+<>c__DisplayClass13_0.<WaitAsync>g__CancelAction|0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PerformFightComponentSystem+PerformFightComponentDestroySystem.Destroy (ET.Client.PerformFightComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Login.LoginViewHelper.Login (ET.Scene oldclientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Login.LoginViewHelper.Login (ET.Scene oldclientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionDisconnectHelper.ConfirmLogin (ET.Scene clientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UIHelper.BeginCrossSceneAnim () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoadIng.LoadingBlackWindow.In () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETCancellationToken.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Scene.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Scene.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.EudemonDeadPerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Die.Die (ET.Client.PerformFightComponent self, ET.Unit unit, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.PlayDieLog (ET.Scene mirrorScene, ET.Unit unit, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayTextAutoClose (ET.Client.BattleLogArgc log, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent+<>c__DisplayClass13_0.<WaitAsync>g__CancelAction|0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PerformFightComponentSystem+PerformFightComponentDestroySystem.Destroy (ET.Client.PerformFightComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Login.LoginViewHelper.Login (ET.Scene oldclientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Login.LoginViewHelper.Login (ET.Scene oldclientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionDisconnectHelper.ConfirmLogin (ET.Scene clientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UIHelper.BeginCrossSceneAnim () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoadIng.LoadingBlackWindow.In () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETCancellationToken.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Scene.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Scene.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonDeadPerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Die.Die (ET.Client.PerformFightComponent self, ET.Unit unit, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.PlayDieLog (ET.Scene mirrorScene, ET.Unit unit, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayTextAutoClose (ET.Client.BattleLogArgc log, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent+<>c__DisplayClass13_0.<WaitAsync>g__CancelAction|0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PerformFightComponentSystem+PerformFightComponentDestroySystem.Destroy (ET.Client.PerformFightComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Login.LoginViewHelper.Login (ET.Scene oldclientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Login.LoginViewHelper.Login (ET.Scene oldclientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionDisconnectHelper.ConfirmLogin (ET.Scene clientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UIHelper.BeginCrossSceneAnim () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoadIng.LoadingBlackWindow.In () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETCancellationToken.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Scene.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Scene.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, System.Collections.Generic.List`1[T] cmdNodes, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonDeadPerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Die.Die (ET.Client.PerformFightComponent self, ET.Unit unit, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.PlayDieLog (ET.Scene mirrorScene, ET.Unit unit, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayTextAutoClose (ET.Client.BattleLogArgc log, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent+<>c__DisplayClass13_0.<WaitAsync>g__CancelAction|0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PerformFightComponentSystem+PerformFightComponentDestroySystem.Destroy (ET.Client.PerformFightComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Login.LoginViewHelper.Login (ET.Scene oldclientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Login.LoginViewHelper.Login (ET.Scene oldclientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionDisconnectHelper.ConfirmLogin (ET.Scene clientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UIHelper.BeginCrossSceneAnim () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoadIng.LoadingBlackWindow.In () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETCancellationToken.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Scene.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Scene.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, System.Collections.Generic.List`1[T] cmdNodes, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonDeadPerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Die.Die (ET.Client.PerformFightComponent self, ET.Unit unit, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.PlayDieLog (ET.Scene mirrorScene, ET.Unit unit, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayTextAutoClose (ET.Client.BattleLogArgc log, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent+<>c__DisplayClass13_0.<WaitAsync>g__CancelAction|0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PerformFightComponentSystem+PerformFightComponentDestroySystem.Destroy (ET.Client.PerformFightComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Login.LoginViewHelper.Login (ET.Scene oldclientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Login.LoginViewHelper.Login (ET.Scene oldclientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionDisconnectHelper.ConfirmLogin (ET.Scene clientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UIHelper.BeginCrossSceneAnim () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoadIng.LoadingBlackWindow.In () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETCancellationToken.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Scene.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Scene.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-07 10:12:42 Interrupt
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonDeadPerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Die.Die (ET.Client.PerformFightComponent self, ET.Unit unit, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.PlayDieLog (ET.Scene mirrorScene, ET.Unit unit, ET.ETCancellationToken etCancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayTextAutoClose (ET.Client.BattleLogArgc log, ET.ETCancellationToken etCancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent+<>c__DisplayClass13_0.<WaitAsync>g__CancelAction|0 () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.PerformFightComponentSystem+PerformFightComponentDestroySystem.Destroy (ET.Client.PerformFightComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Login.LoginViewHelper.Login (ET.Scene oldclientScene) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Login.LoginViewHelper.Login (ET.Scene oldclientScene) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionDisconnectHelper.ConfirmLogin (ET.Scene clientScene) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.UIHelper.BeginCrossSceneAnim () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.LoadIng.LoadingBlackWindow.In () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Logger.Error (System.String msg) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.ETCancellationToken.Invoke () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Scene.Dispose () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Scene.Dispose () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-03-07 10:12:42 cancellPerform
+2026-03-07 10:12:42 System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Client.BattlePerformStatusChangeHelper.SetStatusChangeData (ET.Scene battleScene, System.Int64 unTargetID, ET.MsgStatusChangePerform messge) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattlePerformCmdHelper.ParseCmdNode (ET.Scene battleScene, ET.MsgBattlePerformCmdNode cmdNode) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattlePerformCmdHelper.ParseCmdNode (ET.Scene battleScene, System.Collections.Generic.List`1[T] cmdNodes) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PerformFightComponentSystem.cancellPerform (ET.Client.PerformFightComponent self, ET.Scene mirorr) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, System.Collections.Generic.List`1[T] cmdNodes, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonDeadPerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Die.Die (ET.Client.PerformFightComponent self, ET.Unit unit, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.PlayDieLog (ET.Scene mirrorScene, ET.Unit unit, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayTextAutoClose (ET.Client.BattleLogArgc log, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent+<>c__DisplayClass13_0.<WaitAsync>g__CancelAction|0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PerformFightComponentSystem+PerformFightComponentDestroySystem.Destroy (ET.Client.PerformFightComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Login.LoginViewHelper.Login (ET.Scene oldclientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Login.LoginViewHelper.Login (ET.Scene oldclientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionDisconnectHelper.ConfirmLogin (ET.Scene clientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UIHelper.BeginCrossSceneAnim () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoadIng.LoadingBlackWindow.In () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETCancellationToken.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Scene.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Scene.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.PerformNormalEvent.Run (ET.Scene scene, ET.EventType.PerformNormal args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, System.Collections.Generic.List`1[T] cmdNodes, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonDeadPerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Die.Die (ET.Client.PerformFightComponent self, ET.Unit unit, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.PlayDieLog (ET.Scene mirrorScene, ET.Unit unit, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayTextAutoClose (ET.Client.BattleLogArgc log, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent+<>c__DisplayClass13_0.<WaitAsync>g__CancelAction|0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PerformFightComponentSystem+PerformFightComponentDestroySystem.Destroy (ET.Client.PerformFightComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Login.LoginViewHelper.Login (ET.Scene oldclientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Login.LoginViewHelper.Login (ET.Scene oldclientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionDisconnectHelper.ConfirmLogin (ET.Scene clientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UIHelper.BeginCrossSceneAnim () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoadIng.LoadingBlackWindow.In () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETCancellationToken.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Scene.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Scene.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PerformNormalEvent.Run (ET.Scene scene, ET.EventType.PerformNormal args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunAllCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFightComp, System.Collections.Generic.List`1[T] cmdNodes, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonDeadPerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillViewHelper_Die.Die (ET.Client.PerformFightComponent self, ET.Unit unit, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.PlayDieLog (ET.Scene mirrorScene, ET.Unit unit, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayTextAutoClose (ET.Client.BattleLogArgc log, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent+<>c__DisplayClass13_0.<WaitAsync>g__CancelAction|0 () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.PerformFightComponentSystem+PerformFightComponentDestroySystem.Destroy (ET.Client.PerformFightComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Login.LoginViewHelper.Login (ET.Scene oldclientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Login.LoginViewHelper.Login (ET.Scene oldclientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionDisconnectHelper.ConfirmLogin (ET.Scene clientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UIHelper.BeginCrossSceneAnim () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoadIng.LoadingBlackWindow.In () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETCancellationToken.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Destroy (ET.Entity component) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Scene.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Entity.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Scene.Dispose () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-07 10:12:44 无法找到指定的时区 timeZoneId = 8
+2026-03-07 10:13:09 unitEnter is null
+2026-03-07 10:13:09 unitEnter is null
+2026-03-07 10:13:21 unitEnter is null
+2026-03-07 10:13:21 unitEnter is null
+2026-03-07 10:13:47 unitEnter is null
+2026-03-07 10:13:47 unitEnter is null
+2026-03-07 10:14:53 unitEnter is null
+2026-03-07 10:14:53 unitEnter is null
+2026-03-07 10:14:59 unitEnter is null
+2026-03-07 10:14:59 unitEnter is null
+2026-03-07 10:16:00 unitEnter is null
+2026-03-07 10:16:00 unitEnter is null
+2026-03-07 10:16:06 buffID:10102==操作类型:2==目标-5045359652371431413已死亡
+2026-03-07 10:16:06 buffID:11202==操作类型:2==目标-5045359652371431413已死亡
+2026-03-07 10:16:06 unitEnter is null
+2026-03-07 10:16:06 unitEnter is null
+2026-03-07 10:16:29 buffID:10301==操作类型:2==目标-5045401158935379918已死亡
+2026-03-07 10:16:29 buffID:11201==操作类型:2==目标-5045401158935379918已死亡
+2026-03-07 10:16:29 unitEnter is null
+2026-03-07 10:16:29 unitEnter is null
+2026-03-07 10:16:43 unitEnter is null
+2026-03-07 10:16:43 unitEnter is null
+2026-03-07 10:18:24 unitEnter is null
+2026-03-07 10:18:24 unitEnter is null
+2026-03-07 10:18:55 unitEnter is null
+2026-03-07 10:18:55 unitEnter is null
+2026-03-07 10:19:07 unitEnter is null
+2026-03-07 10:19:07 unitEnter is null
+2026-03-07 10:19:29 unitEnter is null
+2026-03-07 10:19:29 unitEnter is null
+2026-03-07 10:20:51 unitEnter is null
+2026-03-07 10:20:51 unitEnter is null
+2026-03-07 10:21:08 unitEnter is null
+2026-03-07 10:21:08 unitEnter is null
+2026-03-07 10:21:18 unitEnter is null
+2026-03-07 10:21:18 unitEnter is null

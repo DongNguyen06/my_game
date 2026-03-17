@@ -1,0 +1,278 @@
+2026-03-07 02:28:05 无法找到指定的时区 timeZoneId = 8
+2026-03-07 02:30:45 unitEnter is null
+2026-03-07 02:30:45 unitEnter is null
+2026-03-07 02:32:48 the same player id already contain :3350305864242429952
+2026-03-07 02:33:30 unitEnter is null
+2026-03-07 02:33:30 unitEnter is null
+2026-03-07 02:34:32 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-07 02:34:40 buffID:10043201==操作类型:2==目标386563962354008068已死亡
+2026-03-07 02:34:40 buffID:10043201==操作类型:2==目标386563962354008068已死亡
+2026-03-07 02:34:40 unitEnter is null
+2026-03-07 02:34:40 unitEnter is null
+2026-03-07 02:35:32 unitEnter is null
+2026-03-07 02:35:32 unitEnter is null
+2026-03-07 02:35:42 the same player id already contain :3350308973798752256
+2026-03-07 02:36:08 buffID:10302==操作类型:2==目标-5045498190836531198已死亡
+2026-03-07 02:36:08 unitEnter is null
+2026-03-07 02:36:08 unitEnter is null
+2026-03-07 02:36:14 unitEnter is null
+2026-03-07 02:36:14 unitEnter is null
+2026-03-07 02:36:32 buffID:10028201==操作类型:2==目标386571040460111875已死亡
+2026-03-07 02:36:32 unitEnter is null
+2026-03-07 02:36:32 unitEnter is null
+2026-03-07 02:38:29 buffID:10302==操作类型:2==目标-5045498190836531198已死亡
+2026-03-07 02:38:29 unitEnter is null
+2026-03-07 02:38:29 unitEnter is null
+2026-03-07 02:38:29 buffID:10043201==操作类型:2==目标386580180150517761已死亡
+2026-03-07 02:38:29 unitEnter is null
+2026-03-07 02:38:29 unitEnter is null
+2026-03-07 02:40:09 buffID:10106201==操作类型:2==目标386587258256621570已死亡
+2026-03-07 02:40:09 buffID:10043201==操作类型:2==目标386587258256621570已死亡
+2026-03-07 02:40:09 buffID:10106201==操作类型:2==目标386587258256621570已死亡
+2026-03-07 02:40:09 buffID:10106201==操作类型:2==目标386587258256621570已死亡
+2026-03-07 02:40:09 buffID:10106201==操作类型:2==目标386587258256621570已死亡
+2026-03-07 02:40:09 unitEnter is null
+2026-03-07 02:40:09 unitEnter is null
+2026-03-07 02:40:56 IKcpTransport tcp error: 386536267682152448 10050
+2026-03-07 02:44:16 IKcpTransport tcp error: 377161166 110311
+2026-03-07 02:44:16 ClientScene is null
+  at ET.Logger.Error (System.String msg) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.AwaitTaskContinuation.RunCallback (System.Threading.ContextCallback callback, System.Object state, System.Threading.Tasks.Task& currentTask) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.FinishContinuations () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task`1[TResult].TrySetResult (TResult result) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[TResult].SetResult (TResult result) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-03-07 02:44:18 无法找到指定的时区 timeZoneId = 8
+2026-03-07 02:44:44 unitEnter is null
+2026-03-07 02:44:44 unitEnter is null
+2026-03-07 02:44:56 buffID:10043201==操作类型:2==目标386607255624351746已死亡
+2026-03-07 02:44:56 unitEnter is null
+2026-03-07 02:44:56 unitEnter is null
+2026-03-07 02:45:34 unitEnter is null
+2026-03-07 02:45:34 unitEnter is null
+2026-03-07 02:45:53 buffID:10043201==操作类型:2==目标386610554159235075已死亡
+2026-03-07 02:45:53 unitEnter is null
+2026-03-07 02:45:53 unitEnter is null
+2026-03-07 02:46:00 unitEnter is null
+2026-03-07 02:46:00 unitEnter is null
+2026-03-07 02:46:12 unitEnter is null
+2026-03-07 02:46:12 unitEnter is null
+2026-03-07 02:47:26 unitEnter is null
+2026-03-07 02:47:26 unitEnter is null
+2026-03-07 02:47:36 unitEnter is null
+2026-03-07 02:47:36 unitEnter is null
+2026-03-07 02:49:03 unitEnter is null
+2026-03-07 02:49:03 unitEnter is null
+2026-03-07 02:59:30 unitEnter is null
+2026-03-07 02:59:30 unitEnter is null
+2026-03-07 03:00:30 unitEnter is null
+2026-03-07 03:00:30 unitEnter is null
+2026-03-07 03:00:41 unitEnter is null
+2026-03-07 03:00:41 unitEnter is null
+2026-03-07 03:02:39 IKcpTransport tcp error: 386605949231562887 100207
+2026-03-07 03:09:19 unitEnter is null
+2026-03-07 03:09:19 unitEnter is null
+2026-03-07 03:09:46 buffID:10184201==操作类型:2==目标386709991242072066已死亡
+2026-03-07 03:09:46 unitEnter is null
+2026-03-07 03:09:46 unitEnter is null
+2026-03-07 03:10:11 the same player id already contain :3350346528992788480
+2026-03-07 03:11:39 unitEnter is null
+2026-03-07 03:11:39 unitEnter is null
+2026-03-07 03:11:52 unitEnter is null
+2026-03-07 03:11:52 unitEnter is null
+2026-03-07 03:12:16 unitEnter is null
+2026-03-07 03:12:16 unitEnter is null
+2026-03-07 03:12:37 unitEnter is null
+2026-03-07 03:12:37 unitEnter is null
+2026-03-07 03:12:43 unitEnter is null
+2026-03-07 03:12:43 unitEnter is null
+2026-03-07 03:14:24 unitEnter is null
+2026-03-07 03:14:24 unitEnter is null
+2026-03-07 03:14:39 unitEnter is null
+2026-03-07 03:14:39 unitEnter is null
+2026-03-07 03:14:45 unitEnter is null
+2026-03-07 03:14:45 unitEnter is null
+2026-03-07 03:15:23 unitEnter is null
+2026-03-07 03:15:23 unitEnter is null
+2026-03-07 03:15:45 buffID:10184201==操作类型:2==目标386733768181022737已死亡
+2026-03-07 03:15:45 buffID:10184201==操作类型:2==目标386733768181022737已死亡
+2026-03-07 03:15:45 unitEnter is null
+2026-03-07 03:15:45 unitEnter is null
+2026-03-07 03:16:22 unitEnter is null
+2026-03-07 03:16:22 unitEnter is null
+2026-03-07 03:16:36 unitEnter is null
+2026-03-07 03:16:36 unitEnter is null
+2026-03-07 03:17:16 unitEnter is null
+2026-03-07 03:17:16 unitEnter is null
+2026-03-07 03:17:27 buffID:10184201==操作类型:2==目标386741396042940418已死亡
+2026-03-07 03:17:27 unitEnter is null
+2026-03-07 03:17:27 unitEnter is null
+2026-03-07 03:18:11 unitEnter is null
+2026-03-07 03:18:11 unitEnter is null
+2026-03-07 03:18:23 unitEnter is null
+2026-03-07 03:18:23 unitEnter is null
+2026-03-07 03:18:49 unitEnter is null
+2026-03-07 03:18:49 unitEnter is null
+2026-03-07 03:19:01 unitEnter is null
+2026-03-07 03:19:01 unitEnter is null
+2026-03-07 03:20:22 unitEnter is null
+2026-03-07 03:20:22 unitEnter is null
+2026-03-07 03:20:30 unitEnter is null
+2026-03-07 03:20:30 unitEnter is null
+2026-03-07 03:20:35 unitEnter is null
+2026-03-07 03:20:35 unitEnter is null
+2026-03-07 03:21:10 unitEnter is null
+2026-03-07 03:21:10 unitEnter is null
+2026-03-07 03:21:16 unitEnter is null
+2026-03-07 03:21:16 unitEnter is null
+2026-03-07 03:21:24 unitEnter is null
+2026-03-07 03:21:24 unitEnter is null
+2026-03-07 03:21:29 unitEnter is null
+2026-03-07 03:21:29 unitEnter is null
+2026-03-07 03:22:10 unitEnter is null
+2026-03-07 03:22:10 unitEnter is null
+2026-03-07 03:22:19 unitEnter is null
+2026-03-07 03:22:19 unitEnter is null
+2026-03-07 03:23:29 unitEnter is null
+2026-03-07 03:23:29 unitEnter is null
+2026-03-07 03:23:41 unitEnter is null
+2026-03-07 03:23:41 unitEnter is null
+2026-03-07 03:24:33 unitEnter is null
+2026-03-07 03:24:33 unitEnter is null
+2026-03-07 03:24:44 buffID:10111201==操作类型:2==目标386771220295843843已死亡
+2026-03-07 03:24:44 unitEnter is null
+2026-03-07 03:24:44 unitEnter is null
+2026-03-07 03:25:34 unitEnter is null
+2026-03-07 03:25:34 unitEnter is null
+2026-03-07 03:25:39 unitEnter is null
+2026-03-07 03:25:39 unitEnter is null
+2026-03-07 03:25:45 unitEnter is null
+2026-03-07 03:25:45 unitEnter is null
+2026-03-07 03:27:46 unitEnter is null
+2026-03-07 03:27:46 unitEnter is null
+2026-03-07 03:27:57 unitEnter is null
+2026-03-07 03:27:57 unitEnter is null
+2026-03-07 03:28:18 unitEnter is null
+2026-03-07 03:28:18 unitEnter is null
+2026-03-07 03:30:02 unitEnter is null
+2026-03-07 03:30:02 unitEnter is null
+2026-03-07 03:31:16 unitEnter is null
+2026-03-07 03:31:16 unitEnter is null
+2026-03-07 03:31:22 unitEnter is null
+2026-03-07 03:31:22 unitEnter is null
+2026-03-07 03:31:27 unitEnter is null
+2026-03-07 03:31:27 unitEnter is null
+2026-03-07 03:32:28 unitEnter is null
+2026-03-07 03:32:28 unitEnter is null
+2026-03-07 03:32:33 unitEnter is null
+2026-03-07 03:32:33 unitEnter is null
+2026-03-07 03:32:47 unitEnter is null
+2026-03-07 03:32:47 unitEnter is null
+2026-03-07 03:33:24 unitEnter is null
+2026-03-07 03:33:24 unitEnter is null
+2026-03-07 03:33:30 unitEnter is null
+2026-03-07 03:33:30 unitEnter is null
+2026-03-07 03:33:36 unitEnter is null
+2026-03-07 03:33:36 unitEnter is null
+2026-03-07 03:35:08 unitEnter is null
+2026-03-07 03:35:08 unitEnter is null
+2026-03-07 03:35:15 unitEnter is null
+2026-03-07 03:35:15 unitEnter is null
+2026-03-07 03:35:26 unitEnter is null
+2026-03-07 03:35:26 unitEnter is null
+2026-03-07 03:35:33 unitEnter is null
+2026-03-07 03:35:33 unitEnter is null
+2026-03-07 03:35:39 unitEnter is null
+2026-03-07 03:35:39 unitEnter is null
+2026-03-07 03:36:06 unitEnter is null
+2026-03-07 03:36:06 unitEnter is null
+2026-03-07 03:36:11 unitEnter is null
+2026-03-07 03:36:11 unitEnter is null
+2026-03-07 03:36:17 unitEnter is null
+2026-03-07 03:36:17 unitEnter is null
+2026-03-07 03:36:28 unitEnter is null
+2026-03-07 03:36:28 unitEnter is null
+2026-03-07 03:36:34 unitEnter is null
+2026-03-07 03:36:34 unitEnter is null
+2026-03-07 03:36:39 unitEnter is null
+2026-03-07 03:36:39 unitEnter is null
+2026-03-07 03:36:51 unitEnter is null
+2026-03-07 03:36:51 unitEnter is null
+2026-03-07 03:36:56 unitEnter is null
+2026-03-07 03:36:56 unitEnter is null
+2026-03-07 03:37:02 unitEnter is null
+2026-03-07 03:37:02 unitEnter is null
+2026-03-07 03:37:07 unitEnter is null
+2026-03-07 03:37:07 unitEnter is null
+2026-03-07 03:37:20 unitEnter is null
+2026-03-07 03:37:20 unitEnter is null
+2026-03-07 03:37:25 unitEnter is null
+2026-03-07 03:37:25 unitEnter is null
+2026-03-07 03:37:31 unitEnter is null
+2026-03-07 03:37:31 unitEnter is null
+2026-03-07 03:37:37 unitEnter is null
+2026-03-07 03:37:37 unitEnter is null
+2026-03-07 03:37:53 unitEnter is null
+2026-03-07 03:37:53 unitEnter is null
+2026-03-07 03:38:01 unitEnter is null
+2026-03-07 03:38:01 unitEnter is null
+2026-03-07 03:38:07 unitEnter is null
+2026-03-07 03:38:07 unitEnter is null
+2026-03-07 03:38:13 unitEnter is null
+2026-03-07 03:38:13 unitEnter is null
+2026-03-07 03:38:18 unitEnter is null
+2026-03-07 03:38:18 unitEnter is null
+2026-03-07 03:39:05 unitEnter is null
+2026-03-07 03:39:05 unitEnter is null
+2026-03-07 03:39:18 unitEnter is null
+2026-03-07 03:39:18 unitEnter is null
+2026-03-07 03:39:29 unitEnter is null
+2026-03-07 03:39:29 unitEnter is null
+2026-03-07 03:40:01 unitEnter is null
+2026-03-07 03:40:01 unitEnter is null
+2026-03-07 03:40:07 unitEnter is null
+2026-03-07 03:40:07 unitEnter is null
+2026-03-07 03:40:41 unitEnter is null
+2026-03-07 03:40:41 unitEnter is null
+2026-03-07 03:40:49 unitEnter is null
+2026-03-07 03:40:49 unitEnter is null
+2026-03-07 03:41:40 unitEnter is null
+2026-03-07 03:41:40 unitEnter is null
+2026-03-07 03:42:02 buffID:10184201==操作类型:2==目标386841795198451715已死亡
+2026-03-07 03:42:02 buffID:10184201==操作类型:2==目标386841795198451715已死亡
+2026-03-07 03:42:02 unitEnter is null
+2026-03-07 03:42:02 unitEnter is null
+2026-03-07 03:42:22 unitEnter is null
+2026-03-07 03:42:22 unitEnter is null
+2026-03-07 03:42:28 unitEnter is null
+2026-03-07 03:42:28 unitEnter is null
+2026-03-07 03:42:36 unitEnter is null
+2026-03-07 03:42:36 unitEnter is null
+2026-03-07 03:42:42 unitEnter is null
+2026-03-07 03:42:42 unitEnter is null
+2026-03-07 03:42:55 unitEnter is null
+2026-03-07 03:42:55 unitEnter is null
+2026-03-07 03:43:01 unitEnter is null
+2026-03-07 03:43:01 unitEnter is null
+2026-03-07 03:43:47 unitEnter is null
+2026-03-07 03:43:47 unitEnter is null
+2026-03-07 03:43:55 unitEnter is null
+2026-03-07 03:43:55 unitEnter is null
+2026-03-07 03:44:06 unitEnter is null
+2026-03-07 03:44:06 unitEnter is null
+2026-03-07 03:44:27 unitEnter is null
+2026-03-07 03:44:27 unitEnter is null
+2026-03-07 03:44:33 unitEnter is null
+2026-03-07 03:44:33 unitEnter is null
+2026-03-07 03:44:49 unitEnter is null
+2026-03-07 03:44:49 unitEnter is null
+2026-03-07 03:45:06 buffID:10184201==操作类型:2==目标386855195496415235已死亡
+2026-03-07 03:45:06 unitEnter is null
+2026-03-07 03:45:06 unitEnter is null
+2026-03-07 03:45:27 unitEnter is null
+2026-03-07 03:45:27 unitEnter is null
+2026-03-07 03:45:48 unitEnter is null
+2026-03-07 03:45:48 unitEnter is null

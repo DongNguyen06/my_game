@@ -1,0 +1,200 @@
+2026-03-11 08:49:37 无法找到指定的时区 timeZoneId = 8
+2026-03-11 09:00:31 System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Client.UIEffectComponentSystem.AddEffect (ET.Client.UIEffectComponent self, FairyGUI.GGraph box, System.String url, System.Single size) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity104.ActivityFarmItem.Init (ET.Entity entity, ET.Client.Activity104.ActivityFarmCom activityFarmCom, System.Int32 pos) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity104.ActivityFarmCom.Init (ET.Entity entity) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.CreateCom () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.SetActivityData (System.Int64 activityId, System.Boolean isClick) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.SetActivityData (System.Int64 activityId, System.Boolean isClick) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.OnClickActivityListRenderListItem (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.OnClickActivityListRenderListItem (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.OnClickActivityListRenderListItem (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.OnClickActivityListRenderListItem (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-11 09:05:31 buffID:10585201==操作类型:2==目标-5154259819471831039已死亡
+2026-03-11 09:05:31 buffID:20153401==操作类型:2==目标-5154259819471831039已死亡
+2026-03-11 09:05:31 unitEnter is null
+2026-03-11 09:05:31 unitEnter is null
+2026-03-11 09:05:49 buffID:90195102==操作类型:2==目标-5103353736777433076已死亡
+2026-03-11 09:05:49 unitEnter is null
+2026-03-11 09:05:49 unitEnter is null
+2026-03-11 09:05:55 cancellPerform
+2026-03-11 09:05:55 模型重复创建 unit id = 411919043365175392
+2026-03-11 09:05:55 had exist Buff 106
+2026-03-11 09:05:55 had exist Buff 108
+2026-03-11 09:05:55 had exist Buff 109
+2026-03-11 09:06:02 cancellPerform
+2026-03-11 09:06:02 had exist Buff 2
+2026-03-11 09:06:02 had exist Buff 5
+2026-03-11 09:06:02 had exist Buff 6
+2026-03-11 09:06:02 had exist Buff 7
+2026-03-11 09:06:02 had exist Buff 9
+2026-03-11 09:06:03 had exist Buff 10
+2026-03-11 09:07:21 buffID:10073301==操作类型:2==目标-5169088039449001947已死亡
+2026-03-11 09:07:21 buffID:51031201==操作类型:2==目标-5169088039449001947已死亡
+2026-03-11 09:07:21 buffID:20182201==操作类型:2==目标-5169088039449001947已死亡
+2026-03-11 09:07:21 buffID:90195401==操作类型:2==目标-5169088039449001947已死亡
+2026-03-11 09:07:21 unitEnter is null
+2026-03-11 09:07:21 unitEnter is null
+2026-03-11 09:07:41 buffID:90195102==操作类型:2==目标-5089950621319561206已死亡
+2026-03-11 09:07:41 buffID:20164401==操作类型:2==目标-5089950621319561206已死亡
+2026-03-11 09:07:41 unitEnter is null
+2026-03-11 09:07:41 unitEnter is null
+2026-03-11 09:07:55 buffID:90195102==操作类型:2==目标-5160976873451945978已死亡
+2026-03-11 09:07:55 buffID:50591201==操作类型:2==目标-5160976873451945978已死亡
+2026-03-11 09:07:55 buffID:50592401==操作类型:2==目标-5160976873451945978已死亡
+2026-03-11 09:07:55 unitEnter is null
+2026-03-11 09:07:55 unitEnter is null
+2026-03-11 09:09:53 配置找不到，配置表名: ItemSourceConfig，配置id: 102
+  at ET.Client.Common.BagPanel.UpdateDataInfo (ET.ItemConfig itemConfig, System.Single panelHeight, System.Int64 itemId) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Common.CommonItemInfo.UpdateInfo (System.Int32 configId, System.Int64 itemId, System.Boolean isSelect) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Common.CommonItemInfoWindow.OnShow () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.UIFormSystem.Open (ET.Client.UIForm self, System.Object context, System.Boolean active) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.UIComponentSystem.OpenWindow (ET.Client.UIComponent self, ET.Client.UIForm win, System.Object intent) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonFriendShipComponent.OnClickActionAsync (FairyGUI.EventContext context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonFriendShipComponent.OnClickActionAsync (FairyGUI.EventContext context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonFriendShipComponent.OnClickAction (FairyGUI.EventContext context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.GObjectLongPressEx+<>c__DisplayClass0_0.<SetLongPressOrClick>b__4 (FairyGUI.EventContext context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Logger.Error (System.String msg) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.GList.set_numItems (System.Int32 value) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.InternalDispatchEvent (System.String strType, FairyGUI.EventBridge bridge, System.Object data, System.Object initiator) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.LongPressGesture.__touchEnd (FairyGUI.EventContext context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.TouchInfo.End () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-03-11 09:09:53 UIForm 'CommonItemInfo_MiniWindow' OnShow with exception 'System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Client.Common.BagPanel.WayListItem (System.Int32 index, System.Object obj) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Common.BagPanel.UpdateDataInfo (ET.ItemConfig itemConfig, System.Single panelHeight, System.Int64 itemId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Common.CommonItemInfo.UpdateInfo (System.Int32 configId, System.Int64 itemId, System.Boolean isSelect) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Common.CommonItemInfoWindow.OnShow () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UIFormSystem.Open (ET.Client.UIForm self, System.Object context, System.Boolean active) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UIComponentSystem.OpenWindow (ET.Client.UIComponent self, ET.Client.UIForm win, System.Object intent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonFriendShipComponent.OnClickActionAsync (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonFriendShipComponent.OnClickActionAsync (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonFriendShipComponent.OnClickAction (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.GObjectLongPressEx+<>c__DisplayClass0_0.<SetLongPressOrClick>b__4 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.GList.set_numItems (System.Int32 value) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.InternalDispatchEvent (System.String strType, FairyGUI.EventBridge bridge, System.Object data, System.Object initiator) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.LongPressGesture.__touchEnd (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.TouchInfo.End () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 '.
+  at ET.Client.Eudemon.EudemonFriendShipComponent.OnClickActionAsync (FairyGUI.EventContext context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonFriendShipComponent.OnClickActionAsync (FairyGUI.EventContext context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Eudemon.EudemonFriendShipComponent.OnClickAction (FairyGUI.EventContext context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.GObjectLongPressEx+<>c__DisplayClass0_0.<SetLongPressOrClick>b__4 (FairyGUI.EventContext context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Logger.Error (System.String message, System.Object[] args) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.InternalDispatchEvent (System.String strType, FairyGUI.EventBridge bridge, System.Object data, System.Object initiator) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.LongPressGesture.__touchEnd (FairyGUI.EventContext context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.TouchInfo.End () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-03-11 09:10:38 Could not convert '' to int.
+2026-03-11 09:10:38 Could not convert '' to int.
+2026-03-11 09:10:38 Could not convert '' to int.
+2026-03-11 09:10:38 Could not convert '' to int.
+2026-03-11 09:10:38 Could not convert '' to int.
+2026-03-11 09:10:38 Could not convert '' to int.
+2026-03-11 09:10:38 Could not convert '' to int.
+2026-03-11 09:10:38 Could not convert '' to int.
+2026-03-11 09:10:38 Could not convert '' to int.
+2026-03-11 09:10:38 Could not convert '' to int.
+2026-03-11 09:10:38 Could not convert '' to int.
+2026-03-11 09:10:38 Could not convert '' to int.
+2026-03-11 09:10:38 Could not convert '' to int.
+2026-03-11 09:10:38 Could not convert '' to int.
+2026-03-11 09:10:38 Could not convert '' to int.
+2026-03-11 09:10:38 Could not convert '' to int.
+2026-03-11 09:10:38 Could not convert '' to int.
+2026-03-11 09:10:38 Could not convert '' to int.
+2026-03-11 09:10:38 Could not convert '' to int.
+2026-03-11 09:10:38 Could not convert '' to int.
+2026-03-11 09:10:38 Could not convert '' to int.
+2026-03-11 09:10:38 Could not convert '' to int.
+2026-03-11 09:15:29 cancellPerform
+2026-03-11 09:15:29 had exist Buff 2
+2026-03-11 09:15:29 had exist Buff 7
+2026-03-11 09:15:29 had exist Buff 8
+2026-03-11 09:15:29 had exist Buff 9
+2026-03-11 09:15:29 had exist Buff 10
+2026-03-11 09:15:48 buffID:10483201==操作类型:2==目标-5148207763875692541已死亡
+2026-03-11 09:15:48 buffID:10483202==操作类型:2==目标-5148207763875692541已死亡
+2026-03-11 09:15:48 buffID:10483203==操作类型:2==目标-5148207763875692541已死亡
+2026-03-11 09:15:48 buffID:50621401==操作类型:2==目标-5148207763875692541已死亡
+2026-03-11 09:15:48 unitEnter is null
+2026-03-11 09:15:48 unitEnter is null
+2026-03-11 09:16:49 buffID:90195102==操作类型:2==目标-5148207763875692541已死亡
+2026-03-11 09:16:49 buffID:10483201==操作类型:2==目标-5148207763875692541已死亡
+2026-03-11 09:16:49 buffID:10483202==操作类型:2==目标-5148207763875692541已死亡
+2026-03-11 09:16:49 buffID:10483203==操作类型:2==目标-5148207763875692541已死亡
+2026-03-11 09:16:49 buffID:50621401==操作类型:2==目标-5148207763875692541已死亡
+2026-03-11 09:16:49 unitEnter is null
+2026-03-11 09:16:49 unitEnter is null
+2026-03-11 09:17:38 cancellPerform
+2026-03-11 09:17:38 had exist Buff 2
+2026-03-11 09:17:38 had exist Buff 7
+2026-03-11 09:17:38 had exist Buff 8
+2026-03-11 09:17:38 had exist Buff 9
+2026-03-11 09:17:38 had exist Buff 11
+2026-03-11 09:17:38 had exist Buff 12
+2026-03-11 09:17:38 had exist Buff 13
+2026-03-11 09:17:38 had exist Buff 14
+2026-03-11 09:17:44 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-11 09:17:57 buffID:10483201==操作类型:2==目标-5148207763875692541已死亡
+2026-03-11 09:17:57 buffID:10483202==操作类型:2==目标-5148207763875692541已死亡
+2026-03-11 09:17:57 buffID:10483203==操作类型:2==目标-5148207763875692541已死亡
+2026-03-11 09:17:57 buffID:50621401==操作类型:2==目标-5148207763875692541已死亡
+2026-03-11 09:17:57 unitEnter is null
+2026-03-11 09:17:57 unitEnter is null
+2026-03-11 09:18:21 had exist Buff 2
+2026-03-11 09:18:21 cancellPerform
+2026-03-11 09:18:21 had exist Buff 2
+2026-03-11 09:18:21 had exist Buff 3
+2026-03-11 09:18:21 had exist Buff 4
+2026-03-11 09:19:18 buffID:10483201==操作类型:2==目标-5148207763875692541已死亡
+2026-03-11 09:19:18 buffID:10483202==操作类型:2==目标-5148207763875692541已死亡
+2026-03-11 09:19:18 buffID:10483203==操作类型:2==目标-5148207763875692541已死亡
+2026-03-11 09:19:18 buffID:10595201==操作类型:2==目标-5148207763875692541已死亡
+2026-03-11 09:19:18 buffID:10483201==操作类型:2==目标-5148207763875692541已死亡
+2026-03-11 09:19:18 buffID:10483202==操作类型:2==目标-5148207763875692541已死亡
+2026-03-11 09:19:18 buffID:10483203==操作类型:2==目标-5148207763875692541已死亡
+2026-03-11 09:19:18 buffID:10483201==操作类型:2==目标-5148207763875692541已死亡
+2026-03-11 09:19:18 buffID:10483202==操作类型:2==目标-5148207763875692541已死亡
+2026-03-11 09:19:18 buffID:10483203==操作类型:2==目标-5148207763875692541已死亡
+2026-03-11 09:19:18 buffID:90197401==操作类型:2==目标-5148207763875692541已死亡
+2026-03-11 09:19:18 buffID:50621401==操作类型:2==目标-5148207763875692541已死亡
+2026-03-11 09:19:18 unitEnter is null
+2026-03-11 09:19:18 unitEnter is null
+2026-03-11 09:19:25 cancellPerform

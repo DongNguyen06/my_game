@@ -1,0 +1,492 @@
+2026-02-18 11:38:24 无法找到指定的时区 timeZoneId = 8
+2026-02-18 11:38:26 IActivity_ActivityPrayers  本地解析 报错 e = System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Pokemon.Activity.System.ActivityMatchMakingComponentSystem.GetTodayLeftPlayNum (ET.Pokemon.Activity.Component.ActivityMatchMakingComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityMatchMakingComponentSystem.UpdateRed (ET.Pokemon.Activity.Component.ActivityMatchMakingComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.IActivity_ActivityMatchMaking.Run (System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.IActivity_ActivityMatchMaking.Run (System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddPlayerActivityInfoList (ET.Pokemon.Activity.Component.ActivityComponent self, System.Int64 activityId, ET.Client.ClientPlayerActivityInfo clinetInfo, System.Boolean CheckAdd) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddActivity (ET.Pokemon.Activity.Component.ActivityComponent self, ET.PlayerActivityInfo info, System.Boolean CheckAdd) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Handel.Game2Client_SendActivityListHandler.Run (ET.Session session, ET.Game2Client_SendActivityList message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.UpdateActivity (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.Down (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.GetActivityCheck (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FileDownloader.DownloadFileAsync (System.String url, System.String tempFilePath, System.Boolean breakResume) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddPlayerActivityInfoList (ET.Pokemon.Activity.Component.ActivityComponent self, System.Int64 activityId, ET.Client.ClientPlayerActivityInfo clinetInfo, System.Boolean CheckAdd) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddActivity (ET.Pokemon.Activity.Component.ActivityComponent self, ET.PlayerActivityInfo info, System.Boolean CheckAdd) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Handel.Game2Client_SendActivityListHandler.Run (ET.Session session, ET.Game2Client_SendActivityList message) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.UpdateActivity (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.Down (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.GetActivityCheck (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Logger.Error (System.String msg) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.FileDownloader.DownloadFileAsync (System.String url, System.String tempFilePath, System.Boolean breakResume) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-02-18 11:39:13 unitEnter is null
+2026-02-18 11:39:13 unitEnter is null
+2026-02-18 11:39:19 unitEnter is null
+2026-02-18 11:39:19 unitEnter is null
+2026-02-18 11:39:26 unitEnter is null
+2026-02-18 11:39:26 unitEnter is null
+2026-02-18 11:39:32 unitEnter is null
+2026-02-18 11:39:32 unitEnter is null
+2026-02-18 11:39:37 unitEnter is null
+2026-02-18 11:39:37 unitEnter is null
+2026-02-18 11:39:43 unitEnter is null
+2026-02-18 11:39:43 unitEnter is null
+2026-02-18 11:39:59 unitEnter is null
+2026-02-18 11:39:59 unitEnter is null
+2026-02-18 11:40:07 unitEnter is null
+2026-02-18 11:40:07 unitEnter is null
+2026-02-18 11:40:20 unitEnter is null
+2026-02-18 11:40:20 unitEnter is null
+2026-02-18 11:40:42 unitEnter is null
+2026-02-18 11:40:42 unitEnter is null
+2026-02-18 11:40:49 unitEnter is null
+2026-02-18 11:40:49 unitEnter is null
+2026-02-18 11:41:04 unitEnter is null
+2026-02-18 11:41:04 unitEnter is null
+2026-02-18 11:41:26 unitEnter is null
+2026-02-18 11:41:26 unitEnter is null
+2026-02-18 11:41:34 unitEnter is null
+2026-02-18 11:41:34 unitEnter is null
+2026-02-18 11:41:39 unitEnter is null
+2026-02-18 11:41:39 unitEnter is null
+2026-02-18 11:41:45 unitEnter is null
+2026-02-18 11:41:45 unitEnter is null
+2026-02-18 11:42:00 unitEnter is null
+2026-02-18 11:42:00 unitEnter is null
+2026-02-18 11:42:14 unitEnter is null
+2026-02-18 11:42:14 unitEnter is null
+2026-02-18 11:42:29 unitEnter is null
+2026-02-18 11:42:29 unitEnter is null
+2026-02-18 11:42:35 unitEnter is null
+2026-02-18 11:42:35 unitEnter is null
+2026-02-18 11:42:48 unitEnter is null
+2026-02-18 11:42:48 unitEnter is null
+2026-02-18 11:42:53 unitEnter is null
+2026-02-18 11:42:53 unitEnter is null
+2026-02-18 11:43:06 unitEnter is null
+2026-02-18 11:43:06 unitEnter is null
+2026-02-18 11:43:18 unitEnter is null
+2026-02-18 11:43:18 unitEnter is null
+2026-02-18 11:43:53 unitEnter is null
+2026-02-18 11:43:53 unitEnter is null
+2026-02-18 11:44:07 unitEnter is null
+2026-02-18 11:44:07 unitEnter is null
+2026-02-18 11:44:15 unitEnter is null
+2026-02-18 11:44:15 unitEnter is null
+2026-02-18 11:44:24 unitEnter is null
+2026-02-18 11:44:24 unitEnter is null
+2026-02-18 11:44:38 unitEnter is null
+2026-02-18 11:44:38 unitEnter is null
+2026-02-18 11:44:53 unitEnter is null
+2026-02-18 11:44:53 unitEnter is null
+2026-02-18 11:45:46 unitEnter is null
+2026-02-18 11:45:46 unitEnter is null
+2026-02-18 11:46:00 unitEnter is null
+2026-02-18 11:46:00 unitEnter is null
+2026-02-18 11:46:06 unitEnter is null
+2026-02-18 11:46:06 unitEnter is null
+2026-02-18 11:46:11 unitEnter is null
+2026-02-18 11:46:11 unitEnter is null
+2026-02-18 11:46:19 unitEnter is null
+2026-02-18 11:46:19 unitEnter is null
+2026-02-18 11:46:26 unitEnter is null
+2026-02-18 11:46:26 unitEnter is null
+2026-02-18 11:47:57 unitEnter is null
+2026-02-18 11:47:57 unitEnter is null
+2026-02-18 11:48:10 buffID:10101==操作类型:2==目标287911587220881414已死亡
+2026-02-18 11:48:10 unitEnter is null
+2026-02-18 11:48:10 unitEnter is null
+2026-02-18 11:48:17 unitEnter is null
+2026-02-18 11:48:17 unitEnter is null
+2026-02-18 11:48:45 unitEnter is null
+2026-02-18 11:48:45 unitEnter is null
+2026-02-18 11:48:51 unitEnter is null
+2026-02-18 11:48:51 unitEnter is null
+2026-02-18 11:48:57 unitEnter is null
+2026-02-18 11:48:57 unitEnter is null
+2026-02-18 11:49:25 unitEnter is null
+2026-02-18 11:49:25 unitEnter is null
+2026-02-18 11:49:41 unitEnter is null
+2026-02-18 11:49:41 unitEnter is null
+2026-02-18 11:49:49 unitEnter is null
+2026-02-18 11:49:49 unitEnter is null
+2026-02-18 11:49:57 unitEnter is null
+2026-02-18 11:49:57 unitEnter is null
+2026-02-18 11:50:11 unitEnter is null
+2026-02-18 11:50:11 unitEnter is null
+2026-02-18 11:50:21 unitEnter is null
+2026-02-18 11:50:21 unitEnter is null
+2026-02-18 11:50:50 unitEnter is null
+2026-02-18 11:50:50 unitEnter is null
+2026-02-18 11:50:56 unitEnter is null
+2026-02-18 11:50:56 unitEnter is null
+2026-02-18 11:51:10 unitEnter is null
+2026-02-18 11:51:10 unitEnter is null
+2026-02-18 11:51:31 unitEnter is null
+2026-02-18 11:51:31 unitEnter is null
+2026-02-18 11:51:47 unitEnter is null
+2026-02-18 11:51:47 unitEnter is null
+2026-02-18 11:51:52 unitEnter is null
+2026-02-18 11:51:52 unitEnter is null
+2026-02-18 11:52:23 unitEnter is null
+2026-02-18 11:52:23 unitEnter is null
+2026-02-18 11:52:46 unitEnter is null
+2026-02-18 11:52:46 unitEnter is null
+2026-02-18 11:53:01 buffID:10116201==操作类型:2==目标287929248126402565已死亡
+2026-02-18 11:53:01 unitEnter is null
+2026-02-18 11:53:01 unitEnter is null
+2026-02-18 11:53:10 buffID:20048401==操作类型:2==目标287929248126402568已死亡
+2026-02-18 11:53:10 unitEnter is null
+2026-02-18 11:53:10 unitEnter is null
+2026-02-18 11:53:15 unitEnter is null
+2026-02-18 11:53:15 unitEnter is null
+2026-02-18 11:53:23 unitEnter is null
+2026-02-18 11:53:23 unitEnter is null
+2026-02-18 11:54:03 unitEnter is null
+2026-02-18 11:54:03 unitEnter is null
+2026-02-18 11:54:10 buffID:20048401==操作类型:2==目标287936120074076164已死亡
+2026-02-18 11:54:10 unitEnter is null
+2026-02-18 11:54:10 unitEnter is null
+2026-02-18 11:54:15 unitEnter is null
+2026-02-18 11:54:15 unitEnter is null
+2026-02-18 11:54:30 unitEnter is null
+2026-02-18 11:54:30 unitEnter is null
+2026-02-18 11:54:37 unitEnter is null
+2026-02-18 11:54:37 unitEnter is null
+2026-02-18 11:54:43 unitEnter is null
+2026-02-18 11:54:43 unitEnter is null
+2026-02-18 11:55:16 unitEnter is null
+2026-02-18 11:55:16 unitEnter is null
+2026-02-18 11:55:23 unitEnter is null
+2026-02-18 11:55:23 unitEnter is null
+2026-02-18 11:55:38 unitEnter is null
+2026-02-18 11:55:38 unitEnter is null
+2026-02-18 11:55:44 unitEnter is null
+2026-02-18 11:55:44 unitEnter is null
+2026-02-18 11:55:49 unitEnter is null
+2026-02-18 11:55:49 unitEnter is null
+2026-02-18 11:55:56 unitEnter is null
+2026-02-18 11:55:56 unitEnter is null
+2026-02-18 11:56:43 unitEnter is null
+2026-02-18 11:56:43 unitEnter is null
+2026-02-18 11:56:49 unitEnter is null
+2026-02-18 11:56:49 unitEnter is null
+2026-02-18 11:56:58 buffID:20048401==操作类型:2==目标287946909031923715已死亡
+2026-02-18 11:56:58 unitEnter is null
+2026-02-18 11:56:58 unitEnter is null
+2026-02-18 11:57:11 unitEnter is null
+2026-02-18 11:57:11 unitEnter is null
+2026-02-18 11:57:31 buffID:10242201==操作类型:2==目标287946909031923717已死亡
+2026-02-18 11:57:31 unitEnter is null
+2026-02-18 11:57:31 unitEnter is null
+2026-02-18 11:57:35 buffID:10302==操作类型:2==目标-5154259819471831039已死亡
+2026-02-18 11:57:35 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-18 11:57:35 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-18 11:57:35 buffID:20022201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-18 11:57:35 buffID:20104401==操作类型:2==目标-5154259819471831039已死亡
+2026-02-18 11:57:35 unitEnter is null
+2026-02-18 11:57:35 unitEnter is null
+2026-02-18 11:58:17 unitEnter is null
+2026-02-18 11:58:17 unitEnter is null
+2026-02-18 11:58:22 unitEnter is null
+2026-02-18 11:58:22 unitEnter is null
+2026-02-18 11:58:38 buffID:10242201==操作类型:2==目标287953712260124536已死亡
+2026-02-18 11:58:38 unitEnter is null
+2026-02-18 11:58:38 unitEnter is null
+2026-02-18 11:58:48 unitEnter is null
+2026-02-18 11:58:48 unitEnter is null
+2026-02-18 11:58:55 unitEnter is null
+2026-02-18 11:58:55 unitEnter is null
+2026-02-18 11:59:03 unitEnter is null
+2026-02-18 11:59:03 unitEnter is null
+2026-02-18 11:59:23 unitEnter is null
+2026-02-18 11:59:23 unitEnter is null
+2026-02-18 11:59:34 unitEnter is null
+2026-02-18 11:59:34 unitEnter is null
+2026-02-18 11:59:44 unitEnter is null
+2026-02-18 11:59:44 unitEnter is null
+2026-02-18 11:59:54 unitEnter is null
+2026-02-18 11:59:54 unitEnter is null
+2026-02-18 12:00:02 unitEnter is null
+2026-02-18 12:00:02 unitEnter is null
+2026-02-18 12:00:17 unitEnter is null
+2026-02-18 12:00:17 unitEnter is null
+2026-02-18 12:00:33 unitEnter is null
+2026-02-18 12:00:33 unitEnter is null
+2026-02-18 12:00:38 unitEnter is null
+2026-02-18 12:00:38 unitEnter is null
+2026-02-18 12:00:57 unitEnter is null
+2026-02-18 12:00:57 unitEnter is null
+2026-02-18 12:01:03 unitEnter is null
+2026-02-18 12:01:03 unitEnter is null
+2026-02-18 12:01:10 unitEnter is null
+2026-02-18 12:01:10 unitEnter is null
+2026-02-18 12:01:15 unitEnter is null
+2026-02-18 12:01:15 unitEnter is null
+2026-02-18 12:01:42 unitEnter is null
+2026-02-18 12:01:42 unitEnter is null
+2026-02-18 12:01:58 unitEnter is null
+2026-02-18 12:01:58 unitEnter is null
+2026-02-18 12:02:04 unitEnter is null
+2026-02-18 12:02:04 unitEnter is null
+2026-02-18 12:02:09 unitEnter is null
+2026-02-18 12:02:09 unitEnter is null
+2026-02-18 12:02:14 unitEnter is null
+2026-02-18 12:02:14 unitEnter is null
+2026-02-18 12:02:20 unitEnter is null
+2026-02-18 12:02:20 unitEnter is null
+2026-02-18 12:02:35 unitEnter is null
+2026-02-18 12:02:35 unitEnter is null
+2026-02-18 12:02:41 unitEnter is null
+2026-02-18 12:02:41 unitEnter is null
+2026-02-18 12:02:46 unitEnter is null
+2026-02-18 12:02:46 unitEnter is null
+2026-02-18 12:02:56 unitEnter is null
+2026-02-18 12:02:56 unitEnter is null
+2026-02-18 12:03:02 unitEnter is null
+2026-02-18 12:03:02 unitEnter is null
+2026-02-18 12:03:13 unitEnter is null
+2026-02-18 12:03:13 unitEnter is null
+2026-02-18 12:03:45 unitEnter is null
+2026-02-18 12:03:45 unitEnter is null
+2026-02-18 12:03:52 unitEnter is null
+2026-02-18 12:03:52 unitEnter is null
+2026-02-18 12:03:57 unitEnter is null
+2026-02-18 12:03:57 unitEnter is null
+2026-02-18 12:04:22 unitEnter is null
+2026-02-18 12:04:22 unitEnter is null
+2026-02-18 12:04:28 unitEnter is null
+2026-02-18 12:04:28 unitEnter is null
+2026-02-18 12:04:39 unitEnter is null
+2026-02-18 12:04:39 unitEnter is null
+2026-02-18 12:04:44 unitEnter is null
+2026-02-18 12:04:44 unitEnter is null
+2026-02-18 12:04:49 unitEnter is null
+2026-02-18 12:04:49 unitEnter is null
+2026-02-18 12:04:55 unitEnter is null
+2026-02-18 12:04:55 unitEnter is null
+2026-02-18 12:05:09 unitEnter is null
+2026-02-18 12:05:09 unitEnter is null
+2026-02-18 12:05:15 unitEnter is null
+2026-02-18 12:05:15 unitEnter is null
+2026-02-18 12:05:20 unitEnter is null
+2026-02-18 12:05:20 unitEnter is null
+2026-02-18 12:05:25 unitEnter is null
+2026-02-18 12:05:25 unitEnter is null
+2026-02-18 12:05:31 unitEnter is null
+2026-02-18 12:05:31 unitEnter is null
+2026-02-18 12:05:39 unitEnter is null
+2026-02-18 12:05:39 unitEnter is null
+2026-02-18 12:05:54 unitEnter is null
+2026-02-18 12:05:54 unitEnter is null
+2026-02-18 12:05:59 unitEnter is null
+2026-02-18 12:05:59 unitEnter is null
+2026-02-18 12:06:04 unitEnter is null
+2026-02-18 12:06:04 unitEnter is null
+2026-02-18 12:06:10 unitEnter is null
+2026-02-18 12:06:10 unitEnter is null
+2026-02-18 12:06:15 unitEnter is null
+2026-02-18 12:06:15 unitEnter is null
+2026-02-18 12:06:21 unitEnter is null
+2026-02-18 12:06:21 unitEnter is null
+2026-02-18 12:06:35 unitEnter is null
+2026-02-18 12:06:35 unitEnter is null
+2026-02-18 12:06:44 unitEnter is null
+2026-02-18 12:06:44 unitEnter is null
+2026-02-18 12:06:49 unitEnter is null
+2026-02-18 12:06:49 unitEnter is null
+2026-02-18 12:06:55 unitEnter is null
+2026-02-18 12:06:55 unitEnter is null
+2026-02-18 12:07:00 unitEnter is null
+2026-02-18 12:07:00 unitEnter is null
+2026-02-18 12:07:19 unitEnter is null
+2026-02-18 12:07:19 unitEnter is null
+2026-02-18 12:07:55 buffID:10101==操作类型:2==目标287993019800813569已死亡
+2026-02-18 12:07:55 unitEnter is null
+2026-02-18 12:07:55 unitEnter is null
+2026-02-18 12:08:00 unitEnter is null
+2026-02-18 12:08:00 unitEnter is null
+2026-02-18 12:08:06 unitEnter is null
+2026-02-18 12:08:06 unitEnter is null
+2026-02-18 12:08:11 unitEnter is null
+2026-02-18 12:08:11 unitEnter is null
+2026-02-18 12:08:30 unitEnter is null
+2026-02-18 12:08:30 unitEnter is null
+2026-02-18 12:08:35 unitEnter is null
+2026-02-18 12:08:35 unitEnter is null
+2026-02-18 12:08:54 unitEnter is null
+2026-02-18 12:08:54 unitEnter is null
+2026-02-18 12:09:00 unitEnter is null
+2026-02-18 12:09:00 unitEnter is null
+2026-02-18 12:09:11 unitEnter is null
+2026-02-18 12:09:11 unitEnter is null
+2026-02-18 12:09:21 unitEnter is null
+2026-02-18 12:09:21 unitEnter is null
+2026-02-18 12:09:27 unitEnter is null
+2026-02-18 12:09:27 unitEnter is null
+2026-02-18 12:09:37 unitEnter is null
+2026-02-18 12:09:37 unitEnter is null
+2026-02-18 12:09:59 unitEnter is null
+2026-02-18 12:09:59 unitEnter is null
+2026-02-18 12:10:05 unitEnter is null
+2026-02-18 12:10:05 unitEnter is null
+2026-02-18 12:10:10 unitEnter is null
+2026-02-18 12:10:10 unitEnter is null
+2026-02-18 12:10:15 unitEnter is null
+2026-02-18 12:10:15 unitEnter is null
+2026-02-18 12:10:21 unitEnter is null
+2026-02-18 12:10:21 unitEnter is null
+2026-02-18 12:10:26 unitEnter is null
+2026-02-18 12:10:26 unitEnter is null
+2026-02-18 12:10:40 unitEnter is null
+2026-02-18 12:10:40 unitEnter is null
+2026-02-18 12:10:47 unitEnter is null
+2026-02-18 12:10:47 unitEnter is null
+2026-02-18 12:10:52 unitEnter is null
+2026-02-18 12:10:52 unitEnter is null
+2026-02-18 12:10:58 unitEnter is null
+2026-02-18 12:10:58 unitEnter is null
+2026-02-18 12:11:04 unitEnter is null
+2026-02-18 12:11:04 unitEnter is null
+2026-02-18 12:11:09 unitEnter is null
+2026-02-18 12:11:09 unitEnter is null
+2026-02-18 12:11:24 unitEnter is null
+2026-02-18 12:11:24 unitEnter is null
+2026-02-18 12:11:36 unitEnter is null
+2026-02-18 12:11:36 unitEnter is null
+2026-02-18 12:11:42 unitEnter is null
+2026-02-18 12:11:42 unitEnter is null
+2026-02-18 12:11:48 unitEnter is null
+2026-02-18 12:11:48 unitEnter is null
+2026-02-18 12:11:53 unitEnter is null
+2026-02-18 12:11:53 unitEnter is null
+2026-02-18 12:11:58 unitEnter is null
+2026-02-18 12:11:58 unitEnter is null
+2026-02-18 12:12:19 unitEnter is null
+2026-02-18 12:12:19 unitEnter is null
+2026-02-18 12:12:24 unitEnter is null
+2026-02-18 12:12:24 unitEnter is null
+2026-02-18 12:12:36 unitEnter is null
+2026-02-18 12:12:36 unitEnter is null
+2026-02-18 12:12:41 unitEnter is null
+2026-02-18 12:12:41 unitEnter is null
+2026-02-18 12:12:46 unitEnter is null
+2026-02-18 12:12:46 unitEnter is null
+2026-02-18 12:12:57 unitEnter is null
+2026-02-18 12:12:57 unitEnter is null
+2026-02-18 12:13:17 unitEnter is null
+2026-02-18 12:13:17 unitEnter is null
+2026-02-18 12:13:22 unitEnter is null
+2026-02-18 12:13:22 unitEnter is null
+2026-02-18 12:13:28 unitEnter is null
+2026-02-18 12:13:28 unitEnter is null
+2026-02-18 12:13:34 unitEnter is null
+2026-02-18 12:13:34 unitEnter is null
+2026-02-18 12:13:44 buffID:10101==操作类型:2==目标288016246983950341已死亡
+2026-02-18 12:13:44 unitEnter is null
+2026-02-18 12:13:44 unitEnter is null
+2026-02-18 12:13:52 unitEnter is null
+2026-02-18 12:13:52 unitEnter is null
+2026-02-18 12:44:36 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-18 12:44:51 buffID:50091301==操作类型:2==目标-5148207763875692541已死亡
+2026-02-18 12:44:51 unitEnter is null
+2026-02-18 12:44:51 unitEnter is null
+2026-02-18 12:44:58 cancellPerform
+2026-02-18 12:49:18 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-18 12:50:12 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-18 12:50:23 buffID:60002201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-18 12:50:23 buffID:60002202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-18 12:50:23 buffID:60041201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-18 12:50:23 buffID:60041202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-18 12:50:23 buffID:60041203==操作类型:2==目标-5154259819471831039已死亡
+2026-02-18 12:50:23 buffID:60041204==操作类型:2==目标-5154259819471831039已死亡
+2026-02-18 12:50:23 buffID:60041205==操作类型:2==目标-5154259819471831039已死亡
+2026-02-18 12:50:23 buffID:60011402==操作类型:2==目标-5154259819471831039已死亡
+2026-02-18 12:50:23 buffID:20104401==操作类型:2==目标-5154259819471831039已死亡
+2026-02-18 12:50:23 unitEnter is null
+2026-02-18 12:50:23 unitEnter is null
+2026-02-18 12:50:34 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-18 12:53:42 IKcpTransport tcp error: 505476877 100208
+2026-02-18 12:54:12 IKcpTransport tcp error: 287872966153207811 10054
+2026-02-18 12:58:31 Double ConfirmDialogAsync
+2026-02-18 12:58:52 无法找到指定的时区 timeZoneId = 8
+2026-02-18 13:01:22 IKcpTransport tcp error: 1030501789 100208
+2026-02-18 13:01:52 IKcpTransport tcp error: 288204812506365954 10054
+2026-02-18 13:02:50 System.Exception: GetChannelConn conn not found KChannel! 1030501789
+  at ETNetwork.KService.GetChannelConn (System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.RunNetThreadOperator () [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.UpdateInNetThread () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.NetThreadComponentSystem.NetThreadUpdate (ET.NetThreadComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ETNetwork.NetServices.GetChannelConn (System.Int32 serviceId, System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.RouterCheckComponentAwakeSystem.CheckAsync (ET.Client.RouterCheckComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.GetChannelConn (System.Int32 serviceId, System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.AwaitTaskContinuation.RunCallback (System.Threading.ContextCallback callback, System.Object state, System.Threading.Tasks.Task& currentTask) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.FinishContinuations () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.Finish (System.Boolean bUserDelegateExecuted) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.TrySetException (System.Object exceptionObject) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[TResult].SetException (System.Exception exception) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-18 13:02:53 无法找到指定的时区 timeZoneId = 8
+2026-02-18 13:05:07 IKcpTransport tcp error: 1329282727 100208
+2026-02-18 13:05:37 IKcpTransport tcp error: 288221373900259336 10054
+2026-02-18 13:09:57 System.Exception: GetChannelConn conn not found KChannel! 1329282727
+  at ETNetwork.KService.GetChannelConn (System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.RunNetThreadOperator () [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.UpdateInNetThread () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.NetThreadComponentSystem.NetThreadUpdate (ET.NetThreadComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ETNetwork.NetServices.GetChannelConn (System.Int32 serviceId, System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.RouterCheckComponentAwakeSystem.CheckAsync (ET.Client.RouterCheckComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.GetChannelConn (System.Int32 serviceId, System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.AwaitTaskContinuation.RunCallback (System.Threading.ContextCallback callback, System.Object state, System.Threading.Tasks.Task& currentTask) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.FinishContinuations () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.Finish (System.Boolean bUserDelegateExecuted) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.TrySetException (System.Object exceptionObject) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[TResult].SetException (System.Exception exception) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-18 13:09:57 Double ConfirmDialogAsync

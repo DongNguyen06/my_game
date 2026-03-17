@@ -1,0 +1,1220 @@
+2026-02-19 15:57:49 无法找到指定的时区 timeZoneId = 8
+2026-02-19 15:57:51 IActivity_ActivityPrayers  本地解析 报错 e = System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Pokemon.Activity.System.ActivityMatchMakingComponentSystem.GetTodayLeftPlayNum (ET.Pokemon.Activity.Component.ActivityMatchMakingComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityMatchMakingComponentSystem.UpdateRed (ET.Pokemon.Activity.Component.ActivityMatchMakingComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.IActivity_ActivityMatchMaking.Run (System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.IActivity_ActivityMatchMaking.Run (System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddPlayerActivityInfoList (ET.Pokemon.Activity.Component.ActivityComponent self, System.Int64 activityId, ET.Client.ClientPlayerActivityInfo clinetInfo, System.Boolean CheckAdd) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddActivity (ET.Pokemon.Activity.Component.ActivityComponent self, ET.PlayerActivityInfo info, System.Boolean CheckAdd) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Handel.Game2Client_SendActivityListHandler.Run (ET.Session session, ET.Game2Client_SendActivityList message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.UpdateActivity (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.Down (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.GetActivityCheck (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FileDownloader.DownloadFileAsync (System.String url, System.String tempFilePath, System.Boolean breakResume) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.ActivityCdnWatcherComponentSystem.Run (ET.ActivityCdnWatcherComponent self, System.String token, ET.Pokemon.Activity.Component.ActivityUnit unit) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.SetActivityConfig (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self, ET.Scene scene, System.String token, System.Int64 activityid) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.Help.ActivityHelper.GetIndependentctivityConfig (ET.Scene scene, System.Int64 activityId, System.Int32 function) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddPlayerActivityInfoList (ET.Pokemon.Activity.Component.ActivityComponent self, System.Int64 activityId, ET.Client.ClientPlayerActivityInfo clinetInfo, System.Boolean CheckAdd) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityComponentSystem.AddActivity (ET.Pokemon.Activity.Component.ActivityComponent self, ET.PlayerActivityInfo info, System.Boolean CheckAdd) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Handel.Game2Client_SendActivityListHandler.Run (ET.Session session, ET.Game2Client_SendActivityList message) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.UpdateActivity (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.Down (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Pokemon.Activity.System.ActivityCndLoaderComponentSystem.GetActivityCheck (ET.Pokemon.Activity.Component.ActivityCndLoaderComponent self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Logger.Error (System.String msg) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.FileDownloader.DownloadFileAsync (System.String url, System.String tempFilePath, System.Boolean breakResume) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-02-19 15:59:08 IKcpTransport tcp error: 732759346 100208
+2026-02-19 15:59:38 IKcpTransport tcp error: 294879947598594050 10054
+2026-02-19 16:01:56 无法找到指定的时区 timeZoneId = 8
+2026-02-19 16:01:56 System.Exception: GetChannelConn conn not found KChannel! 732759346
+  at ETNetwork.KService.GetChannelConn (System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.RunNetThreadOperator () [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.UpdateInNetThread () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.NetThreadComponentSystem.NetThreadUpdate (ET.NetThreadComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ETNetwork.NetServices.GetChannelConn (System.Int32 serviceId, System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.RouterCheckComponentAwakeSystem.CheckAsync (ET.Client.RouterCheckComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.GetChannelConn (System.Int32 serviceId, System.Int64 channelId) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.AwaitTaskContinuation.RunCallback (System.Threading.ContextCallback callback, System.Object state, System.Threading.Tasks.Task& currentTask) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.FinishContinuations () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.Finish (System.Boolean bUserDelegateExecuted) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.TrySetException (System.Object exceptionObject) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[TResult].SetException (System.Exception exception) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-19 16:01:56 Double ConfirmDialogAsync
+2026-02-19 16:02:00 无法找到指定的时区 timeZoneId = 8
+2026-02-19 16:10:32 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 16:10:42 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 16:12:09 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 16:12:49 buffID:50091301==操作类型:2==目标294931968963772419已死亡
+2026-02-19 16:12:49 buffID:10204201==操作类型:2==目标294931968963772419已死亡
+2026-02-19 16:12:49 buffID:10204201==操作类型:2==目标294931968963772419已死亡
+2026-02-19 16:12:49 buffID:10104201==操作类型:2==目标294931968963772419已死亡
+2026-02-19 16:12:49 buffID:10204201==操作类型:2==目标294931968963772419已死亡
+2026-02-19 16:12:49 buffID:10104201==操作类型:2==目标294931968963772419已死亡
+2026-02-19 16:12:49 buffID:20022201==操作类型:2==目标294931968963772419已死亡
+2026-02-19 16:12:49 buffID:10104201==操作类型:2==目标294931968963772419已死亡
+2026-02-19 16:12:49 buffID:10104201==操作类型:2==目标294931968963772419已死亡
+2026-02-19 16:12:49 buffID:10104201==操作类型:2==目标294931968963772419已死亡
+2026-02-19 16:12:49 buffID:10254201==操作类型:2==目标294931968963772419已死亡
+2026-02-19 16:12:49 buffID:10254202==操作类型:2==目标294931968963772419已死亡
+2026-02-19 16:12:49 unitEnter is null
+2026-02-19 16:12:49 unitEnter is null
+2026-02-19 16:12:50 buffID:20026404==操作类型:1==目标294931968963772422不在场上
+2026-02-19 16:12:50 PlaySkillPerform,但是294931968963772422没有在场上
+2026-02-19 16:13:03 buffID:20026404==操作类型:2==目标294931968963772422已死亡
+2026-02-19 16:13:03 buffID:50051401==操作类型:2==目标294931968963772422已死亡
+2026-02-19 16:13:03 unitEnter is null
+2026-02-19 16:13:03 unitEnter is null
+2026-02-19 16:13:13 buffID:50031401==操作类型:2==目标294931968963772420已死亡
+2026-02-19 16:13:13 buffID:20023401==操作类型:2==目标294931968963772420已死亡
+2026-02-19 16:13:13 unitEnter is null
+2026-02-19 16:13:13 unitEnter is null
+2026-02-19 16:13:30 buffID:50281201==操作类型:2==目标294931968963772423已死亡
+2026-02-19 16:13:30 unitEnter is null
+2026-02-19 16:13:30 unitEnter is null
+2026-02-19 16:13:38 buffID:50331101==操作类型:2==目标294931968963772421已死亡
+2026-02-19 16:13:38 buffID:50331201==操作类型:2==目标294931968963772421已死亡
+2026-02-19 16:13:38 unitEnter is null
+2026-02-19 16:13:38 unitEnter is null
+2026-02-19 16:13:48 buffID:50091301==操作类型:2==目标294931968963772424已死亡
+2026-02-19 16:13:48 buffID:20023401==操作类型:2==目标294931968963772424已死亡
+2026-02-19 16:13:48 unitEnter is null
+2026-02-19 16:13:48 unitEnter is null
+2026-02-19 16:15:30 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 16:15:39 buffID:20022201==操作类型:2==目标-5155828822565715892已死亡
+2026-02-19 16:15:39 buffID:50121201==操作类型:2==目标-5155828822565715892已死亡
+2026-02-19 16:15:39 unitEnter is null
+2026-02-19 16:15:39 unitEnter is null
+2026-02-19 16:15:45 buffID:50011401==操作类型:2==目标-5148969725436100589已死亡
+2026-02-19 16:15:45 unitEnter is null
+2026-02-19 16:15:45 unitEnter is null
+2026-02-19 16:15:51 unitEnter is null
+2026-02-19 16:15:51 unitEnter is null
+2026-02-19 16:15:59 buffID:50011401==操作类型:2==目标-5180779627622432753已死亡
+2026-02-19 16:15:59 unitEnter is null
+2026-02-19 16:15:59 unitEnter is null
+2026-02-19 16:16:05 buffID:50411401==操作类型:2==目标-5154939248939368439已死亡
+2026-02-19 16:16:05 unitEnter is null
+2026-02-19 16:16:05 unitEnter is null
+2026-02-19 16:16:13 buffID:50011401==操作类型:2==目标-5170121992690991082已死亡
+2026-02-19 16:16:13 unitEnter is null
+2026-02-19 16:16:13 unitEnter is null
+2026-02-19 16:24:16 buffID:20022201==操作类型:2==目标294988387654172674已死亡
+2026-02-19 16:24:16 unitEnter is null
+2026-02-19 16:24:16 unitEnter is null
+2026-02-19 16:24:33 unitEnter is null
+2026-02-19 16:24:33 unitEnter is null
+2026-02-19 16:24:39 unitEnter is null
+2026-02-19 16:24:39 unitEnter is null
+2026-02-19 16:24:45 unitEnter is null
+2026-02-19 16:24:45 unitEnter is null
+2026-02-19 16:24:55 buffID:10303==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 16:24:55 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 16:24:55 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 16:24:55 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 16:24:55 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 16:24:55 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 16:24:55 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 16:24:55 buffID:20104401==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 16:24:55 unitEnter is null
+2026-02-19 16:24:55 unitEnter is null
+2026-02-19 16:25:15 buffID:10264101==操作类型:2==目标294988387654172677已死亡
+2026-02-19 16:25:15 unitEnter is null
+2026-02-19 16:25:15 unitEnter is null
+2026-02-19 16:25:34 unitEnter is null
+2026-02-19 16:25:34 unitEnter is null
+2026-02-19 16:25:56 buffID:20022201==操作类型:2==目标294995259601846274已死亡
+2026-02-19 16:25:56 buffID:20011401==操作类型:2==目标294995259601846274已死亡
+2026-02-19 16:25:56 unitEnter is null
+2026-02-19 16:25:56 unitEnter is null
+2026-02-19 16:26:10 unitEnter is null
+2026-02-19 16:26:10 unitEnter is null
+2026-02-19 16:26:20 buffID:20047401==操作类型:2==目标294995259601846278已死亡
+2026-02-19 16:26:20 buffID:20047402==操作类型:2==目标294995259601846278已死亡
+2026-02-19 16:26:20 unitEnter is null
+2026-02-19 16:26:20 unitEnter is null
+2026-02-19 16:26:26 unitEnter is null
+2026-02-19 16:26:26 unitEnter is null
+2026-02-19 16:26:31 unitEnter is null
+2026-02-19 16:26:31 unitEnter is null
+2026-02-19 16:26:37 unitEnter is null
+2026-02-19 16:26:37 unitEnter is null
+2026-02-19 16:27:34 buffID:20022201==操作类型:2==目标294999932526264322已死亡
+2026-02-19 16:27:34 unitEnter is null
+2026-02-19 16:27:34 unitEnter is null
+2026-02-19 16:27:43 unitEnter is null
+2026-02-19 16:27:43 unitEnter is null
+2026-02-19 16:27:55 unitEnter is null
+2026-02-19 16:27:55 unitEnter is null
+2026-02-19 16:28:06 unitEnter is null
+2026-02-19 16:28:06 unitEnter is null
+2026-02-19 16:28:11 unitEnter is null
+2026-02-19 16:28:11 unitEnter is null
+2026-02-19 16:28:18 unitEnter is null
+2026-02-19 16:28:18 unitEnter is null
+2026-02-19 16:29:48 buffID:20022201==操作类型:2==目标295011133800972295已死亡
+2026-02-19 16:29:48 unitEnter is null
+2026-02-19 16:29:48 unitEnter is null
+2026-02-19 16:29:55 unitEnter is null
+2026-02-19 16:29:55 unitEnter is null
+2026-02-19 16:30:13 buffID:10205101==操作类型:2==目标295011133800972297已死亡
+2026-02-19 16:30:13 buffID:20032401==操作类型:2==目标295011133800972297已死亡
+2026-02-19 16:30:13 unitEnter is null
+2026-02-19 16:30:13 unitEnter is null
+2026-02-19 16:30:19 unitEnter is null
+2026-02-19 16:30:19 unitEnter is null
+2026-02-19 16:30:24 buffID:20005401==操作类型:2==目标295011133800972296已死亡
+2026-02-19 16:30:24 buffID:20005402==操作类型:2==目标295011133800972296已死亡
+2026-02-19 16:30:24 unitEnter is null
+2026-02-19 16:30:24 unitEnter is null
+2026-02-19 16:30:36 unitEnter is null
+2026-02-19 16:30:36 unitEnter is null
+2026-02-19 16:31:15 buffID:20022201==操作类型:2==目标295017181114925058已死亡
+2026-02-19 16:31:15 unitEnter is null
+2026-02-19 16:31:15 unitEnter is null
+2026-02-19 16:31:20 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 16:31:29 unitEnter is null
+2026-02-19 16:31:29 unitEnter is null
+2026-02-19 16:31:37 unitEnter is null
+2026-02-19 16:31:37 unitEnter is null
+2026-02-19 16:31:47 unitEnter is null
+2026-02-19 16:31:47 unitEnter is null
+2026-02-19 16:31:54 unitEnter is null
+2026-02-19 16:31:54 unitEnter is null
+2026-02-19 16:32:02 unitEnter is null
+2026-02-19 16:32:02 unitEnter is null
+2026-02-19 16:32:25 unitEnter is null
+2026-02-19 16:32:25 unitEnter is null
+2026-02-19 16:32:33 unitEnter is null
+2026-02-19 16:32:33 unitEnter is null
+2026-02-19 16:32:42 unitEnter is null
+2026-02-19 16:32:42 unitEnter is null
+2026-02-19 16:32:50 unitEnter is null
+2026-02-19 16:32:50 unitEnter is null
+2026-02-19 16:32:58 unitEnter is null
+2026-02-19 16:32:58 unitEnter is null
+2026-02-19 16:33:04 unitEnter is null
+2026-02-19 16:33:04 unitEnter is null
+2026-02-19 16:33:32 buffID:20022201==操作类型:2==目标295026526963761156已死亡
+2026-02-19 16:33:32 unitEnter is null
+2026-02-19 16:33:32 unitEnter is null
+2026-02-19 16:33:39 unitEnter is null
+2026-02-19 16:33:39 unitEnter is null
+2026-02-19 16:33:47 unitEnter is null
+2026-02-19 16:33:47 unitEnter is null
+2026-02-19 16:33:55 unitEnter is null
+2026-02-19 16:33:55 unitEnter is null
+2026-02-19 16:34:03 unitEnter is null
+2026-02-19 16:34:03 unitEnter is null
+2026-02-19 16:34:11 unitEnter is null
+2026-02-19 16:34:11 unitEnter is null
+2026-02-19 16:34:43 buffID:20022201==操作类型:2==目标295031474766086145已死亡
+2026-02-19 16:34:43 unitEnter is null
+2026-02-19 16:34:43 unitEnter is null
+2026-02-19 16:34:50 unitEnter is null
+2026-02-19 16:34:50 unitEnter is null
+2026-02-19 16:34:55 unitEnter is null
+2026-02-19 16:34:55 unitEnter is null
+2026-02-19 16:35:01 unitEnter is null
+2026-02-19 16:35:01 unitEnter is null
+2026-02-19 16:35:06 unitEnter is null
+2026-02-19 16:35:06 unitEnter is null
+2026-02-19 16:35:12 unitEnter is null
+2026-02-19 16:35:12 unitEnter is null
+2026-02-19 16:37:46 配置找不到，配置表名: ItemSourceConfig，配置id: 102
+  at ET.Client.Common.BagPanel.UpdateDataInfo (ET.ItemConfig itemConfig, System.Single panelHeight, System.Int64 itemId) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Common.CommonItemInfo.UpdateInfo (System.Int32 configId, System.Int64 itemId, System.Boolean isSelect) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Bag.BagCenterWindowLogicSystem.UpdateInfo (ET.Client.Bag.BagCenterWindow self, ET.Item itemInfo) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Bag.BagCenterWindow.GoodsRenderListItem (System.Int32 index, System.Object obj) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Bag.BagCenterWindowLogicSystem.UpdateGoodsListData (ET.Client.Bag.BagCenterWindow self) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Bag.BagCenterWindow.OnClickItemList (FairyGUI.EventContext context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Logger.Error (System.String msg) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.GList.set_numItems (System.Int32 value) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.GList.HandleScroll1 (System.Boolean forceUpdate) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.GList.HandleScroll (System.Boolean forceUpdate) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-02-19 16:41:00 IKcpTransport tcp error: 294897196187254795 100207
+2026-02-19 16:41:25 IKcpTransport tcp error: 295056006897991681 100207
+2026-02-19 16:46:36 buffID:20022201==操作类型:2==目标295078616327127043已死亡
+2026-02-19 16:46:36 buffID:10246201==操作类型:2==目标295078616327127043已死亡
+2026-02-19 16:46:36 buffID:10246202==操作类型:2==目标295078616327127043已死亡
+2026-02-19 16:46:36 buffID:10246203==操作类型:2==目标295078616327127043已死亡
+2026-02-19 16:46:36 buffID:10246204==操作类型:2==目标295078616327127043已死亡
+2026-02-19 16:46:36 buffID:10246205==操作类型:2==目标295078616327127043已死亡
+2026-02-19 16:46:36 buffID:20003201==操作类型:2==目标295078616327127043已死亡
+2026-02-19 16:46:36 buffID:20003201==操作类型:2==目标295078616327127043已死亡
+2026-02-19 16:46:36 buffID:20003201==操作类型:2==目标295078616327127043已死亡
+2026-02-19 16:46:36 unitEnter is null
+2026-02-19 16:46:36 unitEnter is null
+2026-02-19 16:46:43 unitEnter is null
+2026-02-19 16:46:43 unitEnter is null
+2026-02-19 16:46:50 unitEnter is null
+2026-02-19 16:46:50 unitEnter is null
+2026-02-19 16:46:57 unitEnter is null
+2026-02-19 16:46:57 unitEnter is null
+2026-02-19 16:47:05 buffID:20005401==操作类型:2==目标295078616327127045已死亡
+2026-02-19 16:47:05 buffID:20005402==操作类型:2==目标295078616327127045已死亡
+2026-02-19 16:47:05 unitEnter is null
+2026-02-19 16:47:05 unitEnter is null
+2026-02-19 16:47:12 unitEnter is null
+2026-02-19 16:47:12 unitEnter is null
+2026-02-19 16:47:48 buffID:20022201==操作类型:2==目标295085419555323906已死亡
+2026-02-19 16:47:48 buffID:20014401==操作类型:2==目标295085419555323906已死亡
+2026-02-19 16:47:48 unitEnter is null
+2026-02-19 16:47:48 unitEnter is null
+2026-02-19 16:47:54 buffID:20005401==操作类型:2==目标295085419555323908已死亡
+2026-02-19 16:47:54 buffID:20005402==操作类型:2==目标295085419555323908已死亡
+2026-02-19 16:47:54 unitEnter is null
+2026-02-19 16:47:54 unitEnter is null
+2026-02-19 16:48:07 unitEnter is null
+2026-02-19 16:48:07 unitEnter is null
+2026-02-19 16:48:15 unitEnter is null
+2026-02-19 16:48:15 unitEnter is null
+2026-02-19 16:48:22 unitEnter is null
+2026-02-19 16:48:22 unitEnter is null
+2026-02-19 16:48:34 buffID:20027401==操作类型:2==目标295085419555323909已死亡
+2026-02-19 16:48:34 unitEnter is null
+2026-02-19 16:48:34 unitEnter is null
+2026-02-19 16:49:12 buffID:20022201==操作类型:2==目标295090917113462786已死亡
+2026-02-19 16:49:12 unitEnter is null
+2026-02-19 16:49:12 unitEnter is null
+2026-02-19 16:49:26 buffID:20014401==操作类型:2==目标295090917113462789已死亡
+2026-02-19 16:49:26 unitEnter is null
+2026-02-19 16:49:26 unitEnter is null
+2026-02-19 16:49:39 buffID:20014401==操作类型:2==目标295090917113462788已死亡
+2026-02-19 16:49:39 unitEnter is null
+2026-02-19 16:49:39 unitEnter is null
+2026-02-19 16:49:44 unitEnter is null
+2026-02-19 16:49:44 unitEnter is null
+2026-02-19 16:49:55 unitEnter is null
+2026-02-19 16:49:55 unitEnter is null
+2026-02-19 16:50:18 buffID:10636201==操作类型:2==目标295090917113462791已死亡
+2026-02-19 16:50:18 unitEnter is null
+2026-02-19 16:50:18 unitEnter is null
+2026-02-19 16:51:36 buffID:20022201==操作类型:2==目标295100743998636034已死亡
+2026-02-19 16:51:36 unitEnter is null
+2026-02-19 16:51:36 unitEnter is null
+2026-02-19 16:51:48 buffID:20014401==操作类型:2==目标295100743998636035已死亡
+2026-02-19 16:51:48 unitEnter is null
+2026-02-19 16:51:48 unitEnter is null
+2026-02-19 16:52:14 buffID:10014201==操作类型:2==目标295100743998636039已死亡
+2026-02-19 16:52:14 unitEnter is null
+2026-02-19 16:52:14 unitEnter is null
+2026-02-19 16:52:26 unitEnter is null
+2026-02-19 16:52:26 unitEnter is null
+2026-02-19 16:52:41 unitEnter is null
+2026-02-19 16:52:41 unitEnter is null
+2026-02-19 16:52:53 buffID:10101==操作类型:2==目标295100743998636037已死亡
+2026-02-19 16:52:53 buffID:20003201==操作类型:2==目标295100743998636037已死亡
+2026-02-19 16:52:53 unitEnter is null
+2026-02-19 16:52:53 unitEnter is null
+2026-02-19 16:53:43 buffID:20022201==操作类型:2==目标295109677530611714已死亡
+2026-02-19 16:53:43 unitEnter is null
+2026-02-19 16:53:43 unitEnter is null
+2026-02-19 16:54:01 unitEnter is null
+2026-02-19 16:54:01 unitEnter is null
+2026-02-19 16:54:06 unitEnter is null
+2026-02-19 16:54:06 unitEnter is null
+2026-02-19 16:54:12 unitEnter is null
+2026-02-19 16:54:12 unitEnter is null
+2026-02-19 16:54:21 unitEnter is null
+2026-02-19 16:54:21 unitEnter is null
+2026-02-19 16:54:28 unitEnter is null
+2026-02-19 16:54:28 unitEnter is null
+2026-02-19 17:08:51 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 17:10:21 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 17:10:58 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 17:11:30 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 17:12:57 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 17:13:03 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 17:13:15 buffID:10014201==操作类型:2==目标-5154798786327871484已死亡
+2026-02-19 17:13:15 buffID:10014201==操作类型:2==目标-5154798786327871484已死亡
+2026-02-19 17:13:15 buffID:10014201==操作类型:2==目标-5154798786327871484已死亡
+2026-02-19 17:13:15 buffID:50571401==操作类型:2==目标-5154798786327871484已死亡
+2026-02-19 17:13:15 unitEnter is null
+2026-02-19 17:13:15 unitEnter is null
+2026-02-19 17:18:58 unitEnter is null
+2026-02-19 17:18:58 unitEnter is null
+2026-02-19 17:19:11 unitEnter is null
+2026-02-19 17:19:11 unitEnter is null
+2026-02-19 17:19:26 buffID:20022201==操作类型:2==目标295212894184669190已死亡
+2026-02-19 17:19:26 unitEnter is null
+2026-02-19 17:19:26 unitEnter is null
+2026-02-19 17:19:33 unitEnter is null
+2026-02-19 17:19:33 unitEnter is null
+2026-02-19 17:19:40 unitEnter is null
+2026-02-19 17:19:40 unitEnter is null
+2026-02-19 17:19:53 unitEnter is null
+2026-02-19 17:19:53 unitEnter is null
+2026-02-19 17:20:05 cancellPerform
+2026-02-19 17:20:51 buffID:20022201==操作类型:2==目标295220315888156672已死亡
+2026-02-19 17:20:51 unitEnter is null
+2026-02-19 17:20:51 unitEnter is null
+2026-02-19 17:20:56 unitEnter is null
+2026-02-19 17:20:56 unitEnter is null
+2026-02-19 17:21:04 unitEnter is null
+2026-02-19 17:21:04 unitEnter is null
+2026-02-19 17:21:09 unitEnter is null
+2026-02-19 17:21:09 unitEnter is null
+2026-02-19 17:21:15 unitEnter is null
+2026-02-19 17:21:15 unitEnter is null
+2026-02-19 17:21:23 unitEnter is null
+2026-02-19 17:21:23 unitEnter is null
+2026-02-19 17:21:42 buffID:20022201==操作类型:2==目标295225126251528215已死亡
+2026-02-19 17:21:42 unitEnter is null
+2026-02-19 17:21:42 unitEnter is null
+2026-02-19 17:21:49 unitEnter is null
+2026-02-19 17:21:49 unitEnter is null
+2026-02-19 17:22:01 unitEnter is null
+2026-02-19 17:22:01 unitEnter is null
+2026-02-19 17:22:08 unitEnter is null
+2026-02-19 17:22:08 unitEnter is null
+2026-02-19 17:22:16 unitEnter is null
+2026-02-19 17:22:16 unitEnter is null
+2026-02-19 17:22:28 unitEnter is null
+2026-02-19 17:22:28 unitEnter is null
+2026-02-19 17:22:49 buffID:20022201==操作类型:2==目标295229593017516034已死亡
+2026-02-19 17:22:49 unitEnter is null
+2026-02-19 17:22:49 unitEnter is null
+2026-02-19 17:22:56 unitEnter is null
+2026-02-19 17:22:56 unitEnter is null
+2026-02-19 17:23:03 unitEnter is null
+2026-02-19 17:23:03 unitEnter is null
+2026-02-19 17:23:10 unitEnter is null
+2026-02-19 17:23:10 unitEnter is null
+2026-02-19 17:23:16 unitEnter is null
+2026-02-19 17:23:16 unitEnter is null
+2026-02-19 17:23:17 buffID:20026404==操作类型:1==目标295229593017516036不在场上
+2026-02-19 17:23:17 PlaySkillPerform,但是295229593017516036没有在场上
+2026-02-19 17:23:22 buffID:20026404==操作类型:2==目标295229593017516036已死亡
+2026-02-19 17:23:22 unitEnter is null
+2026-02-19 17:23:22 unitEnter is null
+2026-02-19 17:28:46 buffID:20022201==操作类型:2==目标295254194590187533已死亡
+2026-02-19 17:28:46 unitEnter is null
+2026-02-19 17:28:46 unitEnter is null
+2026-02-19 17:29:01 unitEnter is null
+2026-02-19 17:29:01 unitEnter is null
+2026-02-19 17:30:19 buffID:20022201==操作类型:2==目标295260722940477440已死亡
+2026-02-19 17:30:19 unitEnter is null
+2026-02-19 17:30:19 unitEnter is null
+2026-02-19 17:30:27 unitEnter is null
+2026-02-19 17:30:27 unitEnter is null
+2026-02-19 17:30:38 unitEnter is null
+2026-02-19 17:30:38 unitEnter is null
+2026-02-19 17:31:07 buffID:20022201==操作类型:2==目标295264021475360774已死亡
+2026-02-19 17:31:08 unitEnter is null
+2026-02-19 17:31:08 unitEnter is null
+2026-02-19 17:31:13 unitEnter is null
+2026-02-19 17:31:13 unitEnter is null
+2026-02-19 17:31:18 unitEnter is null
+2026-02-19 17:31:18 unitEnter is null
+2026-02-19 17:31:44 buffID:20022201==操作类型:2==目标295266357937569918已死亡
+2026-02-19 17:31:44 buffID:20185401==操作类型:2==目标295266357937569918已死亡
+2026-02-19 17:31:44 unitEnter is null
+2026-02-19 17:31:44 unitEnter is null
+2026-02-19 17:31:49 unitEnter is null
+2026-02-19 17:31:49 unitEnter is null
+2026-02-19 17:31:56 buffID:20047401==操作类型:2==目标295266357937569919已死亡
+2026-02-19 17:31:56 buffID:20047402==操作类型:2==目标295266357937569919已死亡
+2026-02-19 17:31:56 unitEnter is null
+2026-02-19 17:31:56 unitEnter is null
+2026-02-19 17:33:23 buffID:20022201==操作类型:2==目标295273298604720130已死亡
+2026-02-19 17:33:23 buffID:20005401==操作类型:2==目标295273298604720130已死亡
+2026-02-19 17:33:23 buffID:20005402==操作类型:2==目标295273298604720130已死亡
+2026-02-19 17:33:23 unitEnter is null
+2026-02-19 17:33:23 unitEnter is null
+2026-02-19 17:33:29 unitEnter is null
+2026-02-19 17:33:29 unitEnter is null
+2026-02-19 17:33:34 unitEnter is null
+2026-02-19 17:33:34 unitEnter is null
+2026-02-19 17:33:40 unitEnter is null
+2026-02-19 17:33:40 unitEnter is null
+2026-02-19 17:33:45 unitEnter is null
+2026-02-19 17:33:45 unitEnter is null
+2026-02-19 17:33:52 unitEnter is null
+2026-02-19 17:33:52 unitEnter is null
+2026-02-19 17:34:37 buffID:20022201==操作类型:2==目标295278452565475330已死亡
+2026-02-19 17:34:37 unitEnter is null
+2026-02-19 17:34:37 unitEnter is null
+2026-02-19 17:34:44 unitEnter is null
+2026-02-19 17:34:44 unitEnter is null
+2026-02-19 17:34:49 unitEnter is null
+2026-02-19 17:34:49 unitEnter is null
+2026-02-19 17:34:55 unitEnter is null
+2026-02-19 17:34:55 unitEnter is null
+2026-02-19 17:35:01 unitEnter is null
+2026-02-19 17:35:01 unitEnter is null
+2026-02-19 17:35:08 unitEnter is null
+2026-02-19 17:35:08 unitEnter is null
+2026-02-19 17:39:38 buffID:50091301==操作类型:2==目标-5148207763875692541已死亡
+2026-02-19 17:39:38 unitEnter is null
+2026-02-19 17:39:38 unitEnter is null
+2026-02-19 17:39:43 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 17:39:46 unitEnter is null
+2026-02-19 17:39:46 unitEnter is null
+2026-02-19 17:40:03 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 17:40:16 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 17:40:25 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 17:40:28 buffID:10106==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 17:40:28 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 17:40:28 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 17:40:28 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 17:40:28 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 17:40:28 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 17:40:28 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 17:40:28 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 17:40:28 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 17:40:28 buffID:20104401==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 17:40:28 unitEnter is null
+2026-02-19 17:40:28 unitEnter is null
+2026-02-19 17:41:15 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 17:41:26 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 17:41:29 buffID:50091301==操作类型:2==目标-5148207763875692541已死亡
+2026-02-19 17:41:29 unitEnter is null
+2026-02-19 17:41:29 unitEnter is null
+2026-02-19 17:41:35 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 17:41:38 unitEnter is null
+2026-02-19 17:41:38 unitEnter is null
+2026-02-19 17:42:16 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 17:42:23 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 17:42:47 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 17:42:47 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 17:42:47 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 17:42:47 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 17:42:47 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 17:42:47 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 17:42:47 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 17:42:47 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 17:42:47 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 17:42:47 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 17:42:47 buffID:20104401==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 17:42:47 unitEnter is null
+2026-02-19 17:42:47 unitEnter is null
+2026-02-19 17:44:23 buffID:20022201==操作类型:2==目标295318516020412416已死亡
+2026-02-19 17:44:23 unitEnter is null
+2026-02-19 17:44:23 unitEnter is null
+2026-02-19 17:44:30 unitEnter is null
+2026-02-19 17:44:30 unitEnter is null
+2026-02-19 17:44:36 unitEnter is null
+2026-02-19 17:44:36 unitEnter is null
+2026-02-19 17:44:43 unitEnter is null
+2026-02-19 17:44:43 unitEnter is null
+2026-02-19 17:44:51 buffID:20055201==操作类型:2==目标295318516020412420已死亡
+2026-02-19 17:44:51 unitEnter is null
+2026-02-19 17:44:51 unitEnter is null
+2026-02-19 17:45:25 buffID:10242201==操作类型:2==目标295318516020412419已死亡
+2026-02-19 17:45:25 buffID:10270201==操作类型:2==目标295318516020412419已死亡
+2026-02-19 17:45:25 unitEnter is null
+2026-02-19 17:45:25 unitEnter is null
+2026-02-19 17:46:03 buffID:20022201==操作类型:2==目标295325387968086016已死亡
+2026-02-19 17:46:03 unitEnter is null
+2026-02-19 17:46:03 unitEnter is null
+2026-02-19 17:46:10 unitEnter is null
+2026-02-19 17:46:10 unitEnter is null
+2026-02-19 17:46:17 unitEnter is null
+2026-02-19 17:46:17 unitEnter is null
+2026-02-19 17:46:23 unitEnter is null
+2026-02-19 17:46:23 unitEnter is null
+2026-02-19 17:46:30 unitEnter is null
+2026-02-19 17:46:30 unitEnter is null
+2026-02-19 17:46:44 unitEnter is null
+2026-02-19 17:46:44 unitEnter is null
+2026-02-19 17:47:32 buffID:20022201==操作类型:2==目标295330473209364480已死亡
+2026-02-19 17:47:32 buffID:10242201==操作类型:2==目标295330473209364480已死亡
+2026-02-19 17:47:32 unitEnter is null
+2026-02-19 17:47:32 unitEnter is null
+2026-02-19 17:47:38 unitEnter is null
+2026-02-19 17:47:38 unitEnter is null
+2026-02-19 17:47:45 unitEnter is null
+2026-02-19 17:47:45 unitEnter is null
+2026-02-19 17:47:51 unitEnter is null
+2026-02-19 17:47:51 unitEnter is null
+2026-02-19 17:47:58 unitEnter is null
+2026-02-19 17:47:58 unitEnter is null
+2026-02-19 17:48:05 unitEnter is null
+2026-02-19 17:48:05 unitEnter is null
+2026-02-19 17:48:29 buffID:20022201==操作类型:2==目标295335352292212749已死亡
+2026-02-19 17:48:29 unitEnter is null
+2026-02-19 17:48:29 unitEnter is null
+2026-02-19 17:48:36 buffID:20005401==操作类型:2==目标295335352292212752已死亡
+2026-02-19 17:48:36 buffID:20005402==操作类型:2==目标295335352292212752已死亡
+2026-02-19 17:48:36 unitEnter is null
+2026-02-19 17:48:36 unitEnter is null
+2026-02-19 17:48:42 unitEnter is null
+2026-02-19 17:48:42 unitEnter is null
+2026-02-19 17:48:49 buffID:20297401==操作类型:2==目标295335352292212753已死亡
+2026-02-19 17:48:49 unitEnter is null
+2026-02-19 17:48:49 unitEnter is null
+2026-02-19 17:48:55 buffID:20297401==操作类型:2==目标295335352292212750已死亡
+2026-02-19 17:48:55 unitEnter is null
+2026-02-19 17:48:55 unitEnter is null
+2026-02-19 17:49:05 unitEnter is null
+2026-02-19 17:49:05 unitEnter is null
+2026-02-19 17:49:24 buffID:20022201==操作类型:2==目标295339131863433246已死亡
+2026-02-19 17:49:24 unitEnter is null
+2026-02-19 17:49:24 unitEnter is null
+2026-02-19 17:49:30 unitEnter is null
+2026-02-19 17:49:30 unitEnter is null
+2026-02-19 17:49:38 buffID:20055201==操作类型:2==目标295339131863433248已死亡
+2026-02-19 17:49:38 unitEnter is null
+2026-02-19 17:49:38 unitEnter is null
+2026-02-19 17:49:45 unitEnter is null
+2026-02-19 17:49:45 unitEnter is null
+2026-02-19 17:49:51 unitEnter is null
+2026-02-19 17:49:51 unitEnter is null
+2026-02-19 17:49:58 unitEnter is null
+2026-02-19 17:49:58 unitEnter is null
+2026-02-19 17:50:41 buffID:20022201==操作类型:2==目标295343804787851271已死亡
+2026-02-19 17:50:41 unitEnter is null
+2026-02-19 17:50:41 unitEnter is null
+2026-02-19 17:50:47 unitEnter is null
+2026-02-19 17:50:47 unitEnter is null
+2026-02-19 17:50:55 buffID:20055201==操作类型:2==目标295343804787851274已死亡
+2026-02-19 17:50:55 unitEnter is null
+2026-02-19 17:50:55 unitEnter is null
+2026-02-19 17:51:02 unitEnter is null
+2026-02-19 17:51:02 unitEnter is null
+2026-02-19 17:51:09 unitEnter is null
+2026-02-19 17:51:09 unitEnter is null
+2026-02-19 17:51:17 buffID:20055201==操作类型:2==目标295343804787851276已死亡
+2026-02-19 17:51:17 unitEnter is null
+2026-02-19 17:51:17 unitEnter is null
+2026-02-19 17:51:44 buffID:20022201==操作类型:2==目标295348821309652992已死亡
+2026-02-19 17:51:44 buffID:20049401==操作类型:2==目标295348821309652992已死亡
+2026-02-19 17:51:44 unitEnter is null
+2026-02-19 17:51:44 unitEnter is null
+2026-02-19 17:51:50 unitEnter is null
+2026-02-19 17:51:50 unitEnter is null
+2026-02-19 17:51:57 unitEnter is null
+2026-02-19 17:51:57 unitEnter is null
+2026-02-19 17:52:03 unitEnter is null
+2026-02-19 17:52:03 unitEnter is null
+2026-02-19 17:52:16 unitEnter is null
+2026-02-19 17:52:16 unitEnter is null
+2026-02-19 17:52:23 unitEnter is null
+2026-02-19 17:52:23 unitEnter is null
+2026-02-19 17:52:45 buffID:20022201==操作类型:2==目标295352807039303708已死亡
+2026-02-19 17:52:45 unitEnter is null
+2026-02-19 17:52:45 unitEnter is null
+2026-02-19 17:52:54 unitEnter is null
+2026-02-19 17:52:54 unitEnter is null
+2026-02-19 17:53:03 unitEnter is null
+2026-02-19 17:53:03 unitEnter is null
+2026-02-19 17:53:12 unitEnter is null
+2026-02-19 17:53:12 unitEnter is null
+2026-02-19 17:53:19 unitEnter is null
+2026-02-19 17:53:19 unitEnter is null
+2026-02-19 17:53:28 unitEnter is null
+2026-02-19 17:53:28 unitEnter is null
+2026-02-19 17:53:49 buffID:20022201==操作类型:2==目标295357411244244992已死亡
+2026-02-19 17:53:49 buffID:20049401==操作类型:2==目标295357411244244992已死亡
+2026-02-19 17:53:49 unitEnter is null
+2026-02-19 17:53:49 unitEnter is null
+2026-02-19 17:54:05 buffID:10242201==操作类型:2==目标295357411244244994已死亡
+2026-02-19 17:54:05 unitEnter is null
+2026-02-19 17:54:05 unitEnter is null
+2026-02-19 17:54:11 unitEnter is null
+2026-02-19 17:54:11 unitEnter is null
+2026-02-19 17:54:18 unitEnter is null
+2026-02-19 17:54:18 unitEnter is null
+2026-02-19 17:54:26 unitEnter is null
+2026-02-19 17:54:26 unitEnter is null
+2026-02-19 17:54:33 unitEnter is null
+2026-02-19 17:54:33 unitEnter is null
+2026-02-19 17:55:12 buffID:20022201==操作类型:2==目标295362427766046720已死亡
+2026-02-19 17:55:12 unitEnter is null
+2026-02-19 17:55:12 unitEnter is null
+2026-02-19 17:55:18 unitEnter is null
+2026-02-19 17:55:18 unitEnter is null
+2026-02-19 17:55:27 unitEnter is null
+2026-02-19 17:55:27 unitEnter is null
+2026-02-19 17:55:34 unitEnter is null
+2026-02-19 17:55:34 unitEnter is null
+2026-02-19 17:55:43 unitEnter is null
+2026-02-19 17:55:43 unitEnter is null
+2026-02-19 17:55:53 buffID:20055201==操作类型:2==目标295362427766046722已死亡
+2026-02-19 17:55:53 unitEnter is null
+2026-02-19 17:55:53 unitEnter is null
+2026-02-19 17:56:39 buffID:20022201==操作类型:2==目标295368612518952960已死亡
+2026-02-19 17:56:39 unitEnter is null
+2026-02-19 17:56:39 unitEnter is null
+2026-02-19 17:56:46 unitEnter is null
+2026-02-19 17:56:46 unitEnter is null
+2026-02-19 17:56:55 unitEnter is null
+2026-02-19 17:56:55 unitEnter is null
+2026-02-19 17:57:04 unitEnter is null
+2026-02-19 17:57:04 unitEnter is null
+2026-02-19 17:57:11 unitEnter is null
+2026-02-19 17:57:11 unitEnter is null
+2026-02-19 17:57:17 buffID:20031401==操作类型:2==目标295368612518952965已死亡
+2026-02-19 17:57:17 buffID:20031402==操作类型:2==目标295368612518952965已死亡
+2026-02-19 17:57:17 unitEnter is null
+2026-02-19 17:57:17 unitEnter is null
+2026-02-19 17:57:52 buffID:20022201==操作类型:2==目标295373766479708160已死亡
+2026-02-19 17:57:52 unitEnter is null
+2026-02-19 17:57:52 unitEnter is null
+2026-02-19 17:58:01 unitEnter is null
+2026-02-19 17:58:01 unitEnter is null
+2026-02-19 17:58:07 unitEnter is null
+2026-02-19 17:58:07 unitEnter is null
+2026-02-19 17:58:16 unitEnter is null
+2026-02-19 17:58:16 unitEnter is null
+2026-02-19 17:58:31 buffID:20104401==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 17:58:31 unitEnter is null
+2026-02-19 17:58:31 unitEnter is null
+2026-02-19 17:58:47 unitEnter is null
+2026-02-19 17:58:47 unitEnter is null
+2026-02-19 17:59:06 unitEnter is null
+2026-02-19 17:59:06 unitEnter is null
+2026-02-19 17:59:44 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 17:59:59 buffID:20022201==操作类型:2==目标295381463061102592已死亡
+2026-02-19 17:59:59 unitEnter is null
+2026-02-19 17:59:59 unitEnter is null
+2026-02-19 18:00:05 unitEnter is null
+2026-02-19 18:00:05 unitEnter is null
+2026-02-19 18:00:11 unitEnter is null
+2026-02-19 18:00:11 unitEnter is null
+2026-02-19 18:00:16 unitEnter is null
+2026-02-19 18:00:16 unitEnter is null
+2026-02-19 18:00:21 unitEnter is null
+2026-02-19 18:00:21 unitEnter is null
+2026-02-19 18:00:41 unitEnter is null
+2026-02-19 18:00:41 unitEnter is null
+2026-02-19 18:01:00 buffID:20022201==操作类型:2==目标295387166777671680已死亡
+2026-02-19 18:01:00 unitEnter is null
+2026-02-19 18:01:00 unitEnter is null
+2026-02-19 18:01:07 unitEnter is null
+2026-02-19 18:01:07 unitEnter is null
+2026-02-19 18:01:16 unitEnter is null
+2026-02-19 18:01:16 unitEnter is null
+2026-02-19 18:01:26 buffID:10101==操作类型:2==目标295387166777671681已死亡
+2026-02-19 18:01:26 unitEnter is null
+2026-02-19 18:01:26 unitEnter is null
+2026-02-19 18:01:33 unitEnter is null
+2026-02-19 18:01:33 unitEnter is null
+2026-02-19 18:01:34 buffID:20026404==操作类型:1==目标295387166777671683不在场上
+2026-02-19 18:01:34 PlaySkillPerform,但是295387166777671683没有在场上
+2026-02-19 18:01:41 buffID:20026404==操作类型:2==目标295387166777671683已死亡
+2026-02-19 18:01:41 unitEnter is null
+2026-02-19 18:01:41 unitEnter is null
+2026-02-19 18:01:58 buffID:20022201==操作类型:2==目标295391221226799104已死亡
+2026-02-19 18:01:58 unitEnter is null
+2026-02-19 18:01:58 unitEnter is null
+2026-02-19 18:02:12 unitEnter is null
+2026-02-19 18:02:12 unitEnter is null
+2026-02-19 18:02:24 unitEnter is null
+2026-02-19 18:02:24 unitEnter is null
+2026-02-19 18:02:33 unitEnter is null
+2026-02-19 18:02:33 unitEnter is null
+2026-02-19 18:02:39 unitEnter is null
+2026-02-19 18:02:39 unitEnter is null
+2026-02-19 18:02:44 unitEnter is null
+2026-02-19 18:02:44 unitEnter is null
+2026-02-19 18:03:09 buffID:20022201==操作类型:2==目标295395619273310208已死亡
+2026-02-19 18:03:09 unitEnter is null
+2026-02-19 18:03:09 unitEnter is null
+2026-02-19 18:03:16 unitEnter is null
+2026-02-19 18:03:16 unitEnter is null
+2026-02-19 18:03:21 unitEnter is null
+2026-02-19 18:03:21 unitEnter is null
+2026-02-19 18:03:28 unitEnter is null
+2026-02-19 18:03:28 unitEnter is null
+2026-02-19 18:03:35 unitEnter is null
+2026-02-19 18:03:35 unitEnter is null
+2026-02-19 18:03:36 buffID:20026404==操作类型:1==目标295395619273310209不在场上
+2026-02-19 18:03:36 PlaySkillPerform,但是295395619273310209没有在场上
+2026-02-19 18:03:42 buffID:20026404==操作类型:2==目标295395619273310209已死亡
+2026-02-19 18:03:42 unitEnter is null
+2026-02-19 18:03:42 unitEnter is null
+2026-02-19 18:04:02 buffID:20022201==操作类型:2==目标295399605002960897已死亡
+2026-02-19 18:04:02 unitEnter is null
+2026-02-19 18:04:02 unitEnter is null
+2026-02-19 18:04:09 unitEnter is null
+2026-02-19 18:04:09 unitEnter is null
+2026-02-19 18:04:16 unitEnter is null
+2026-02-19 18:04:16 unitEnter is null
+2026-02-19 18:04:17 buffID:20026404==操作类型:1==目标295399605002960898不在场上
+2026-02-19 18:04:17 PlaySkillPerform,但是295399605002960898没有在场上
+2026-02-19 18:04:22 buffID:20026404==操作类型:2==目标295399605002960898已死亡
+2026-02-19 18:04:22 unitEnter is null
+2026-02-19 18:04:22 unitEnter is null
+2026-02-19 18:04:27 unitEnter is null
+2026-02-19 18:04:27 unitEnter is null
+2026-02-19 18:04:34 unitEnter is null
+2026-02-19 18:04:34 unitEnter is null
+2026-02-19 18:05:00 unitEnter is null
+2026-02-19 18:05:00 unitEnter is null
+2026-02-19 18:05:07 unitEnter is null
+2026-02-19 18:05:07 unitEnter is null
+2026-02-19 18:05:15 unitEnter is null
+2026-02-19 18:05:15 unitEnter is null
+2026-02-19 18:05:23 unitEnter is null
+2026-02-19 18:05:23 unitEnter is null
+2026-02-19 18:05:33 unitEnter is null
+2026-02-19 18:05:33 unitEnter is null
+2026-02-19 18:05:43 unitEnter is null
+2026-02-19 18:05:43 unitEnter is null
+2026-02-19 18:06:01 buffID:20022201==操作类型:2==目标295407920059648748已死亡
+2026-02-19 18:06:01 unitEnter is null
+2026-02-19 18:06:01 unitEnter is null
+2026-02-19 18:06:11 unitEnter is null
+2026-02-19 18:06:11 unitEnter is null
+2026-02-19 18:06:27 unitEnter is null
+2026-02-19 18:06:27 unitEnter is null
+2026-02-19 18:06:37 unitEnter is null
+2026-02-19 18:06:37 unitEnter is null
+2026-02-19 18:06:44 unitEnter is null
+2026-02-19 18:06:44 unitEnter is null
+2026-02-19 18:07:00 unitEnter is null
+2026-02-19 18:07:00 unitEnter is null
+2026-02-19 18:07:16 buffID:20022201==操作类型:2==目标295413074020401153已死亡
+2026-02-19 18:07:16 unitEnter is null
+2026-02-19 18:07:16 unitEnter is null
+2026-02-19 18:07:24 unitEnter is null
+2026-02-19 18:07:24 unitEnter is null
+2026-02-19 18:07:31 unitEnter is null
+2026-02-19 18:07:31 unitEnter is null
+2026-02-19 18:07:41 unitEnter is null
+2026-02-19 18:07:41 unitEnter is null
+2026-02-19 18:07:55 unitEnter is null
+2026-02-19 18:07:55 unitEnter is null
+2026-02-19 18:08:04 unitEnter is null
+2026-02-19 18:08:04 unitEnter is null
+2026-02-19 18:18:25 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:19:50 buffID:20022201==操作类型:2==目标295464544908476418已死亡
+2026-02-19 18:19:50 unitEnter is null
+2026-02-19 18:19:50 unitEnter is null
+2026-02-19 18:19:55 unitEnter is null
+2026-02-19 18:19:55 unitEnter is null
+2026-02-19 18:20:01 buffID:20157401==操作类型:2==目标295464544908476423已死亡
+2026-02-19 18:20:01 buffID:20157402==操作类型:2==目标295464544908476423已死亡
+2026-02-19 18:20:01 unitEnter is null
+2026-02-19 18:20:01 unitEnter is null
+2026-02-19 18:20:06 unitEnter is null
+2026-02-19 18:20:06 unitEnter is null
+2026-02-19 18:20:12 unitEnter is null
+2026-02-19 18:20:12 unitEnter is null
+2026-02-19 18:20:18 unitEnter is null
+2026-02-19 18:20:18 unitEnter is null
+2026-02-19 18:21:34 buffID:20022201==操作类型:2==目标295472035331440640已死亡
+2026-02-19 18:21:34 unitEnter is null
+2026-02-19 18:21:34 unitEnter is null
+2026-02-19 18:21:40 unitEnter is null
+2026-02-19 18:21:40 unitEnter is null
+2026-02-19 18:21:49 buffID:20023401==操作类型:2==目标295472035331440643已死亡
+2026-02-19 18:21:49 unitEnter is null
+2026-02-19 18:21:49 unitEnter is null
+2026-02-19 18:21:54 buffID:20047401==操作类型:2==目标295472035331440642已死亡
+2026-02-19 18:21:54 buffID:20047402==操作类型:2==目标295472035331440642已死亡
+2026-02-19 18:21:54 unitEnter is null
+2026-02-19 18:21:54 unitEnter is null
+2026-02-19 18:22:00 unitEnter is null
+2026-02-19 18:22:00 unitEnter is null
+2026-02-19 18:22:05 buffID:20023401==操作类型:2==目标295472035331440645已死亡
+2026-02-19 18:22:05 unitEnter is null
+2026-02-19 18:22:05 unitEnter is null
+2026-02-19 18:30:53 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:31:36 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:31:45 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:31:55 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:32:05 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:32:13 buffID:10073301==操作类型:2==目标-5182086191030468588已死亡
+2026-02-19 18:32:14 buffID:10204201==操作类型:2==目标-5182086191030468588已死亡
+2026-02-19 18:32:14 buffID:20022201==操作类型:2==目标-5182086191030468588已死亡
+2026-02-19 18:32:14 unitEnter is null
+2026-02-19 18:32:14 unitEnter is null
+2026-02-19 18:32:22 buffID:50532401==操作类型:2==目标-5181378174262181850已死亡
+2026-02-19 18:32:22 unitEnter is null
+2026-02-19 18:32:22 unitEnter is null
+2026-02-19 18:32:26 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:32:29 buffID:50931201==操作类型:2==目标-5181378174262181827已死亡
+2026-02-19 18:32:29 unitEnter is null
+2026-02-19 18:32:29 unitEnter is null
+2026-02-19 18:32:33 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:32:36 buffID:50881201==操作类型:2==目标-5178822565643419633已死亡
+2026-02-19 18:32:36 unitEnter is null
+2026-02-19 18:32:36 unitEnter is null
+2026-02-19 18:32:39 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:32:42 buffID:50701401==操作类型:2==目标-5172776351203590125已死亡
+2026-02-19 18:32:42 unitEnter is null
+2026-02-19 18:32:42 unitEnter is null
+2026-02-19 18:32:48 buffID:50411401==操作类型:2==目标-5160683441284710399已死亡
+2026-02-19 18:32:48 unitEnter is null
+2026-02-19 18:32:48 unitEnter is null
+2026-02-19 18:33:00 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:33:04 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:33:17 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:33:45 buffID:10204201==操作类型:2==目标-5155495464384593906已死亡
+2026-02-19 18:33:45 buffID:10204201==操作类型:2==目标-5155495464384593906已死亡
+2026-02-19 18:33:45 buffID:10204201==操作类型:2==目标-5155495464384593906已死亡
+2026-02-19 18:33:45 buffID:20022201==操作类型:2==目标-5155495464384593906已死亡
+2026-02-19 18:33:45 buffID:50411401==操作类型:2==目标-5155495464384593906已死亡
+2026-02-19 18:33:45 unitEnter is null
+2026-02-19 18:33:45 unitEnter is null
+2026-02-19 18:33:52 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:34:12 buffID:10242201==操作类型:2==目标-5152766132932837349已死亡
+2026-02-19 18:34:12 buffID:20104401==操作类型:2==目标-5152766132932837349已死亡
+2026-02-19 18:34:12 unitEnter is null
+2026-02-19 18:34:12 unitEnter is null
+2026-02-19 18:34:16 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:34:29 buffID:50571401==操作类型:2==目标-5149810508235800560已死亡
+2026-02-19 18:34:29 unitEnter is null
+2026-02-19 18:34:29 unitEnter is null
+2026-02-19 18:34:39 buffID:20182201==操作类型:2==目标-5181523859551027122已死亡
+2026-02-19 18:34:39 buffID:50543401==操作类型:2==目标-5181523859551027122已死亡
+2026-02-19 18:34:39 unitEnter is null
+2026-02-19 18:34:39 unitEnter is null
+2026-02-19 18:34:50 buffID:50011401==操作类型:2==目标-5176924946009161703已死亡
+2026-02-19 18:34:50 unitEnter is null
+2026-02-19 18:34:50 unitEnter is null
+2026-02-19 18:34:57 buffID:50221201==操作类型:2==目标-5181444625994350575已死亡
+2026-02-19 18:34:57 unitEnter is null
+2026-02-19 18:34:57 unitEnter is null
+2026-02-19 18:35:11 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:36:19 buffID:10073301==操作类型:2==目标-5178534562317205501已死亡
+2026-02-19 18:36:19 buffID:52201201==操作类型:2==目标-5178534562317205501已死亡
+2026-02-19 18:36:19 buffID:52201202==操作类型:2==目标-5178534562317205501已死亡
+2026-02-19 18:36:19 buffID:20022201==操作类型:2==目标-5178534562317205501已死亡
+2026-02-19 18:36:19 buffID:20210401==操作类型:2==目标-5178534562317205501已死亡
+2026-02-19 18:36:19 unitEnter is null
+2026-02-19 18:36:19 unitEnter is null
+2026-02-19 18:36:25 buffID:50521201==操作类型:2==目标-5137357439539085309已死亡
+2026-02-19 18:36:25 unitEnter is null
+2026-02-19 18:36:25 unitEnter is null
+2026-02-19 18:36:32 unitEnter is null
+2026-02-19 18:36:32 unitEnter is null
+2026-02-19 18:36:41 buffID:50591201==操作类型:2==目标-5178524529273602047已死亡
+2026-02-19 18:36:41 buffID:50592401==操作类型:2==目标-5178524529273602047已死亡
+2026-02-19 18:36:41 unitEnter is null
+2026-02-19 18:36:41 unitEnter is null
+2026-02-19 18:36:53 buffID:50091301==操作类型:2==目标-5171709069008830457已死亡
+2026-02-19 18:36:53 buffID:20104401==操作类型:2==目标-5171709069008830457已死亡
+2026-02-19 18:36:53 unitEnter is null
+2026-02-19 18:36:53 unitEnter is null
+2026-02-19 18:37:00 buffID:50781401==操作类型:2==目标-5160859225707511806已死亡
+2026-02-19 18:37:00 unitEnter is null
+2026-02-19 18:37:00 unitEnter is null
+2026-02-19 18:37:43 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:37:48 buffID:10301==操作类型:2==目标-5148207763875692541已死亡
+2026-02-19 18:37:48 buffID:11201==操作类型:2==目标-5148207763875692541已死亡
+2026-02-19 18:37:48 unitEnter is null
+2026-02-19 18:37:48 unitEnter is null
+2026-02-19 18:38:35 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:38:57 buffID:10073301==操作类型:2==目标-5176606156356059085已死亡
+2026-02-19 18:38:57 buffID:10204201==操作类型:2==目标-5176606156356059085已死亡
+2026-02-19 18:38:57 buffID:10204201==操作类型:2==目标-5176606156356059085已死亡
+2026-02-19 18:38:57 buffID:20022201==操作类型:2==目标-5176606156356059085已死亡
+2026-02-19 18:38:57 buffID:50011401==操作类型:2==目标-5176606156356059085已死亡
+2026-02-19 18:38:57 unitEnter is null
+2026-02-19 18:38:57 unitEnter is null
+2026-02-19 18:39:03 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:39:06 buffID:50881201==操作类型:2==目标-5149027655955775429已死亡
+2026-02-19 18:39:06 unitEnter is null
+2026-02-19 18:39:06 unitEnter is null
+2026-02-19 18:39:09 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:39:12 buffID:50121201==操作类型:2==目标-5146463182526087161已死亡
+2026-02-19 18:39:12 unitEnter is null
+2026-02-19 18:39:12 unitEnter is null
+2026-02-19 18:39:19 buffID:20005401==操作类型:2==目标-5173476465228382181已死亡
+2026-02-19 18:39:19 buffID:20005402==操作类型:2==目标-5173476465228382181已死亡
+2026-02-19 18:39:19 buffID:50411401==操作类型:2==目标-5173476465228382181已死亡
+2026-02-19 18:39:19 unitEnter is null
+2026-02-19 18:39:19 unitEnter is null
+2026-02-19 18:39:26 buffID:50011401==操作类型:2==目标-5168932733427122118已死亡
+2026-02-19 18:39:26 unitEnter is null
+2026-02-19 18:39:26 unitEnter is null
+2026-02-19 18:39:33 buffID:50781401==操作类型:2==目标-5158042826669555695已死亡
+2026-02-19 18:39:33 unitEnter is null
+2026-02-19 18:39:33 unitEnter is null
+2026-02-19 18:40:00 unitEnter is null
+2026-02-19 18:40:00 unitEnter is null
+2026-02-19 18:40:20 buffID:52201201==操作类型:2==目标-5177577368725749760已死亡
+2026-02-19 18:40:20 buffID:52201202==操作类型:2==目标-5177577368725749760已死亡
+2026-02-19 18:40:20 unitEnter is null
+2026-02-19 18:40:20 unitEnter is null
+2026-02-19 18:40:33 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:40:40 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:40:43 buffID:50091301==操作类型:2==目标-5179308274904727497已死亡
+2026-02-19 18:40:43 unitEnter is null
+2026-02-19 18:40:43 unitEnter is null
+2026-02-19 18:40:48 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:40:52 buffID:50571401==操作类型:2==目标-5154798786327871484已死亡
+2026-02-19 18:40:52 unitEnter is null
+2026-02-19 18:40:52 unitEnter is null
+2026-02-19 18:41:03 buffID:50541401==操作类型:2==目标-5176427417002049465已死亡
+2026-02-19 18:41:03 unitEnter is null
+2026-02-19 18:41:03 unitEnter is null
+2026-02-19 18:41:20 buffID:51601201==操作类型:2==目标-5172852080061972479已死亡
+2026-02-19 18:41:20 buffID:51601202==操作类型:2==目标-5172852080061972479已死亡
+2026-02-19 18:41:20 buffID:10133201==操作类型:2==目标-5172852080061972479已死亡
+2026-02-19 18:41:20 buffID:20022201==操作类型:2==目标-5172852080061972479已死亡
+2026-02-19 18:41:20 unitEnter is null
+2026-02-19 18:41:20 unitEnter is null
+2026-02-19 18:41:25 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:41:43 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:41:55 buffID:20104401==操作类型:2==目标-5159012664644468735已死亡
+2026-02-19 18:41:55 buffID:50021402==操作类型:2==目标-5159012664644468735已死亡
+2026-02-19 18:41:55 unitEnter is null
+2026-02-19 18:41:55 unitEnter is null
+2026-02-19 18:42:00 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:42:11 unitEnter is null
+2026-02-19 18:42:11 unitEnter is null
+2026-02-19 18:42:14 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:42:17 buffID:50412401==操作类型:2==目标-5143193372380889084已死亡
+2026-02-19 18:42:17 unitEnter is null
+2026-02-19 18:42:17 unitEnter is null
+2026-02-19 18:42:23 buffID:50532401==操作类型:2==目标-5143074350247182323已死亡
+2026-02-19 18:42:23 unitEnter is null
+2026-02-19 18:42:23 unitEnter is null
+2026-02-19 18:42:28 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:42:39 buffID:50012401==操作类型:2==目标-5181981050232897536已死亡
+2026-02-19 18:42:39 unitEnter is null
+2026-02-19 18:42:39 unitEnter is null
+2026-02-19 18:43:39 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:43:52 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:44:35 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:44:45 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:45:03 buffID:10073301==操作类型:2==目标-5152966312763326463已死亡
+2026-02-19 18:45:04 buffID:10204201==操作类型:2==目标-5152966312763326463已死亡
+2026-02-19 18:45:04 buffID:20022201==操作类型:2==目标-5152966312763326463已死亡
+2026-02-19 18:45:04 buffID:50531401==操作类型:2==目标-5152966312763326463已死亡
+2026-02-19 18:45:04 buffID:20104401==操作类型:2==目标-5152966312763326463已死亡
+2026-02-19 18:45:04 unitEnter is null
+2026-02-19 18:45:04 unitEnter is null
+2026-02-19 18:45:11 unitEnter is null
+2026-02-19 18:45:11 unitEnter is null
+2026-02-19 18:45:13 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:45:18 buffID:50011401==操作类型:2==目标-5173021954610036732已死亡
+2026-02-19 18:45:18 unitEnter is null
+2026-02-19 18:45:18 unitEnter is null
+2026-02-19 18:45:21 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:45:27 buffID:50011401==操作类型:2==目标-5179352117929574335已死亡
+2026-02-19 18:45:27 unitEnter is null
+2026-02-19 18:45:27 unitEnter is null
+2026-02-19 18:45:31 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 18:45:34 buffID:50881201==操作类型:2==目标-5172848575370231672已死亡
+2026-02-19 18:45:34 unitEnter is null
+2026-02-19 18:45:34 unitEnter is null
+2026-02-19 18:45:44 unitEnter is null
+2026-02-19 18:45:44 unitEnter is null
+2026-02-19 19:05:25 cancellPerform
+2026-02-19 19:05:25 had exist Buff 19
+2026-02-19 19:05:30 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 19:05:48 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 19:05:52 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 19:06:02 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 19:06:32 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 19:06:36 buffID:90036102==操作类型:2==目标295653660908453888已死亡
+2026-02-19 19:06:36 buffID:90192301==操作类型:2==目标295653660908453888已死亡
+2026-02-19 19:06:36 buffID:10043201==操作类型:2==目标295653660908453888已死亡
+2026-02-19 19:06:36 buffID:10043201==操作类型:2==目标295653660908453888已死亡
+2026-02-19 19:06:36 buffID:10043201==操作类型:2==目标295653660908453888已死亡
+2026-02-19 19:06:36 buffID:10043201==操作类型:2==目标295653660908453888已死亡
+2026-02-19 19:06:36 buffID:10043201==操作类型:2==目标295653660908453888已死亡
+2026-02-19 19:06:36 buffID:10043201==操作类型:2==目标295653660908453888已死亡
+2026-02-19 19:06:36 buffID:20022201==操作类型:2==目标295653660908453888已死亡
+2026-02-19 19:06:36 buffID:20018401==操作类型:2==目标295653660908453888已死亡
+2026-02-19 19:06:36 unitEnter is null
+2026-02-19 19:06:36 unitEnter is null
+2026-02-19 19:07:11 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 19:07:16 cancellPerform
+2026-02-19 19:07:29 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 19:07:55 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 19:08:10 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 19:08:15 cancellPerform
+2026-02-19 19:08:15 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-19 19:08:15 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-19 19:08:15 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-19 19:08:15 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-19 19:08:15 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-19 19:08:15 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-19 19:08:15 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-19 19:08:15 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-19 19:08:15 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-19 19:08:15 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-19 19:08:15 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-19 19:08:15 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-19 19:08:15 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-19 19:08:15 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-19 19:08:15 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-19 19:08:15 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-19 19:08:15 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-19 19:08:15 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-19 19:08:15 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-19 19:08:15 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-19 19:08:15 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-02-19 19:08:22 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 19:08:27 cancellPerform
+2026-02-19 19:09:11 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 19:09:51 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 19:10:23 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 19:10:29 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 19:10:46 buffID:90036102==操作类型:2==目标295670909497114624已死亡
+2026-02-19 19:10:46 buffID:90192301==操作类型:2==目标295670909497114624已死亡
+2026-02-19 19:10:46 buffID:10043201==操作类型:2==目标295670909497114624已死亡
+2026-02-19 19:10:46 buffID:10043201==操作类型:2==目标295670909497114624已死亡
+2026-02-19 19:10:46 buffID:10043201==操作类型:2==目标295670909497114624已死亡
+2026-02-19 19:10:46 buffID:10043201==操作类型:2==目标295670909497114624已死亡
+2026-02-19 19:10:46 buffID:20022201==操作类型:2==目标295670909497114624已死亡
+2026-02-19 19:10:46 buffID:20018401==操作类型:2==目标295670909497114624已死亡
+2026-02-19 19:10:46 unitEnter is null
+2026-02-19 19:10:46 unitEnter is null
+2026-02-19 19:14:19 had exist Buff 2
+2026-02-19 19:14:19 cancellPerform
+2026-02-19 19:14:19 had exist Buff 2
+2026-02-19 19:14:19 had exist Buff 3
+2026-02-19 19:14:19 had exist Buff 4
+2026-02-19 19:14:19 had exist Buff 6
+2026-02-19 19:14:19 had exist Buff 7
+2026-02-19 19:14:25 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 19:14:33 buffID:23310201==操作类型:2==目标-5179308274904727497已死亡
+2026-02-19 19:14:33 unitEnter is null
+2026-02-19 19:14:33 unitEnter is null
+2026-02-19 19:14:50 buffID:23310201==操作类型:2==目标-5177577368725749760已死亡
+2026-02-19 19:14:50 buffID:52201201==操作类型:2==目标-5177577368725749760已死亡
+2026-02-19 19:14:50 buffID:52201202==操作类型:2==目标-5177577368725749760已死亡
+2026-02-19 19:14:50 unitEnter is null
+2026-02-19 19:14:50 unitEnter is null
+2026-02-19 19:15:07 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 19:15:11 cancellPerform
+2026-02-19 19:15:11 PlaySkillPerform,但是 目标-5151968299801116672已死亡
+2026-02-19 19:15:57 had exist Buff 2
+2026-02-19 19:15:57 cancellPerform
+2026-02-19 19:15:57 had exist Buff 2
+2026-02-19 19:15:57 had exist Buff 3
+2026-02-19 19:15:57 had exist Buff 4
+2026-02-19 19:15:57 had exist Buff 6
+2026-02-19 19:15:57 had exist Buff 7
+2026-02-19 19:16:26 buffID:23310201==操作类型:2==目标-5177577368725749760已死亡
+2026-02-19 19:16:26 buffID:52201201==操作类型:2==目标-5177577368725749760已死亡
+2026-02-19 19:16:26 buffID:52201202==操作类型:2==目标-5177577368725749760已死亡
+2026-02-19 19:16:26 unitEnter is null
+2026-02-19 19:16:26 unitEnter is null
+2026-02-19 19:16:42 buffID:23310201==操作类型:2==目标-5157810279957397424已死亡
+2026-02-19 19:16:42 buffID:50011401==操作类型:2==目标-5157810279957397424已死亡
+2026-02-19 19:16:42 unitEnter is null
+2026-02-19 19:16:42 unitEnter is null
+2026-02-19 19:16:56 buffID:23310201==操作类型:2==目标-5167611120454729724已死亡
+2026-02-19 19:16:56 buffID:50011401==操作类型:2==目标-5167611120454729724已死亡
+2026-02-19 19:16:56 unitEnter is null
+2026-02-19 19:16:56 unitEnter is null
+2026-02-19 19:17:07 buffID:23310201==操作类型:2==目标-5148207763875692541已死亡
+2026-02-19 19:17:07 unitEnter is null
+2026-02-19 19:17:07 unitEnter is null
+2026-02-19 19:17:19 buffID:23310201==操作类型:2==目标-5151968299801116672已死亡
+2026-02-19 19:17:19 unitEnter is null
+2026-02-19 19:17:19 unitEnter is null
+2026-02-19 19:17:51 cancellPerform
+2026-02-19 19:18:00 had exist Buff 2
+2026-02-19 19:18:00 cancellPerform
+2026-02-19 19:18:00 had exist Buff 2
+2026-02-19 19:18:00 had exist Buff 3
+2026-02-19 19:18:00 had exist Buff 4
+2026-02-19 19:18:00 had exist Buff 6
+2026-02-19 19:18:00 had exist Buff 7
+2026-02-19 19:18:28 buffID:23310201==操作类型:2==目标-5157810279957397424已死亡
+2026-02-19 19:18:28 buffID:50011401==操作类型:2==目标-5157810279957397424已死亡
+2026-02-19 19:18:28 unitEnter is null
+2026-02-19 19:18:28 unitEnter is null
+2026-02-19 19:18:45 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 19:18:54 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 19:18:57 buffID:23310201==操作类型:2==目标-5177577368725749760已死亡
+2026-02-19 19:18:57 buffID:52201201==操作类型:2==目标-5177577368725749760已死亡
+2026-02-19 19:18:57 buffID:52201202==操作类型:2==目标-5177577368725749760已死亡
+2026-02-19 19:18:57 unitEnter is null
+2026-02-19 19:18:57 unitEnter is null
+2026-02-19 19:19:09 buffID:23310201==操作类型:2==目标-5167611120454729724已死亡
+2026-02-19 19:19:09 buffID:50011401==操作类型:2==目标-5167611120454729724已死亡
+2026-02-19 19:19:09 unitEnter is null
+2026-02-19 19:19:09 unitEnter is null
+2026-02-19 19:19:21 buffID:23310201==操作类型:2==目标-5148207763875692541已死亡
+2026-02-19 19:19:22 unitEnter is null
+2026-02-19 19:19:22 unitEnter is null
+2026-02-19 19:19:33 buffID:23310201==操作类型:2==目标-5151968299801116672已死亡
+2026-02-19 19:19:33 unitEnter is null
+2026-02-19 19:19:33 unitEnter is null
+2026-02-19 19:19:46 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 19:20:01 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-19 19:20:18 buffID:23310201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 19:20:18 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 19:20:18 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 19:20:18 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 19:20:18 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 19:20:18 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 19:20:18 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 19:20:18 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 19:20:18 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 19:20:18 buffID:20104401==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 19:20:18 unitEnter is null
+2026-02-19 19:20:18 unitEnter is null
+2026-02-19 19:21:02 had exist Buff 2
+2026-02-19 19:21:02 cancellPerform
+2026-02-19 19:21:02 had exist Buff 2
+2026-02-19 19:21:02 had exist Buff 3
+2026-02-19 19:21:02 had exist Buff 4
+2026-02-19 19:21:02 had exist Buff 6
+2026-02-19 19:21:02 had exist Buff 7
+2026-02-19 19:21:36 buffID:23310201==操作类型:2==目标-5148207763875692541已死亡
+2026-02-19 19:21:36 unitEnter is null
+2026-02-19 19:21:36 unitEnter is null
+2026-02-19 19:21:48 buffID:23310201==操作类型:2==目标-5157810279957397424已死亡
+2026-02-19 19:21:48 buffID:50011401==操作类型:2==目标-5157810279957397424已死亡
+2026-02-19 19:21:48 unitEnter is null
+2026-02-19 19:21:48 unitEnter is null
+2026-02-19 19:22:26 buffID:23310201==操作类型:2==目标-5177577368725749760已死亡
+2026-02-19 19:22:26 buffID:52201201==操作类型:2==目标-5177577368725749760已死亡
+2026-02-19 19:22:26 buffID:52201202==操作类型:2==目标-5177577368725749760已死亡
+2026-02-19 19:22:26 unitEnter is null
+2026-02-19 19:22:26 unitEnter is null
+2026-02-19 19:22:38 buffID:23310201==操作类型:2==目标-5167611120454729724已死亡
+2026-02-19 19:22:38 buffID:50011401==操作类型:2==目标-5167611120454729724已死亡
+2026-02-19 19:22:38 unitEnter is null
+2026-02-19 19:22:38 unitEnter is null
+2026-02-19 19:22:49 buffID:23310201==操作类型:2==目标-5151968299801116672已死亡
+2026-02-19 19:22:49 unitEnter is null
+2026-02-19 19:22:49 unitEnter is null
+2026-02-19 19:23:39 buffID:23310201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 19:23:39 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 19:23:39 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 19:23:39 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 19:23:39 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 19:23:39 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 19:23:39 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 19:23:39 buffID:20104401==操作类型:2==目标-5154259819471831039已死亡
+2026-02-19 19:23:39 unitEnter is null
+2026-02-19 19:23:39 unitEnter is null

@@ -1,0 +1,33 @@
+2026-03-02 16:37:02 无法找到指定的时区 timeZoneId = 8
+2026-03-02 16:50:54 buffID:50162201==操作类型:2==目标-5178929905468964857已死亡
+2026-03-02 16:50:54 buffID:20067201==操作类型:2==目标-5178929905468964857已死亡
+2026-03-02 16:50:54 unitEnter is null
+2026-03-02 16:50:54 unitEnter is null
+2026-03-02 16:51:27 buffID:90036102==操作类型:2==目标360405275059159040已死亡
+2026-03-02 16:51:27 buffID:20022201==操作类型:2==目标360405275059159040已死亡
+2026-03-02 16:51:27 buffID:52101201==操作类型:2==目标360405275059159040已死亡
+2026-03-02 16:51:27 buffID:52101202==操作类型:2==目标360405275059159040已死亡
+2026-03-02 16:51:27 buffID:52101203==操作类型:2==目标360405275059159040已死亡
+2026-03-02 16:51:27 buffID:52101204==操作类型:2==目标360405275059159040已死亡
+2026-03-02 16:51:27 buffID:20170401==操作类型:2==目标360405275059159040已死亡
+2026-03-02 16:51:27 unitEnter is null
+2026-03-02 16:51:27 unitEnter is null
+2026-03-02 16:51:54 buffID:90036102==操作类型:2==目标360405275059159041已死亡
+2026-03-02 16:51:54 buffID:20022201==操作类型:2==目标360405275059159041已死亡
+2026-03-02 16:51:54 unitEnter is null
+2026-03-02 16:51:54 unitEnter is null
+2026-03-02 17:00:53 IKcpTransport tcp error: 360352635217248258 100207
+2026-03-02 17:00:53 IKcpTransport tcp error: 833361566 110311
+2026-03-02 17:00:53 ClientScene is null
+  at ET.Logger.Error (System.String msg) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.AwaitTaskContinuation.RunCallback (System.Threading.ContextCallback callback, System.Object state, System.Threading.Tasks.Task& currentTask) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.FinishContinuations () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task`1[TResult].TrySetResult (TResult result) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[TResult].SetResult (TResult result) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-03-02 17:00:54 Double ConfirmDialogAsync
+2026-03-02 17:00:57 无法找到指定的时区 timeZoneId = 8
+2026-03-02 17:01:22 无法找到指定的时区 timeZoneId = 8

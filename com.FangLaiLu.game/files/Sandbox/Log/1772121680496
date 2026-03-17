@@ -1,0 +1,101 @@
+2026-02-26 16:01:26 无法找到指定的时区 timeZoneId = 8
+2026-02-26 16:01:26 重复添加 物品id为36
+2026-02-26 16:01:26 重复添加 物品id为37
+2026-02-26 16:20:01 配置找不到，配置表名: ItemSourceConfig，配置id: 102
+  at ET.Client.Common.BagPanel.UpdateDataInfo (ET.ItemConfig itemConfig, System.Single panelHeight, System.Int64 itemId) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Common.CommonItemInfo.UpdateInfo (System.Int32 configId, System.Int64 itemId, System.Boolean isSelect) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Common.CommonItemInfoWindow.OnShow () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.UIFormSystem.Open (ET.Client.UIForm self, System.Object context, System.Boolean active) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.UIComponentSystem.OpenWindow (ET.Client.UIComponent self, ET.Client.UIForm win, System.Object intent) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Common.GoodItemBtn.OnClick (FairyGUI.EventContext context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Logger.Error (System.String msg) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.GList.set_numItems (System.Int32 value) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-02-26 16:20:01 UIForm 'CommonItemInfo_MiniWindow' OnShow with exception 'System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Client.Common.BagPanel.WayListItem (System.Int32 index, System.Object obj) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Common.BagPanel.UpdateDataInfo (ET.ItemConfig itemConfig, System.Single panelHeight, System.Int64 itemId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Common.CommonItemInfo.UpdateInfo (System.Int32 configId, System.Int64 itemId, System.Boolean isSelect) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Common.CommonItemInfoWindow.OnShow () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UIFormSystem.Open (ET.Client.UIForm self, System.Object context, System.Boolean active) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.UIComponentSystem.OpenWindow (ET.Client.UIComponent self, ET.Client.UIForm win, System.Object intent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Common.GoodItemBtn.OnClick (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.GList.set_numItems (System.Int32 value) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 '.
+  at ET.Client.Common.GoodItemBtn.OnClick (FairyGUI.EventContext context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Logger.Error (System.String message, System.Object[] args) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-02-26 16:24:48 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-26 16:24:56 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-26 16:25:05 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-26 16:25:40 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-26 16:25:48 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-26 16:38:09 buffID:90036102==操作类型:2==目标336602222706950181已死亡
+2026-02-26 16:38:09 buffID:10276202==操作类型:2==目标336602222706950181已死亡
+2026-02-26 16:38:09 unitEnter is null
+2026-02-26 16:38:09 unitEnter is null
+2026-02-26 16:39:01 buffID:90036102==操作类型:2==目标336602222706950182已死亡
+2026-02-26 16:39:01 buffID:20104401==操作类型:2==目标336602222706950182已死亡
+2026-02-26 16:39:01 unitEnter is null
+2026-02-26 16:39:01 unitEnter is null
+2026-02-26 16:40:34 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-26 16:41:01 buffID:50521201==操作类型:2==目标-5179022195718881264已死亡
+2026-02-26 16:41:01 buffID:10133201==操作类型:2==目标-5179022195718881264已死亡
+2026-02-26 16:41:01 unitEnter is null
+2026-02-26 16:41:01 unitEnter is null
+2026-02-26 16:41:30 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-26 16:42:00 buffID:90036102==操作类型:2==目标336613836298518528已死亡
+2026-02-26 16:42:00 buffID:50932201==操作类型:2==目标336613836298518528已死亡
+2026-02-26 16:42:00 buffID:20022201==操作类型:2==目标336613836298518528已死亡
+2026-02-26 16:42:00 unitEnter is null
+2026-02-26 16:42:00 unitEnter is null
+2026-02-26 16:42:08 buffID:90036102==操作类型:2==目标336613836298518529已死亡
+2026-02-26 16:42:08 buffID:53501201==操作类型:2==目标336613836298518529已死亡
+2026-02-26 16:42:08 buffID:20022201==操作类型:2==目标336613836298518529已死亡
+2026-02-26 16:42:08 unitEnter is null
+2026-02-26 16:42:08 unitEnter is null
+2026-02-26 16:43:34 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-26 16:43:54 buffID:90036102==操作类型:2==目标336627855070527490已死亡
+2026-02-26 16:43:54 buffID:20022201==操作类型:2==目标336627855070527490已死亡
+2026-02-26 16:43:54 buffID:20104401==操作类型:2==目标336627855070527490已死亡
+2026-02-26 16:43:54 unitEnter is null
+2026-02-26 16:43:54 unitEnter is null
+2026-02-26 16:44:10 buffID:90036102==操作类型:2==目标336627855070527489已死亡
+2026-02-26 16:44:10 buffID:20022201==操作类型:2==目标336627855070527489已死亡
+2026-02-26 16:44:10 buffID:20224401==操作类型:2==目标336627855070527489已死亡
+2026-02-26 16:44:10 unitEnter is null
+2026-02-26 16:44:10 unitEnter is null
+2026-02-26 16:45:24 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-26 16:45:48 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-26 16:46:30 buffID:90036102==操作类型:2==目标336635276774014977已死亡
+2026-02-26 16:46:30 buffID:20022201==操作类型:2==目标336635276774014977已死亡
+2026-02-26 16:46:30 buffID:20281401==操作类型:2==目标336635276774014977已死亡
+2026-02-26 16:46:30 unitEnter is null
+2026-02-26 16:46:30 unitEnter is null
+2026-02-26 16:46:52 buffID:90036102==操作类型:2==目标336635276774014978已死亡
+2026-02-26 16:46:52 buffID:20022201==操作类型:2==目标336635276774014978已死亡
+2026-02-26 16:46:52 unitEnter is null
+2026-02-26 16:46:52 unitEnter is null
+2026-02-26 16:53:44 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-26 16:53:55 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-26 16:54:03 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-26 16:54:10 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-26 16:55:26 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-26 16:55:40 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-26 16:55:47 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-26 16:56:02 ------------ nowTime == LastOnClickSkillBtnTime
+2026-02-26 16:56:15 ------------ nowTime == LastOnClickSkillBtnTime

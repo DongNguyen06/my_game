@@ -1,0 +1,599 @@
+2026-03-10 15:50:50 无法找到指定的时区 timeZoneId = 8
+2026-03-10 15:52:21 unitEnter is null
+2026-03-10 15:52:21 unitEnter is null
+2026-03-10 15:52:26 cancellPerform
+2026-03-10 15:52:26 模型重复创建 unit id = 407665032877310059
+2026-03-10 15:53:05 cancellPerform
+2026-03-10 15:53:05 PlaySkillPerform,但是 目标-5114668742225166326已死亡
+2026-03-10 15:53:05 PlaySkillPerform,但是 目标-5114668742225166326已死亡
+2026-03-10 15:53:05 PlaySkillPerform,但是 目标-5114668742225166326已死亡
+2026-03-10 15:53:05 PlaySkillPerform,但是 目标-5114668742225166326已死亡
+2026-03-10 15:53:05 PlaySkillPerform,但是 目标-5114668742225166326已死亡
+2026-03-10 15:53:05 PlaySkillPerform,但是 目标-5114668742225166326已死亡
+2026-03-10 15:53:34 buffID:20067201==操作类型:1==目标-5177577368725749760已死亡
+2026-03-10 15:53:34 PlaySkillPerform,但是 目标-5177577368725749760已死亡
+2026-03-10 15:53:36 buffID:52201201==操作类型:2==目标-5177577368725749760已死亡
+2026-03-10 15:53:36 buffID:52201202==操作类型:2==目标-5177577368725749760已死亡
+2026-03-10 15:53:36 buffID:20067201==操作类型:2==目标-5177577368725749760已死亡
+2026-03-10 15:53:36 unitEnter is null
+2026-03-10 15:53:36 unitEnter is null
+2026-03-10 15:53:53 buffID:20109401==操作类型:2==目标-5056921360741957627已死亡
+2026-03-10 15:53:53 buffID:20109402==操作类型:2==目标-5056921360741957627已死亡
+2026-03-10 15:53:53 unitEnter is null
+2026-03-10 15:53:53 unitEnter is null
+2026-03-10 15:54:01 cancellPerform
+2026-03-10 15:54:28 buffID:20067201==操作类型:1==目标-5177577368725749760已死亡
+2026-03-10 15:54:28 PlaySkillPerform,但是 目标-5177577368725749760已死亡
+2026-03-10 15:54:29 buffID:52201201==操作类型:2==目标-5177577368725749760已死亡
+2026-03-10 15:54:29 buffID:52201202==操作类型:2==目标-5177577368725749760已死亡
+2026-03-10 15:54:29 buffID:20067201==操作类型:2==目标-5177577368725749760已死亡
+2026-03-10 15:54:29 unitEnter is null
+2026-03-10 15:54:29 unitEnter is null
+2026-03-10 15:54:45 buffID:20109401==操作类型:2==目标-5056921360741957627已死亡
+2026-03-10 15:54:45 buffID:20109402==操作类型:2==目标-5056921360741957627已死亡
+2026-03-10 15:54:45 unitEnter is null
+2026-03-10 15:54:45 unitEnter is null
+2026-03-10 15:55:07 buffID:20288201==操作类型:2==目标-5154731853561724923已死亡
+2026-03-10 15:55:07 buffID:51402201==操作类型:2==目标-5154731853561724923已死亡
+2026-03-10 15:55:07 buffID:51402202==操作类型:2==目标-5154731853561724923已死亡
+2026-03-10 15:55:07 buffID:21005201==操作类型:2==目标-5154731853561724923已死亡
+2026-03-10 15:55:07 buffID:19106201==操作类型:2==目标-5154731853561724923已死亡
+2026-03-10 15:55:07 unitEnter is null
+2026-03-10 15:55:07 unitEnter is null
+2026-03-10 15:55:07 buffID:19113201==操作类型:2==目标-5114668742225166326已死亡
+2026-03-10 15:55:07 buffID:50621401==操作类型:2==目标-5114668742225166326已死亡
+2026-03-10 15:55:07 buffID:20170401==操作类型:2==目标-5114668742225166326已死亡
+2026-03-10 15:55:07 buffID:10194401==操作类型:2==目标-5114668742225166326已死亡
+2026-03-10 15:55:07 unitEnter is null
+2026-03-10 15:55:07 unitEnter is null
+2026-03-10 15:55:31 buffID:50541401==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 15:55:31 unitEnter is null
+2026-03-10 15:55:31 unitEnter is null
+2026-03-10 15:56:30 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-10 15:56:46 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-10 15:56:51 buffID:10102==操作类型:2==目标-5103804948865613764已死亡
+2026-03-10 15:56:51 buffID:10073301==操作类型:2==目标-5103804948865613764已死亡
+2026-03-10 15:56:51 buffID:11202==操作类型:2==目标-5103804948865613764已死亡
+2026-03-10 15:56:51 buffID:20182201==操作类型:2==目标-5103804948865613764已死亡
+2026-03-10 15:56:51 buffID:10349201==操作类型:2==目标-5103804948865613764已死亡
+2026-03-10 15:56:51 buffID:10349202==操作类型:2==目标-5103804948865613764已死亡
+2026-03-10 15:56:51 buffID:10349201==操作类型:2==目标-5103804948865613764已死亡
+2026-03-10 15:56:51 buffID:10349202==操作类型:2==目标-5103804948865613764已死亡
+2026-03-10 15:56:51 buffID:10734403==操作类型:2==目标-5103804948865613764已死亡
+2026-03-10 15:56:51 unitEnter is null
+2026-03-10 15:56:51 unitEnter is null
+2026-03-10 15:57:48 PlaySkillPerform,但是 目标-5179036970407690239已死亡
+2026-03-10 15:57:48 PlaySkillPerform,但是 目标-5179036970407690239已死亡
+2026-03-10 15:57:48 PlaySkillPerform,但是 目标-5179036970407690239已死亡
+2026-03-10 15:57:50 buffID:52202201==操作类型:2==目标-5179036970407690239已死亡
+2026-03-10 15:57:50 buffID:52202202==操作类型:2==目标-5179036970407690239已死亡
+2026-03-10 15:57:50 unitEnter is null
+2026-03-10 15:57:50 unitEnter is null
+2026-03-10 15:58:15 PlaySkillPerform,但是 目标-5079828998305087472已死亡
+2026-03-10 15:58:15 PlaySkillPerform,但是 目标-5079828998305087472已死亡
+2026-03-10 15:58:17 buffID:50574401==操作类型:2==目标-5079828998305087472已死亡
+2026-03-10 15:58:17 unitEnter is null
+2026-03-10 15:58:17 unitEnter is null
+2026-03-10 15:58:51 PlaySkillPerform,但是 目标-5169025092407263225已死亡
+2026-03-10 15:58:51 PlaySkillPerform,但是 目标-5169025092407263225已死亡
+2026-03-10 15:58:51 PlaySkillPerform,但是 目标-5169025092407263225已死亡
+2026-03-10 15:58:51 PlaySkillPerform,但是 目标-5169025092407263225已死亡
+2026-03-10 15:58:53 buffID:51902201==操作类型:2==目标-5169025092407263225已死亡
+2026-03-10 15:58:53 buffID:20009401==操作类型:2==目标-5169025092407263225已死亡
+2026-03-10 15:58:53 buffID:10734401==操作类型:2==目标-5169025092407263225已死亡
+2026-03-10 15:58:53 unitEnter is null
+2026-03-10 15:58:53 unitEnter is null
+2026-03-10 15:59:05 unitEnter is null
+2026-03-10 15:59:05 unitEnter is null
+2026-03-10 15:59:59 无法找到指定的时区 timeZoneId = 8
+2026-03-10 16:12:43 cancellPerform
+2026-03-10 16:12:43 had exist Buff 2
+2026-03-10 16:12:43 had exist Buff 4
+2026-03-10 16:12:43 had exist Buff 5
+2026-03-10 16:12:43 had exist Buff 6
+2026-03-10 16:12:43 had exist Buff 8
+2026-03-10 16:13:25 buffID:10073301==操作类型:4==目标-5174274504515125219不在场上
+2026-03-10 16:13:25 PlaySkillPerform,但是-5174274504515125219没有在场上
+2026-03-10 16:13:54 buffID:10073301==操作类型:4==目标-5053850218605051899不在场上
+2026-03-10 16:13:54 PlaySkillPerform,但是-5053850218605051899没有在场上
+2026-03-10 16:14:35 buffID:90198102==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 16:14:35 buffID:50621401==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 16:14:35 unitEnter is null
+2026-03-10 16:14:35 unitEnter is null
+2026-03-10 16:14:56 buffID:50011401==操作类型:2==目标-5053850218605051899已死亡
+2026-03-10 16:14:56 buffID:90198401==操作类型:2==目标-5053850218605051899已死亡
+2026-03-10 16:14:56 unitEnter is null
+2026-03-10 16:14:56 unitEnter is null
+2026-03-10 16:15:32 had exist Buff 2
+2026-03-10 16:15:32 cancellPerform
+2026-03-10 16:15:32 had exist Buff 2
+2026-03-10 16:15:32 had exist Buff 3
+2026-03-10 16:15:32 had exist Buff 4
+2026-03-10 16:16:13 buffID:10073301==操作类型:4==目标-5095544455445610433不在场上
+2026-03-10 16:16:13 PlaySkillPerform,但是-5095544455445610433没有在场上
+2026-03-10 16:17:01 buffID:90196102==操作类型:2==目标-5095544455445610433已死亡
+2026-03-10 16:17:01 buffID:10073301==操作类型:2==目标-5095544455445610433已死亡
+2026-03-10 16:17:01 buffID:51031201==操作类型:2==目标-5095544455445610433已死亡
+2026-03-10 16:17:01 buffID:20182201==操作类型:2==目标-5095544455445610433已死亡
+2026-03-10 16:17:01 unitEnter is null
+2026-03-10 16:17:01 unitEnter is null
+2026-03-10 16:17:43 cancellPerform
+2026-03-10 16:17:43 had exist Buff 2
+2026-03-10 16:17:43 had exist Buff 5
+2026-03-10 16:17:43 had exist Buff 6
+2026-03-10 16:17:43 had exist Buff 7
+2026-03-10 16:17:43 had exist Buff 9
+2026-03-10 16:17:43 had exist Buff 10
+2026-03-10 16:19:02 buffID:90195101==操作类型:2==目标-5103353736777433076已死亡
+2026-03-10 16:19:02 buffID:10103201==操作类型:2==目标-5103353736777433076已死亡
+2026-03-10 16:19:02 buffID:10103201==操作类型:2==目标-5103353736777433076已死亡
+2026-03-10 16:19:02 buffID:90195401==操作类型:2==目标-5103353736777433076已死亡
+2026-03-10 16:19:02 unitEnter is null
+2026-03-10 16:19:02 unitEnter is null
+2026-03-10 16:19:16 buffID:90195401==操作类型:2==目标-5072553804746981366已死亡
+2026-03-10 16:19:16 unitEnter is null
+2026-03-10 16:19:16 unitEnter is null
+2026-03-10 16:19:21 had exist Buff 2
+2026-03-10 16:19:21 had exist Buff 3
+2026-03-10 16:20:06 buffID:10073301==操作类型:4==目标-5451833295681880063不在场上
+2026-03-10 16:20:06 PlaySkillPerform,但是-5451833295681880063没有在场上
+2026-03-10 16:20:39 cancellPerform
+2026-03-10 16:20:39 had exist Buff 2
+2026-03-10 16:20:40 had exist Buff 5
+2026-03-10 16:20:40 had exist Buff 6
+2026-03-10 16:20:53 buffID:90198102==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 16:20:53 buffID:50621401==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 16:20:53 unitEnter is null
+2026-03-10 16:20:53 unitEnter is null
+2026-03-10 16:21:13 buffID:90198102==操作类型:2==目标-5103353736777433076已死亡
+2026-03-10 16:21:13 unitEnter is null
+2026-03-10 16:21:13 unitEnter is null
+2026-03-10 16:21:16 cancellPerform
+2026-03-10 16:21:16 模型重复创建 unit id = 407783917572063339
+2026-03-10 16:21:27 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-10 16:21:37 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-10 16:21:51 buffID:50091301==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 16:21:51 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 16:21:51 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 16:21:51 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 16:21:51 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 16:21:51 buffID:10242201==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 16:21:51 buffID:20153401==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 16:21:51 buffID:90198401==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 16:21:51 unitEnter is null
+2026-03-10 16:21:51 unitEnter is null
+2026-03-10 16:22:45 had exist Buff 2
+2026-03-10 16:22:46 cancellPerform
+2026-03-10 16:22:46 had exist Buff 2
+2026-03-10 16:22:46 had exist Buff 3
+2026-03-10 16:22:46 had exist Buff 4
+2026-03-10 16:24:09 buffID:10073301==操作类型:4==目标-5049271508591968255不在场上
+2026-03-10 16:24:09 PlaySkillPerform,但是-5049271508591968255没有在场上
+2026-03-10 16:25:02 buffID:50161201==操作类型:2==目标-5049271508591968255已死亡
+2026-03-10 16:25:02 buffID:10133201==操作类型:2==目标-5049271508591968255已死亡
+2026-03-10 16:25:02 buffID:10133201==操作类型:2==目标-5049271508591968255已死亡
+2026-03-10 16:25:02 buffID:10133201==操作类型:2==目标-5049271508591968255已死亡
+2026-03-10 16:25:02 buffID:20109401==操作类型:2==目标-5049271508591968255已死亡
+2026-03-10 16:25:02 buffID:20109402==操作类型:2==目标-5049271508591968255已死亡
+2026-03-10 16:25:02 unitEnter is null
+2026-03-10 16:25:02 unitEnter is null
+2026-03-10 16:25:54 buffID:50781401==操作类型:2==目标-5227005776514252731已死亡
+2026-03-10 16:25:54 unitEnter is null
+2026-03-10 16:25:54 unitEnter is null
+2026-03-10 16:26:31 cancellPerform
+2026-03-10 16:26:31 had exist Buff 2
+2026-03-10 16:26:31 had exist Buff 3
+2026-03-10 16:26:31 had exist Buff 5
+2026-03-10 16:26:31 had exist Buff 6
+2026-03-10 16:26:31 had exist Buff 7
+2026-03-10 16:26:31 had exist Buff 9
+2026-03-10 16:26:32 had exist Buff 10
+2026-03-10 16:27:07 buffID:10073301==操作类型:4==目标-5215706232953503744不在场上
+2026-03-10 16:27:07 PlaySkillPerform,但是-5215706232953503744没有在场上
+2026-03-10 16:27:40 buffID:10073301==操作类型:4==目标-5049271508591968255不在场上
+2026-03-10 16:27:40 PlaySkillPerform,但是-5049271508591968255没有在场上
+2026-03-10 16:27:54 buffID:10073301==操作类型:2==目标-5049271508591968255已死亡
+2026-03-10 16:27:54 buffID:50161201==操作类型:2==目标-5049271508591968255已死亡
+2026-03-10 16:27:54 buffID:20109401==操作类型:2==目标-5049271508591968255已死亡
+2026-03-10 16:27:54 buffID:20109402==操作类型:2==目标-5049271508591968255已死亡
+2026-03-10 16:27:54 buffID:90197401==操作类型:2==目标-5049271508591968255已死亡
+2026-03-10 16:27:54 unitEnter is null
+2026-03-10 16:27:54 unitEnter is null
+2026-03-10 16:28:52 buffID:10302==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 16:28:52 buffID:50091301==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 16:28:52 buffID:20153201==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 16:28:52 buffID:20153401==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 16:28:52 buffID:90197401==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 16:28:52 unitEnter is null
+2026-03-10 16:28:52 unitEnter is null
+2026-03-10 16:29:41 buffID:10390301==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 16:29:41 buffID:90197401==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 16:29:41 buffID:50621401==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 16:29:41 unitEnter is null
+2026-03-10 16:29:41 unitEnter is null
+2026-03-10 16:30:54 buffID:10102==操作类型:2==目标-5215706232953503744已死亡
+2026-03-10 16:30:54 buffID:11202==操作类型:2==目标-5215706232953503744已死亡
+2026-03-10 16:30:54 buffID:50901201==操作类型:2==目标-5215706232953503744已死亡
+2026-03-10 16:30:54 buffID:20011401==操作类型:2==目标-5215706232953503744已死亡
+2026-03-10 16:30:54 buffID:90197401==操作类型:2==目标-5215706232953503744已死亡
+2026-03-10 16:30:54 unitEnter is null
+2026-03-10 16:30:54 unitEnter is null
+2026-03-10 16:31:09 buffID:10390301==操作类型:2==目标-5103353736777433076已死亡
+2026-03-10 16:31:09 buffID:90197401==操作类型:2==目标-5103353736777433076已死亡
+2026-03-10 16:31:09 unitEnter is null
+2026-03-10 16:31:09 unitEnter is null
+2026-03-10 16:31:25 cancellPerform
+2026-03-10 16:31:25 had exist Buff 2
+2026-03-10 16:31:25 had exist Buff 4
+2026-03-10 16:31:25 had exist Buff 5
+2026-03-10 16:31:25 had exist Buff 6
+2026-03-10 16:31:25 had exist Buff 8
+2026-03-10 16:31:48 buffID:10073301==操作类型:4==目标-5227005776514252731不在场上
+2026-03-10 16:31:48 PlaySkillPerform,但是-5227005776514252731没有在场上
+2026-03-10 16:32:17 buffID:90198102==操作类型:2==目标-5227005776514252731已死亡
+2026-03-10 16:32:17 buffID:90198401==操作类型:1==目标-5227005776514252731已死亡
+2026-03-10 16:32:17 PlaySkillPerform,但是 目标-5227005776514252731已死亡
+2026-03-10 16:32:19 buffID:10073301==操作类型:2==目标-5227005776514252731已死亡
+2026-03-10 16:32:19 buffID:50781401==操作类型:2==目标-5227005776514252731已死亡
+2026-03-10 16:32:19 buffID:90198401==操作类型:2==目标-5227005776514252731已死亡
+2026-03-10 16:32:19 unitEnter is null
+2026-03-10 16:32:19 unitEnter is null
+2026-03-10 16:32:37 buffID:90198102==操作类型:2==目标-5158887870073667534已死亡
+2026-03-10 16:32:37 buffID:50671302==操作类型:2==目标-5158887870073667534已死亡
+2026-03-10 16:32:37 unitEnter is null
+2026-03-10 16:32:37 unitEnter is null
+2026-03-10 16:32:47 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-03-10 16:32:47 PlaySkillPerform,但是 目标-5154259819471831039已死亡
+2026-03-10 16:32:49 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 16:32:49 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 16:32:49 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 16:32:49 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 16:32:49 buffID:90198401==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 16:32:49 buffID:20104401==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 16:32:49 unitEnter is null
+2026-03-10 16:32:49 unitEnter is null
+2026-03-10 16:33:48 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-10 16:33:52 buffID:20109401==操作类型:2==目标-5056921360741957627已死亡
+2026-03-10 16:33:52 buffID:20109402==操作类型:2==目标-5056921360741957627已死亡
+2026-03-10 16:33:52 buffID:90198401==操作类型:2==目标-5056921360741957627已死亡
+2026-03-10 16:33:52 unitEnter is null
+2026-03-10 16:33:52 unitEnter is null
+2026-03-10 16:35:03 buffID:90198102==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 16:35:03 buffID:50621401==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 16:35:03 unitEnter is null
+2026-03-10 16:35:03 unitEnter is null
+2026-03-10 16:35:07 System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Client.Battle.NormalBattleWindow.ShowEmojiBubble (ET.Client.Battle.PokemonState pokemonState, System.String strEmoji) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.DisplayObject.set_visible (System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.GObject.set_visible (System.Boolean value) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Battle.NormalBattleWindow.ShowEmojiBubble (ET.Client.Battle.PokemonState pokemonState, System.String strEmoji) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-10 16:35:12 had exist Buff 2
+2026-03-10 16:35:12 cancellPerform
+2026-03-10 16:35:12 had exist Buff 2
+2026-03-10 16:35:12 had exist Buff 3
+2026-03-10 16:35:12 had exist Buff 4
+2026-03-10 16:36:09 buffID:90195101==操作类型:2==目标407843910349422592已死亡
+2026-03-10 16:36:09 buffID:10073301==操作类型:2==目标407843910349422592已死亡
+2026-03-10 16:36:09 buffID:10104201==操作类型:2==目标407843910349422592已死亡
+2026-03-10 16:36:09 buffID:10104201==操作类型:2==目标407843910349422592已死亡
+2026-03-10 16:36:09 buffID:10104201==操作类型:2==目标407843910349422592已死亡
+2026-03-10 16:36:09 buffID:90195401==操作类型:2==目标407843910349422592已死亡
+2026-03-10 16:36:09 unitEnter is null
+2026-03-10 16:36:09 unitEnter is null
+2026-03-10 16:36:16 buffID:90195102==操作类型:2==目标407843910349422596已死亡
+2026-03-10 16:36:16 unitEnter is null
+2026-03-10 16:36:16 unitEnter is null
+2026-03-10 16:36:24 buffID:90195102==操作类型:2==目标407843910349422593已死亡
+2026-03-10 16:36:24 unitEnter is null
+2026-03-10 16:36:24 unitEnter is null
+2026-03-10 16:36:38 had exist Buff 2
+2026-03-10 16:36:38 cancellPerform
+2026-03-10 16:36:38 had exist Buff 2
+2026-03-10 16:36:38 had exist Buff 3
+2026-03-10 16:36:38 had exist Buff 4
+2026-03-10 16:37:17 buffID:10073301==操作类型:4==目标-5166860016571645881不在场上
+2026-03-10 16:37:17 PlaySkillPerform,但是-5166860016571645881没有在场上
+2026-03-10 16:38:04 lockOperaComponent exist
+2026-03-10 16:38:04 cancellPerform
+2026-03-10 16:38:04 had exist Buff 2
+2026-03-10 16:38:04 had exist Buff 3
+2026-03-10 16:38:04 had exist Buff 5
+2026-03-10 16:38:04 had exist Buff 6
+2026-03-10 16:38:04 had exist Buff 7
+2026-03-10 16:38:04 had exist Buff 9
+2026-03-10 16:38:04 had exist Buff 10
+2026-03-10 16:39:10 buffID:10073301==操作类型:2==目标-6063230961238933483已死亡
+2026-03-10 16:39:10 buffID:90197401==操作类型:2==目标-6063230961238933483已死亡
+2026-03-10 16:39:10 unitEnter is null
+2026-03-10 16:39:10 unitEnter is null
+2026-03-10 16:39:46 cancellPerform
+2026-03-10 16:39:46 had exist Buff 2
+2026-03-10 16:39:46 had exist Buff 3
+2026-03-10 16:39:46 had exist Buff 5
+2026-03-10 16:39:46 had exist Buff 6
+2026-03-10 16:39:46 had exist Buff 7
+2026-03-10 16:39:46 had exist Buff 9
+2026-03-10 16:39:46 had exist Buff 10
+2026-03-10 16:40:11 buffID:10105==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 16:40:13 buffID:90197401==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 16:40:13 buffID:50621401==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 16:40:13 unitEnter is null
+2026-03-10 16:40:13 unitEnter is null
+2026-03-10 16:42:30 had exist Buff 5
+2026-03-10 16:42:30 cancellPerform
+2026-03-10 16:42:30 had exist Buff 2
+2026-03-10 16:42:30 had exist Buff 3
+2026-03-10 16:42:30 had exist Buff 5
+2026-03-10 16:42:30 had exist Buff 6
+2026-03-10 16:42:30 had exist Buff 7
+2026-03-10 16:42:30 had exist Buff 9
+2026-03-10 16:42:30 had exist Buff 10
+2026-03-10 16:43:32 buffID:10073301==操作类型:4==目标-6926715375682584576不在场上
+2026-03-10 16:43:32 PlaySkillPerform,但是-6926715375682584576没有在场上
+2026-03-10 16:43:50 buffID:10073301==操作类型:2==目标-6926715375682584576已死亡
+2026-03-10 16:43:50 buffID:90197401==操作类型:2==目标-6926715375682584576已死亡
+2026-03-10 16:43:50 unitEnter is null
+2026-03-10 16:43:50 unitEnter is null
+2026-03-10 16:44:33 buffID:50091301==操作类型:2==目标-5202375204219912190已死亡
+2026-03-10 16:44:33 buffID:90197401==操作类型:2==目标-5202375204219912190已死亡
+2026-03-10 16:44:33 unitEnter is null
+2026-03-10 16:44:33 unitEnter is null
+2026-03-10 16:44:45 buffID:90197401==操作类型:2==目标-6883000717508870135已死亡
+2026-03-10 16:44:45 unitEnter is null
+2026-03-10 16:44:45 unitEnter is null
+2026-03-10 16:46:33 IKcpTransport tcp error: 407661047147659266 10054
+2026-03-10 16:47:21 IKcpTransport tcp error: 125608332 110311
+2026-03-10 16:47:21 ClientScene is null
+  at ET.Logger.Error (System.String msg) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.AwaitTaskContinuation.RunCallback (System.Threading.ContextCallback callback, System.Object state, System.Threading.Tasks.Task& currentTask) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task.FinishContinuations () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Threading.Tasks.Task`1[TResult].TrySetResult (TResult result) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[TResult].SetResult (TResult result) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Threading.ExecutionContext.RunInternal (System.Threading.ExecutionContext executionContext, System.Threading.ContextCallback callback, System.Object state, System.Boolean preserveSyncCtx) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+MoveNextRunner.Run () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.ThreadSynchronizationContext.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-03-10 16:47:23 无法找到指定的时区 timeZoneId = 8
+2026-03-10 16:49:39 System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Client.UIEffectComponentSystem.AddEffect (ET.Client.UIEffectComponent self, FairyGUI.GGraph box, System.String url, System.Single size) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity104.ActivityFarmItem.Init (ET.Entity entity, ET.Client.Activity104.ActivityFarmCom activityFarmCom, System.Int32 pos) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity104.ActivityFarmCom.Init (ET.Entity entity) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.CreateCom () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.SetActivityData (System.Int64 activityId, System.Boolean isClick) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.SetActivityData (System.Int64 activityId, System.Boolean isClick) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.OnClickActivityListRenderListItem (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.OnClickActivityListRenderListItem (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.OnClickActivityListRenderListItem (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.OnClickActivityListRenderListItem (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-10 16:49:40 System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at ET.Client.Activity104.ActivityFarmCom.ShowFly (System.Int32 pos, System.Int32 index) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity104.ActivityFarmItem.OnClickbtn_item (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Message.ActivityServerSystem.ActivityFarmGardeningHarvest (ET.Scene scene, System.Int64 activityId, System.Collections.Generic.List`1[T] pos) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.OnResponse (ET.Session self, ET.IResponse response) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentOnReadEvent.Run (ET.Scene scene, ET.Client.NetClientComponentOnRead args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentOnReadEvent.Run (ET.Scene scene, ET.Client.NetClientComponentOnRead args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Publish[T] (ET.Scene scene, T a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentSystem.OnRead (ET.Client.NetClientComponent self, System.Int64 channelId, System.Int64 actorId, System.Object message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.UpdateInMainThread () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.NetThreadComponentSystem+LateUpdateSystem.LateUpdate (ET.NetThreadComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Collections.Generic.List`1[T].get_Item (System.Int32 index) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Init.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Activity104.ActivityFarmItem.OnClickbtn_item (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Message.ActivityServerSystem.ActivityFarmGardeningHarvest (ET.Scene scene, System.Int64 activityId, System.Collections.Generic.List`1[T] pos) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SessionComponentSystem.Call (ET.Client.SessionComponent self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.Call (ET.Session self, ET.IRequest request) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.SessionSystem.OnResponse (ET.Session self, ET.IResponse response) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentOnReadEvent.Run (ET.Scene scene, ET.Client.NetClientComponentOnRead args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentOnReadEvent.Run (ET.Scene scene, ET.Client.NetClientComponentOnRead args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.AEvent`1[A].Handle (ET.Scene scene, A a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.Publish[T] (ET.Scene scene, T a) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.NetClientComponentSystem.OnRead (ET.Client.NetClientComponent self, System.Int64 channelId, System.Int64 actorId, System.Object message) [0x00000] in <00000000000000000000000000000000>:0 
+  at ETNetwork.NetServices.UpdateInMainThread () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.NetThreadComponentSystem+LateUpdateSystem.LateUpdate (ET.NetThreadComponent self) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.EventSystem.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Init.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-10 16:51:12 System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Client.UIEffectComponentSystem.AddEffect (ET.Client.UIEffectComponent self, FairyGUI.GGraph box, System.String url, System.Single size) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity104.ActivityFarmItem.Init (ET.Entity entity, ET.Client.Activity104.ActivityFarmCom activityFarmCom, System.Int32 pos) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity104.ActivityFarmCom.Init (ET.Entity entity) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.CreateCom () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.SetActivityData (System.Int64 activityId, System.Boolean isClick) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.SetActivityData (System.Int64 activityId, System.Boolean isClick) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.OnClickActivityListRenderListItem (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.OnClickActivityListRenderListItem (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.OnClickActivityListRenderListItem (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.OnClickActivityListRenderListItem (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-10 16:51:53 System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Client.UIEffectComponentSystem.AddEffect (ET.Client.UIEffectComponent self, FairyGUI.GGraph box, System.String url, System.Single size) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity104.ActivityFarmItem.Init (ET.Entity entity, ET.Client.Activity104.ActivityFarmCom activityFarmCom, System.Int32 pos) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity104.ActivityFarmCom.Init (ET.Entity entity) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.CreateCom () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.SetActivityData (System.Int64 activityId, System.Boolean isClick) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.SetActivityData (System.Int64 activityId, System.Boolean isClick) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.OnClickActivityListRenderListItem (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.OnClickActivityListRenderListItem (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.OnClickActivityListRenderListItem (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Activity101.ThemeActivityQingmingWindow.OnClickActivityListRenderListItem (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EventListenerEx+<>c__DisplayClass3_0.<AddAsync>b__0 (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask.InnerCoroutine () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventBridge.CallInternal (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.EventDispatcher.BubbleEvent (System.String strType, System.Object data, System.Collections.Generic.List`1[T] addChain) [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleTouchEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.HandleEvents () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.Stage.InternalUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+  at FairyGUI.StageEngine.LateUpdate () [0x00000] in <00000000000000000000000000000000>:0 
+2026-03-10 16:55:46 buffID:50011401==操作类型:2==目标407926305050329095已死亡
+2026-03-10 16:55:46 unitEnter is null
+2026-03-10 16:55:46 unitEnter is null
+2026-03-10 16:56:49 buffID:50071201==操作类型:2==目标407926305050329099已死亡
+2026-03-10 16:56:49 buffID:19117201==操作类型:2==目标407926305050329099已死亡
+2026-03-10 16:56:49 buffID:10734401==操作类型:2==目标407926305050329099已死亡
+2026-03-10 16:56:49 buffID:20104401==操作类型:2==目标407926305050329099已死亡
+2026-03-10 16:56:49 unitEnter is null
+2026-03-10 16:56:49 unitEnter is null
+2026-03-10 16:56:59 buffID:50051401==操作类型:2==目标407926305050329097已死亡
+2026-03-10 16:56:59 unitEnter is null
+2026-03-10 16:56:59 unitEnter is null
+2026-03-10 16:57:11 buffID:50091301==操作类型:2==目标407926305050329100已死亡
+2026-03-10 16:57:11 unitEnter is null
+2026-03-10 16:57:11 unitEnter is null
+2026-03-10 16:57:33 buffID:50071201==操作类型:2==目标407926305050329096已死亡
+2026-03-10 16:57:33 unitEnter is null
+2026-03-10 16:57:33 unitEnter is null
+2026-03-10 16:57:34 buffID:20026404==操作类型:1==目标407926305050329098不在场上
+2026-03-10 16:57:34 PlaySkillPerform,但是407926305050329098没有在场上
+2026-03-10 16:57:43 buffID:20026404==操作类型:2==目标407926305050329098已死亡
+2026-03-10 16:57:43 buffID:50051401==操作类型:2==目标407926305050329098已死亡
+2026-03-10 16:57:43 unitEnter is null
+2026-03-10 16:57:44 unitEnter is null
+2026-03-10 16:59:18 buffID:19117201==操作类型:2==目标407937712483467264已死亡
+2026-03-10 16:59:18 buffID:50011401==操作类型:2==目标407937712483467264已死亡
+2026-03-10 16:59:18 unitEnter is null
+2026-03-10 16:59:18 unitEnter is null
+2026-03-10 16:59:40 buffID:20104401==操作类型:2==目标407937712483467268已死亡
+2026-03-10 16:59:40 unitEnter is null
+2026-03-10 16:59:40 unitEnter is null
+2026-03-10 16:59:50 buffID:50091301==操作类型:2==目标407937712483467269已死亡
+2026-03-10 16:59:50 buffID:20009401==操作类型:2==目标407937712483467269已死亡
+2026-03-10 16:59:50 unitEnter is null
+2026-03-10 16:59:50 unitEnter is null
+2026-03-10 16:59:51 buffID:20026404==操作类型:1==目标407937712483467267不在场上
+2026-03-10 16:59:51 PlaySkillPerform,但是407937712483467267没有在场上
+2026-03-10 17:00:01 buffID:50071201==操作类型:2==目标407937712483467267已死亡
+2026-03-10 17:00:01 buffID:20026404==操作类型:2==目标407937712483467267已死亡
+2026-03-10 17:00:01 unitEnter is null
+2026-03-10 17:00:01 unitEnter is null
+2026-03-10 17:00:10 buffID:50091301==操作类型:2==目标407937712483467265已死亡
+2026-03-10 17:00:10 buffID:20005401==操作类型:2==目标407937712483467265已死亡
+2026-03-10 17:00:10 buffID:20005402==操作类型:2==目标407937712483467265已死亡
+2026-03-10 17:00:10 unitEnter is null
+2026-03-10 17:00:10 unitEnter is null
+2026-03-10 17:00:18 buffID:50071201==操作类型:2==目标407937712483467266已死亡
+2026-03-10 17:00:18 unitEnter is null
+2026-03-10 17:00:18 unitEnter is null
+2026-03-10 17:05:26 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-10 17:06:26 buffID:10242201==操作类型:2==目标407966437224742912已死亡
+2026-03-10 17:06:26 buffID:20011401==操作类型:2==目标407966437224742912已死亡
+2026-03-10 17:06:26 unitEnter is null
+2026-03-10 17:06:26 unitEnter is null
+2026-03-10 17:06:54 unitEnter is null
+2026-03-10 17:06:54 unitEnter is null
+2026-03-10 17:07:25 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-10 17:07:33 unitEnter is null
+2026-03-10 17:07:33 unitEnter is null
+2026-03-10 17:07:59 unitEnter is null
+2026-03-10 17:07:59 unitEnter is null
+2026-03-10 17:08:18 buffID:20265401==操作类型:2==目标407966437224742914已死亡
+2026-03-10 17:08:18 unitEnter is null
+2026-03-10 17:08:18 unitEnter is null
+2026-03-10 17:08:41 buffID:50092301==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 17:08:41 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 17:08:41 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 17:08:41 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 17:08:41 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 17:08:41 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 17:08:41 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 17:08:41 buffID:10349201==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 17:08:41 buffID:10349202==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 17:08:41 buffID:20153201==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 17:08:41 buffID:20153201==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 17:08:41 buffID:20153201==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 17:08:41 buffID:20153201==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 17:08:41 buffID:10642201==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 17:08:41 buffID:20104401==操作类型:2==目标-5154259819471831039已死亡
+2026-03-10 17:08:41 unitEnter is null
+2026-03-10 17:08:41 unitEnter is null
+2026-03-10 17:09:48 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-10 17:09:51 buffID:50621401==操作类型:2==目标-5148207763875692541已死亡
+2026-03-10 17:09:51 unitEnter is null
+2026-03-10 17:09:51 unitEnter is null
+2026-03-10 17:11:16 buffID:10073301==操作类型:2==目标407985060202938368已死亡
+2026-03-10 17:11:16 buffID:19117201==操作类型:2==目标407985060202938368已死亡
+2026-03-10 17:11:16 unitEnter is null
+2026-03-10 17:11:16 unitEnter is null
+2026-03-10 17:11:46 buffID:19117201==操作类型:2==目标407985060202938370已死亡
+2026-03-10 17:11:46 unitEnter is null
+2026-03-10 17:11:46 unitEnter is null
+2026-03-10 17:12:09 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-10 17:12:13 unitEnter is null
+2026-03-10 17:12:13 unitEnter is null
+2026-03-10 17:13:02 unitEnter is null
+2026-03-10 17:13:02 unitEnter is null
+2026-03-10 17:13:08 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-10 17:13:16 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-10 17:13:30 unitEnter is null
+2026-03-10 17:13:30 unitEnter is null
+2026-03-10 17:13:42 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-10 17:13:45 unitEnter is null
+2026-03-10 17:13:45 unitEnter is null
+2026-03-10 17:15:03 IKcpTransport tcp error: 832840188 100208
+2026-03-10 17:15:33 IKcpTransport tcp error: 407894212332224639 10054

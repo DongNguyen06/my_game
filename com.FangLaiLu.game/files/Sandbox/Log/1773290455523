@@ -1,0 +1,433 @@
+2026-03-12 04:41:05 无法找到指定的时区 timeZoneId = 8
+2026-03-12 04:44:09 ------------ nowTime == LastOnClickSkillBtnTime
+2026-03-12 04:46:13 unitEnter is null
+2026-03-12 04:46:13 unitEnter is null
+2026-03-12 04:46:24 unitEnter is null
+2026-03-12 04:46:24 unitEnter is null
+2026-03-12 04:46:24 buffID:20026404==操作类型:1==目标416794347364352003不在场上
+2026-03-12 04:46:24 PlaySkillPerform,但是416794347364352003没有在场上
+2026-03-12 04:46:36 buffID:20026404==操作类型:2==目标416794347364352003已死亡
+2026-03-12 04:46:36 unitEnter is null
+2026-03-12 04:46:36 unitEnter is null
+2026-03-12 04:46:47 buffID:20005401==操作类型:2==目标416794347364352002已死亡
+2026-03-12 04:46:47 buffID:20005402==操作类型:2==目标416794347364352002已死亡
+2026-03-12 04:46:47 unitEnter is null
+2026-03-12 04:46:47 unitEnter is null
+2026-03-12 04:46:54 unitEnter is null
+2026-03-12 04:46:54 unitEnter is null
+2026-03-12 04:47:02 unitEnter is null
+2026-03-12 04:47:02 unitEnter is null
+2026-03-12 04:58:35 unitEnter is null
+2026-03-12 04:58:35 unitEnter is null
+2026-03-12 04:58:46 unitEnter is null
+2026-03-12 04:58:46 unitEnter is null
+2026-03-12 04:59:01 buffID:20182201==操作类型:2==目标416845131057659907已死亡
+2026-03-12 04:59:01 unitEnter is null
+2026-03-12 04:59:01 unitEnter is null
+2026-03-12 04:59:31 unitEnter is null
+2026-03-12 04:59:31 unitEnter is null
+2026-03-12 04:59:37 unitEnter is null
+2026-03-12 04:59:37 unitEnter is null
+2026-03-12 04:59:50 unitEnter is null
+2026-03-12 04:59:50 unitEnter is null
+2026-03-12 05:01:44 unitEnter is null
+2026-03-12 05:01:44 unitEnter is null
+2026-03-12 05:01:59 unitEnter is null
+2026-03-12 05:01:59 unitEnter is null
+2026-03-12 05:02:12 unitEnter is null
+2026-03-12 05:02:12 unitEnter is null
+2026-03-12 05:02:19 unitEnter is null
+2026-03-12 05:02:19 unitEnter is null
+2026-03-12 05:02:40 buffID:10242201==操作类型:2==目标416856401051844613已死亡
+2026-03-12 05:02:40 unitEnter is null
+2026-03-12 05:02:40 unitEnter is null
+2026-03-12 05:02:56 unitEnter is null
+2026-03-12 05:02:56 unitEnter is null
+2026-03-12 05:03:21 unitEnter is null
+2026-03-12 05:03:21 unitEnter is null
+2026-03-12 05:03:22 buffID:20026404==操作类型:1==目标416864784828006405不在场上
+2026-03-12 05:03:22 PlaySkillPerform,但是416864784828006405没有在场上
+2026-03-12 05:03:33 buffID:20026404==操作类型:2==目标416864784828006405已死亡
+2026-03-12 05:03:33 unitEnter is null
+2026-03-12 05:03:33 unitEnter is null
+2026-03-12 05:03:45 unitEnter is null
+2026-03-12 05:03:45 unitEnter is null
+2026-03-12 05:03:59 buffID:20182201==操作类型:2==目标416864784828006406已死亡
+2026-03-12 05:03:59 unitEnter is null
+2026-03-12 05:03:59 unitEnter is null
+2026-03-12 05:04:17 unitEnter is null
+2026-03-12 05:04:17 unitEnter is null
+2026-03-12 05:04:24 unitEnter is null
+2026-03-12 05:04:24 unitEnter is null
+2026-03-12 05:07:27 unitEnter is null
+2026-03-12 05:07:27 unitEnter is null
+2026-03-12 05:07:40 buffID:20125401==操作类型:2==目标416881895977713668已死亡
+2026-03-12 05:07:40 unitEnter is null
+2026-03-12 05:07:40 unitEnter is null
+2026-03-12 05:07:56 buffID:20105201==操作类型:2==目标416881895977713666已死亡
+2026-03-12 05:07:56 unitEnter is null
+2026-03-12 05:07:56 unitEnter is null
+2026-03-12 05:08:07 unitEnter is null
+2026-03-12 05:08:07 unitEnter is null
+2026-03-12 05:08:13 unitEnter is null
+2026-03-12 05:08:13 unitEnter is null
+2026-03-12 05:08:21 unitEnter is null
+2026-03-12 05:08:21 unitEnter is null
+2026-03-12 05:08:46 buffID:20019401==操作类型:2==目标416887118657945602已死亡
+2026-03-12 05:08:46 unitEnter is null
+2026-03-12 05:08:46 unitEnter is null
+2026-03-12 05:08:59 buffID:20182201==操作类型:2==目标416887118657945606已死亡
+2026-03-12 05:08:59 unitEnter is null
+2026-03-12 05:08:59 unitEnter is null
+2026-03-12 05:09:10 unitEnter is null
+2026-03-12 05:09:10 unitEnter is null
+2026-03-12 05:09:22 unitEnter is null
+2026-03-12 05:09:22 unitEnter is null
+2026-03-12 05:09:42 unitEnter is null
+2026-03-12 05:09:42 unitEnter is null
+2026-03-12 05:09:49 unitEnter is null
+2026-03-12 05:09:49 unitEnter is null
+2026-03-12 05:11:05 buffID:19117201==操作类型:2==目标416895846031491074已死亡
+2026-03-12 05:11:05 unitEnter is null
+2026-03-12 05:11:05 unitEnter is null
+2026-03-12 05:11:30 unitEnter is null
+2026-03-12 05:11:30 unitEnter is null
+2026-03-12 05:11:38 unitEnter is null
+2026-03-12 05:11:38 unitEnter is null
+2026-03-12 05:11:46 unitEnter is null
+2026-03-12 05:11:46 unitEnter is null
+2026-03-12 05:12:01 unitEnter is null
+2026-03-12 05:12:01 unitEnter is null
+2026-03-12 05:12:07 unitEnter is null
+2026-03-12 05:12:07 unitEnter is null
+2026-03-12 05:13:02 buffID:20174201==操作类型:2==目标416903130296025090已死亡
+2026-03-12 05:13:02 buffID:19117201==操作类型:2==目标416903130296025090已死亡
+2026-03-12 05:13:02 unitEnter is null
+2026-03-12 05:13:02 unitEnter is null
+2026-03-12 05:13:17 buffID:20096201==操作类型:2==目标416903130296025095已死亡
+2026-03-12 05:13:17 unitEnter is null
+2026-03-12 05:13:17 unitEnter is null
+2026-03-12 05:13:35 buffID:20019401==操作类型:2==目标416903130296025092已死亡
+2026-03-12 05:13:35 unitEnter is null
+2026-03-12 05:13:35 unitEnter is null
+2026-03-12 05:13:49 unitEnter is null
+2026-03-12 05:13:49 unitEnter is null
+2026-03-12 05:13:56 unitEnter is null
+2026-03-12 05:13:56 unitEnter is null
+2026-03-12 05:14:03 unitEnter is null
+2026-03-12 05:14:03 unitEnter is null
+2026-03-12 05:14:29 unitEnter is null
+2026-03-12 05:14:29 unitEnter is null
+2026-03-12 05:14:39 unitEnter is null
+2026-03-12 05:14:39 unitEnter is null
+2026-03-12 05:14:52 buffID:20125401==操作类型:2==目标416910826877419527已死亡
+2026-03-12 05:14:52 unitEnter is null
+2026-03-12 05:14:52 unitEnter is null
+2026-03-12 05:15:02 unitEnter is null
+2026-03-12 05:15:02 unitEnter is null
+2026-03-12 05:15:17 buffID:20096201==操作类型:2==目标416910826877419526已死亡
+2026-03-12 05:15:17 unitEnter is null
+2026-03-12 05:15:17 unitEnter is null
+2026-03-12 05:15:34 buffID:10475202==操作类型:2==目标416910826877419523已死亡
+2026-03-12 05:15:34 buffID:10475202==操作类型:2==目标416910826877419523已死亡
+2026-03-12 05:15:34 buffID:20111401==操作类型:2==目标416910826877419523已死亡
+2026-03-12 05:15:34 unitEnter is null
+2026-03-12 05:15:34 unitEnter is null
+2026-03-12 05:16:10 buffID:19117201==操作类型:2==目标416917011630325762已死亡
+2026-03-12 05:16:10 buffID:10229201==操作类型:2==目标416917011630325762已死亡
+2026-03-12 05:16:10 unitEnter is null
+2026-03-12 05:16:10 unitEnter is null
+2026-03-12 05:16:37 buffID:19117201==操作类型:2==目标416917011630325764已死亡
+2026-03-12 05:16:37 unitEnter is null
+2026-03-12 05:16:37 unitEnter is null
+2026-03-12 05:16:43 unitEnter is null
+2026-03-12 05:16:43 unitEnter is null
+2026-03-12 05:16:44 buffID:20026404==操作类型:1==目标416917011630325765不在场上
+2026-03-12 05:16:44 PlaySkillPerform,但是416917011630325765没有在场上
+2026-03-12 05:16:49 buffID:20026404==操作类型:2==目标416917011630325765已死亡
+2026-03-12 05:16:49 unitEnter is null
+2026-03-12 05:16:49 unitEnter is null
+2026-03-12 05:16:55 unitEnter is null
+2026-03-12 05:16:55 unitEnter is null
+2026-03-12 05:17:01 unitEnter is null
+2026-03-12 05:17:01 unitEnter is null
+2026-03-12 05:17:44 buffID:19117201==操作类型:2==目标416923127663755266已死亡
+2026-03-12 05:17:44 buffID:20059401==操作类型:2==目标416923127663755266已死亡
+2026-03-12 05:17:44 unitEnter is null
+2026-03-12 05:17:44 unitEnter is null
+2026-03-12 05:17:54 unitEnter is null
+2026-03-12 05:17:54 unitEnter is null
+2026-03-12 05:18:00 unitEnter is null
+2026-03-12 05:18:00 unitEnter is null
+2026-03-12 05:18:06 buffID:20192401==操作类型:2==目标416923127663755270已死亡
+2026-03-12 05:18:06 unitEnter is null
+2026-03-12 05:18:06 unitEnter is null
+2026-03-12 05:18:11 unitEnter is null
+2026-03-12 05:18:11 unitEnter is null
+2026-03-12 05:18:18 unitEnter is null
+2026-03-12 05:18:18 unitEnter is null
+2026-03-12 05:19:10 unitEnter is null
+2026-03-12 05:19:10 unitEnter is null
+2026-03-12 05:19:22 unitEnter is null
+2026-03-12 05:19:22 unitEnter is null
+2026-03-12 05:19:43 Trigger：[Iron Barbs],{{0} caused {1} Damage System.Object[] 2 System.FormatException: Input string was not in a correct format.
+  at ET.Client.TextHelper.Format (System.String format, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.LanguageHelper.LanguageConfigGetText (System.String key, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.LanguageHelper.GetText (System.String languageId, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.AddResultLog (ET.Scene mirrorScene, ET.Client.BattleLogArgc battleLogArgc) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonStatusChangePerformCmd.PerformStatusChgBattleLog (ET.Client.PerformFightComponent performFight, ET.MsgStatusChangePerform messge, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonStatusChangePerformCmd.PerformStatusChgBattleLog (ET.Client.PerformFightComponent performFight, ET.MsgStatusChangePerform messge, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonStatusChangePerformCmd.PerformStatusChange (ET.Client.PerformFightComponent performFight, ET.MsgStatusChangePerform messge, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonStatusChangePerformCmd.PerformStatusChange (ET.Client.PerformFightComponent performFight, ET.MsgStatusChangePerform messge, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonStatusChangePerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonStatusChangePerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunChildCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, System.Collections.Generic.List`1[T] cmdNodes, ET.ETCancellationToken cancellationToken, ET.MsgSkillStartTag startTag) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Cmd.EffectHurtCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Cmd.EffectHurtCmd.HurtAttack (ET.Client.PerformFightComponent performFight, ET.MsgHurtInfoPerform messge, ET.ETCancellationToken cancellationToken, ET.Unit srcUnit, ET.Unit unitUnTarget) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillPerformHelper.PlaySkillPerformHitEnd (System.Int32 nSkillPerformID, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Text.StringBuilder.FormatError () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Text.StringBuilder.AppendFormatHelper (System.IFormatProvider provider, System.String format, System.ParamsArray args) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Text.StringBuilder.AppendFormat (System.String format, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.AddResultLog (ET.Scene mirrorScene, ET.Client.BattleLogArgc battleLogArgc) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonStatusChangePerformCmd.PerformStatusChgBattleLog (ET.Client.PerformFightComponent performFight, ET.MsgStatusChangePerform messge, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonStatusChangePerformCmd.PerformStatusChgBattleLog (ET.Client.PerformFightComponent performFight, ET.MsgStatusChangePerform messge, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonStatusChangePerformCmd.PerformStatusChange (ET.Client.PerformFightComponent performFight, ET.MsgStatusChangePerform messge, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonStatusChangePerformCmd.PerformStatusChange (ET.Client.PerformFightComponent performFight, ET.MsgStatusChangePerform messge, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonStatusChangePerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonStatusChangePerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunChildCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, System.Collections.Generic.List`1[T] cmdNodes, ET.ETCancellationToken cancellationToken, ET.MsgSkillStartTag startTag) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Cmd.EffectHurtCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Cmd.EffectHurtCmd.HurtAttack (ET.Client.PerformFightComponent performFight, ET.MsgHurtInfoPerform messge, ET.ETCancellationToken cancellationToken, ET.Unit srcUnit, ET.Unit unitUnTarget) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillPerformHelper.PlaySkillPerformHitEnd (System.Int32 nSkillPerformID, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Logger.Error (System.String msg) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-03-12 05:19:43 Trigger：[Iron Barbs],{{0} caused {1} Damage System.Object[] 2 System.FormatException: Input string was not in a correct format.
+  at ET.Client.TextHelper.Format (System.String format, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.LanguageHelper.LanguageConfigGetText (System.String key, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.LanguageHelper.GetText (System.String languageId, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillResultLogComponentSystem.Add (ET.Client.SkillResultLogComponent self, ET.Client.BattleLogArgc battleLogArgc) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.AddResultLog (ET.Scene mirrorScene, ET.Client.BattleLogArgc battleLogArgc) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonStatusChangePerformCmd.PerformStatusChgBattleLog (ET.Client.PerformFightComponent performFight, ET.MsgStatusChangePerform messge, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonStatusChangePerformCmd.PerformStatusChgBattleLog (ET.Client.PerformFightComponent performFight, ET.MsgStatusChangePerform messge, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonStatusChangePerformCmd.PerformStatusChange (ET.Client.PerformFightComponent performFight, ET.MsgStatusChangePerform messge, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonStatusChangePerformCmd.PerformStatusChange (ET.Client.PerformFightComponent performFight, ET.MsgStatusChangePerform messge, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonStatusChangePerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonStatusChangePerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunChildCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, System.Collections.Generic.List`1[T] cmdNodes, ET.ETCancellationToken cancellationToken, ET.MsgSkillStartTag startTag) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Cmd.EffectHurtCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Cmd.EffectHurtCmd.HurtAttack (ET.Client.PerformFightComponent performFight, ET.MsgHurtInfoPerform messge, ET.ETCancellationToken cancellationToken, ET.Unit srcUnit, ET.Unit unitUnTarget) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillPerformHelper.PlaySkillPerformHitEnd (System.Int32 nSkillPerformID, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Text.StringBuilder.FormatError () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Text.StringBuilder.AppendFormatHelper (System.IFormatProvider provider, System.String format, System.ParamsArray args) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Text.StringBuilder.AppendFormat (System.String format, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillResultLogComponentSystem.Add (ET.Client.SkillResultLogComponent self, ET.Client.BattleLogArgc battleLogArgc) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.BattleLogHelper.AddResultLog (ET.Scene mirrorScene, ET.Client.BattleLogArgc battleLogArgc) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonStatusChangePerformCmd.PerformStatusChgBattleLog (ET.Client.PerformFightComponent performFight, ET.MsgStatusChangePerform messge, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonStatusChangePerformCmd.PerformStatusChgBattleLog (ET.Client.PerformFightComponent performFight, ET.MsgStatusChangePerform messge, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonStatusChangePerformCmd.PerformStatusChange (ET.Client.PerformFightComponent performFight, ET.MsgStatusChangePerform messge, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonStatusChangePerformCmd.PerformStatusChange (ET.Client.PerformFightComponent performFight, ET.MsgStatusChangePerform messge, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonStatusChangePerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.EudemonStatusChangePerformCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.RunChildCmds (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, System.Collections.Generic.List`1[T] cmdNodes, ET.ETCancellationToken cancellationToken, ET.MsgSkillStartTag startTag) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.FightCmdComponentSystem.Run (ET.Client.FightCmdComponent self, ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode message, ET.ETCancellationToken cancellationToken, System.Object[] argcs) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Cmd.EffectHurtCmd.Run (ET.Client.PerformFightComponent performFight, ET.MsgBattlePerformCmdNode cmdNode, ET.ETCancellationToken cancellationToken, System.Object[] argcs) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Cmd.EffectHurtCmd.HurtAttack (ET.Client.PerformFightComponent performFight, ET.MsgHurtInfoPerform messge, ET.ETCancellationToken cancellationToken, ET.Unit srcUnit, ET.Unit unitUnTarget) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillPerformHelper.PlaySkillPerformHitEnd (System.Int32 nSkillPerformID, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Logger.Error (System.String msg) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-03-12 05:19:44 Trigger：[Iron Barbs],{{0} caused {1} Damage System.Object[] 2 System.FormatException: Input string was not in a correct format.
+  at ET.Client.TextHelper.Format (System.String format, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.LanguageHelper.LanguageConfigGetText (System.String key, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.LanguageHelper.GetText (System.String languageId, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillResultLogComponentSystem.Play (ET.Client.SkillResultLogComponent self, ET.ETCancellationToken etCancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Text.StringBuilder.FormatError () [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Text.StringBuilder.AppendFormatHelper (System.IFormatProvider provider, System.String format, System.ParamsArray args) [0x00000] in <00000000000000000000000000000000>:0 
+  at System.Text.StringBuilder.AppendFormat (System.String format, System.Object[] args) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.SkillResultLogComponentSystem.Play (ET.Client.SkillResultLogComponent self, ET.ETCancellationToken etCancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Client.Battle.BattleLogWindow.PlayText (ET.Client.BattleLogArgc log, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerTweenComponent.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Logger.Error (System.String msg) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-03-12 05:19:45 buffID:20160401==操作类型:2==目标416930137050382343已死亡
+2026-03-12 05:19:45 unitEnter is null
+2026-03-12 05:19:45 unitEnter is null
+2026-03-12 05:19:54 unitEnter is null
+2026-03-12 05:19:54 unitEnter is null
+2026-03-12 05:20:01 buffID:20027401==操作类型:2==目标416930137050382340已死亡
+2026-03-12 05:20:01 unitEnter is null
+2026-03-12 05:20:01 unitEnter is null
+2026-03-12 05:20:10 buffID:20005401==操作类型:2==目标416930137050382342已死亡
+2026-03-12 05:20:10 buffID:20005402==操作类型:2==目标416930137050382342已死亡
+2026-03-12 05:20:10 unitEnter is null
+2026-03-12 05:20:10 unitEnter is null
+2026-03-12 05:20:48 unitEnter is null
+2026-03-12 05:20:48 unitEnter is null
+2026-03-12 05:20:59 unitEnter is null
+2026-03-12 05:20:59 unitEnter is null
+2026-03-12 05:21:00 buffID:20026404==操作类型:1==目标416936871559102468不在场上
+2026-03-12 05:21:00 PlaySkillPerform,但是416936871559102468没有在场上
+2026-03-12 05:21:18 buffID:20026404==操作类型:2==目标416936871559102468已死亡
+2026-03-12 05:21:18 unitEnter is null
+2026-03-12 05:21:18 unitEnter is null
+2026-03-12 05:21:37 unitEnter is null
+2026-03-12 05:21:37 unitEnter is null
+2026-03-12 05:21:56 buffID:10242201==操作类型:2==目标416936871559102467已死亡
+2026-03-12 05:21:56 unitEnter is null
+2026-03-12 05:21:56 unitEnter is null
+2026-03-12 05:22:03 unitEnter is null
+2026-03-12 05:22:03 unitEnter is null
+2026-03-12 05:22:31 unitEnter is null
+2026-03-12 05:22:31 unitEnter is null
+2026-03-12 05:22:41 buffID:20128401==操作类型:2==目标416943949665206279已死亡
+2026-03-12 05:22:41 unitEnter is null
+2026-03-12 05:22:41 unitEnter is null
+2026-03-12 05:22:53 unitEnter is null
+2026-03-12 05:22:53 unitEnter is null
+2026-03-12 05:23:03 unitEnter is null
+2026-03-12 05:23:03 unitEnter is null
+2026-03-12 05:23:13 unitEnter is null
+2026-03-12 05:23:13 unitEnter is null
+2026-03-12 05:23:26 unitEnter is null
+2026-03-12 05:23:26 unitEnter is null
+2026-03-12 05:24:04 unitEnter is null
+2026-03-12 05:24:04 unitEnter is null
+2026-03-12 05:24:18 buffID:10270201==操作类型:2==目标416950340576542727已死亡
+2026-03-12 05:24:18 unitEnter is null
+2026-03-12 05:24:18 unitEnter is null
+2026-03-12 05:24:31 unitEnter is null
+2026-03-12 05:24:31 unitEnter is null
+2026-03-12 05:24:58 unitEnter is null
+2026-03-12 05:24:58 unitEnter is null
+2026-03-12 05:25:05 unitEnter is null
+2026-03-12 05:25:05 unitEnter is null
+2026-03-12 05:25:21 unitEnter is null
+2026-03-12 05:25:21 unitEnter is null
+2026-03-12 05:26:01 unitEnter is null
+2026-03-12 05:26:01 unitEnter is null
+2026-03-12 05:26:12 buffID:20047401==操作类型:2==目标416958243316367365已死亡
+2026-03-12 05:26:12 buffID:20047402==操作类型:2==目标416958243316367365已死亡
+2026-03-12 05:26:12 unitEnter is null
+2026-03-12 05:26:12 unitEnter is null
+2026-03-12 05:26:23 unitEnter is null
+2026-03-12 05:26:23 unitEnter is null
+2026-03-12 05:26:35 buffID:20205401==操作类型:2==目标416958243316367363已死亡
+2026-03-12 05:26:35 unitEnter is null
+2026-03-12 05:26:35 unitEnter is null
+2026-03-12 05:26:52 buffID:10101==操作类型:2==目标416958243316367366已死亡
+2026-03-12 05:26:52 unitEnter is null
+2026-03-12 05:26:52 unitEnter is null
+2026-03-12 05:27:00 buffID:20047401==操作类型:2==目标416958243316367367已死亡
+2026-03-12 05:27:00 buffID:20047402==操作类型:2==目标416958243316367367已死亡
+2026-03-12 05:27:00 unitEnter is null
+2026-03-12 05:27:00 unitEnter is null
+2026-03-12 05:27:31 unitEnter is null
+2026-03-12 05:27:31 unitEnter is null
+2026-03-12 05:27:54 unitEnter is null
+2026-03-12 05:27:54 unitEnter is null
+2026-03-12 05:28:18 buffID:20056401==操作类型:2==目标416964290630320131已死亡
+2026-03-12 05:28:18 unitEnter is null
+2026-03-12 05:28:18 unitEnter is null
+2026-03-12 05:28:31 unitEnter is null
+2026-03-12 05:28:31 unitEnter is null
+2026-03-12 05:28:37 unitEnter is null
+2026-03-12 05:28:37 unitEnter is null
+2026-03-12 05:28:46 buffID:20125401==操作类型:2==目标416964290630320134已死亡
+2026-03-12 05:28:46 unitEnter is null
+2026-03-12 05:28:46 unitEnter is null
+2026-03-12 05:29:36 unitEnter is null
+2026-03-12 05:29:36 unitEnter is null
+2026-03-12 05:29:49 unitEnter is null
+2026-03-12 05:29:49 unitEnter is null
+2026-03-12 05:30:00 unitEnter is null
+2026-03-12 05:30:00 unitEnter is null
+2026-03-12 05:30:08 unitEnter is null
+2026-03-12 05:30:08 unitEnter is null
+2026-03-12 05:30:17 unitEnter is null
+2026-03-12 05:30:17 unitEnter is null
+2026-03-12 05:30:42 buffID:10276201==操作类型:2==目标416972880564912135已死亡
+2026-03-12 05:30:42 buffID:10276202==操作类型:2==目标416972880564912135已死亡
+2026-03-12 05:30:42 unitEnter is null
+2026-03-12 05:30:42 unitEnter is null
+2026-03-12 05:31:30 unitEnter is null
+2026-03-12 05:31:30 unitEnter is null
+2026-03-12 05:31:52 unitEnter is null
+2026-03-12 05:31:52 unitEnter is null
+2026-03-12 05:32:02 unitEnter is null
+2026-03-12 05:32:02 unitEnter is null
+2026-03-12 05:32:23 unitEnter is null
+2026-03-12 05:32:23 unitEnter is null
+2026-03-12 05:32:40 unitEnter is null
+2026-03-12 05:32:40 unitEnter is null
+2026-03-12 05:32:46 unitEnter is null
+2026-03-12 05:32:46 unitEnter is null
+2026-03-12 05:33:28 buffID:20182201==操作类型:2==目标416988136288747522已死亡
+2026-03-12 05:33:28 unitEnter is null
+2026-03-12 05:33:28 unitEnter is null
+2026-03-12 05:33:40 unitEnter is null
+2026-03-12 05:33:40 unitEnter is null
+2026-03-12 05:34:08 unitEnter is null
+2026-03-12 05:34:08 unitEnter is null
+2026-03-12 05:34:17 unitEnter is null
+2026-03-12 05:34:17 unitEnter is null
+2026-03-12 05:34:33 unitEnter is null
+2026-03-12 05:34:33 unitEnter is null
+2026-03-12 05:34:41 unitEnter is null
+2026-03-12 05:34:41 unitEnter is null
+2026-03-12 05:35:06 unitEnter is null
+2026-03-12 05:35:06 unitEnter is null
+2026-03-12 05:35:17 unitEnter is null
+2026-03-12 05:35:17 unitEnter is null
+2026-03-12 05:35:38 unitEnter is null
+2026-03-12 05:35:38 unitEnter is null
+2026-03-12 05:35:46 unitEnter is null
+2026-03-12 05:35:46 unitEnter is null
+2026-03-12 05:35:47 buffID:20026404==操作类型:1==目标416995901589618722不在场上
+2026-03-12 05:35:47 PlaySkillPerform,但是416995901589618722没有在场上
+2026-03-12 05:35:55 buffID:20026404==操作类型:2==目标416995901589618722已死亡
+2026-03-12 05:35:55 unitEnter is null
+2026-03-12 05:35:55 unitEnter is null
+2026-03-12 05:36:09 unitEnter is null
+2026-03-12 05:36:09 unitEnter is null
+2026-03-12 05:36:37 unitEnter is null
+2026-03-12 05:36:37 unitEnter is null
+2026-03-12 05:36:50 unitEnter is null
+2026-03-12 05:36:50 unitEnter is null
+2026-03-12 05:37:15 buffID:19117201==操作类型:2==目标417002017623048195已死亡
+2026-03-12 05:37:15 unitEnter is null
+2026-03-12 05:37:15 unitEnter is null
+2026-03-12 05:37:21 unitEnter is null
+2026-03-12 05:37:21 unitEnter is null
+2026-03-12 05:37:28 unitEnter is null
+2026-03-12 05:37:28 unitEnter is null
+2026-03-12 05:37:34 unitEnter is null
+2026-03-12 05:37:34 unitEnter is null

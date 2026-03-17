@@ -1,0 +1,302 @@
+2026-02-26 02:23:16 IKcpTransport tcp error: 333083028861485060 111
+2026-02-26 02:23:16 IKcpTransport tcp error: 333083028861485061 111
+2026-02-26 02:23:16 IKcpTransport tcp error: 333083028861485062 111
+2026-02-26 02:23:17 IKcpTransport tcp error: 333083097580961792 111
+2026-02-26 02:23:17 IKcpTransport tcp error: 333083097580961793 111
+2026-02-26 02:23:17 IKcpTransport tcp error: 333083097580961794 111
+2026-02-26 02:23:18 IKcpTransport tcp error: 333083166300438528 111
+2026-02-26 02:23:18 IKcpTransport tcp error: 333083166300438529 111
+2026-02-26 02:23:18 IKcpTransport tcp error: 333083166300438530 111
+2026-02-26 02:23:19 IKcpTransport tcp error: 333083166300438531 111
+2026-02-26 02:23:19 IKcpTransport tcp error: 333083235019915264 111
+2026-02-26 02:23:19 IKcpTransport tcp error: 333083235019915265 111
+2026-02-26 02:23:19 IKcpTransport tcp error: 333083235019915266 111
+2026-02-26 02:23:20 IKcpTransport tcp error: 333083303739392000 111
+2026-02-26 02:23:20 IKcpTransport tcp error: 333083303739392001 111
+2026-02-26 02:23:20 IKcpTransport tcp error: 333083303739392002 111
+2026-02-26 02:23:21 IKcpTransport tcp error: 333083372458868736 111
+2026-02-26 02:23:21 IKcpTransport tcp error: 333083372458868737 111
+2026-02-26 02:23:21 IKcpTransport tcp error: 333083372458868738 111
+2026-02-26 02:23:22 IKcpTransport tcp error: 333083441178345472 111
+2026-02-26 02:23:22 router connect timeout fail! 51137982 0 43.155.24.197:10500 172.19.0.36:10001
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-02-26 02:23:22 System.Exception: get router fail: 1 172.19.0.36:10001
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetResult (T result) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.GetRouterAddress (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint address, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetResult (T result) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.Connect (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint routerAddress, System.Net.IPEndPoint realAddress, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetResult (T result) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.GetRouterAddress (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint address, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetResult (T result) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.Connect (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint routerAddress, System.Net.IPEndPoint realAddress, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.LoginHelper.CreateAccountSessionAndLogin (ET.Scene clientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetResult (T result) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.GetRouterAddress (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint address, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetResult (T result) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.Connect (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint routerAddress, System.Net.IPEndPoint realAddress, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.LoginHelper.TryResetAccountSessionAndLogin (ET.Scene clientScene, System.Int32 lastGroupId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoginHelper.CreateAccountSessionAndLogin (ET.Scene clientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetResult (T result) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.GetRouterAddress (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint address, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetResult (T result) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.Connect (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint routerAddress, System.Net.IPEndPoint realAddress, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Login.LoginWindow.SelectDefaultServer () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoginHelper.TryResetAccountSessionAndLogin (ET.Scene clientScene, System.Int32 lastGroupId) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoginHelper.CreateAccountSessionAndLogin (ET.Scene clientScene) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetResult (T result) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.GetRouterAddress (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint address, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetResult (T result) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.Connect (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint routerAddress, System.Net.IPEndPoint realAddress, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-26 02:23:24 IKcpTransport tcp error: 333083578617298950 111
+2026-02-26 02:23:25 IKcpTransport tcp error: 333083647336775680 111
+2026-02-26 02:23:25 IKcpTransport tcp error: 333083647336775681 111
+2026-02-26 02:23:25 IKcpTransport tcp error: 333083647336775682 111
+2026-02-26 02:23:26 IKcpTransport tcp error: 333083716056252416 111
+2026-02-26 02:23:26 IKcpTransport tcp error: 333083716056252417 111
+2026-02-26 02:23:26 IKcpTransport tcp error: 333083716056252418 111
+2026-02-26 02:23:26 IKcpTransport tcp error: 333083716056252422 111
+2026-02-26 02:23:26 System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Client.RouterHelper.Connect (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint routerAddress, System.Net.IPEndPoint realAddress, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.GetRouterAddress (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint address, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetException (System.Exception e) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.Connect (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint routerAddress, System.Net.IPEndPoint realAddress, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetException (System.Exception e) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.GetRouterAddress (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint address, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetException (System.Exception e) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.Connect (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint routerAddress, System.Net.IPEndPoint realAddress, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetException (System.Exception e) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.GetRouterAddress (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint address, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetException (System.Exception e) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.Connect (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint routerAddress, System.Net.IPEndPoint realAddress, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Login.LoginWindow.EnterGame () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetException (System.Exception e) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.GetRouterAddress (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint address, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetException (System.Exception e) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.Connect (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint routerAddress, System.Net.IPEndPoint realAddress, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-26 02:23:27 IKcpTransport tcp error: 333083784775729152 111
+2026-02-26 02:23:27 IKcpTransport tcp error: 333083784775729153 111
+2026-02-26 02:23:27 IKcpTransport tcp error: 333083784775729154 111
+2026-02-26 02:23:28 IKcpTransport tcp error: 333083853495205888 111
+2026-02-26 02:23:28 IKcpTransport tcp error: 333083853495205889 111
+2026-02-26 02:23:28 IKcpTransport tcp error: 333083853495205890 111
+2026-02-26 02:23:29 IKcpTransport tcp error: 333083922214682624 111
+2026-02-26 02:23:29 IKcpTransport tcp error: 333083922214682625 111
+2026-02-26 02:23:29 IKcpTransport tcp error: 333083922214682626 111
+2026-02-26 02:23:30 IKcpTransport tcp error: 333083990934159363 111
+2026-02-26 02:23:30 System.NullReferenceException: Object reference not set to an instance of an object.
+  at ET.Client.RouterHelper.Connect (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint routerAddress, System.Net.IPEndPoint realAddress, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.GetRouterAddress (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint address, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetException (System.Exception e) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.Connect (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint routerAddress, System.Net.IPEndPoint realAddress, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetException (System.Exception e) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.GetRouterAddress (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint address, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetException (System.Exception e) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.Connect (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint routerAddress, System.Net.IPEndPoint realAddress, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetException (System.Exception e) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.GetRouterAddress (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint address, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetException (System.Exception e) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.Connect (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint routerAddress, System.Net.IPEndPoint realAddress, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Login.LoginWindow.OnClickbtn_choose (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetException (System.Exception e) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.GetRouterAddress (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint address, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetException (System.Exception e) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.Connect (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint routerAddress, System.Net.IPEndPoint realAddress, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+2026-02-26 02:23:30 IKcpTransport tcp error: 333083990934159364 111
+2026-02-26 02:23:30 IKcpTransport tcp error: 333083990934159365 111
+2026-02-26 02:23:31 IKcpTransport tcp error: 333083990934159366 111
+2026-02-26 02:23:31 IKcpTransport tcp error: 333084059653636096 111
+2026-02-26 02:23:31 IKcpTransport tcp error: 333084059653636100 111
+2026-02-26 02:23:31 IKcpTransport tcp error: 333084059653636101 111
+2026-02-26 02:23:32 IKcpTransport tcp error: 333084128373112832 111
+2026-02-26 02:23:32 IKcpTransport tcp error: 333084128373112833 111
+2026-02-26 02:23:32 IKcpTransport tcp error: 333084128373112834 111
+2026-02-26 02:23:33 IKcpTransport tcp error: 333084197092589568 111
+2026-02-26 02:23:33 IKcpTransport tcp error: 333084197092589569 111
+2026-02-26 02:23:33 IKcpTransport tcp error: 333084197092589570 111
+2026-02-26 02:23:34 IKcpTransport tcp error: 333084265812066304 111
+2026-02-26 02:23:34 IKcpTransport tcp error: 333084265812066305 111
+2026-02-26 02:23:34 IKcpTransport tcp error: 333084265812066306 111
+2026-02-26 02:23:35 IKcpTransport tcp error: 333084334531543040 111
+2026-02-26 02:23:35 IKcpTransport tcp error: 333084334531543041 111
+2026-02-26 02:23:35 IKcpTransport tcp error: 333084334531543042 111
+2026-02-26 02:23:36 IKcpTransport tcp error: 333084403251019776 111
+2026-02-26 02:23:36 router connect timeout fail! 1282918993 0 43.135.76.164:10504 172.19.0.36:10001
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+2026-02-26 02:23:36 System.Exception: get router fail: 1 172.19.0.36:10001
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetResult (T result) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.GetRouterAddress (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint address, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetResult (T result) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.Connect (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint routerAddress, System.Net.IPEndPoint realAddress, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetResult (T result) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.GetRouterAddress (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint address, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetResult (T result) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.Connect (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint routerAddress, System.Net.IPEndPoint realAddress, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at ET.Client.Login.LoginWindow.OnClickbtn_choose (FairyGUI.EventContext context) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.LoginHelper.CreateAccountSession (ET.Scene clientScene, ET.LoginComponent loginComponent) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.CreateRouterSession (ET.Scene clientScene, System.Net.IPEndPoint address) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetResult (T result) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.GetRouterAddress (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint address, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].SetResult (T result) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Client.RouterHelper.Connect (ET.Client.NetClientComponent netComponent, System.Net.IPEndPoint routerAddress, System.Net.IPEndPoint realAddress, System.UInt32 localConn, System.UInt32 remoteConn) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.ETTask`1[T].GetResult () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitFrameAsync (ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.WaitAsync (System.Int64 time, ET.ETCancellationToken cancellationToken) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Run (ET.TimerAction timerAction) [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.TimerComponent.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at ET.Game.Update () [0x00000] in <00000000000000000000000000000000>:0 
